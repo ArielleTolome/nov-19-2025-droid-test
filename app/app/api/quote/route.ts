@@ -1,23 +1,67 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { quoteFormSchema, type QuoteApiResponse } from '@/lib/validations/quote';
+import { sendQuoteConfirmationEmail } from '@/lib/email';
+import { checkRateLimit, getClientIP, RATE_LIMIT_CONFIG } from '@/lib/rate-limit';
 import { z } from 'zod';
 
-// CORS headers (optional - remove if not needed)
-const corsHeaders = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+// CORS headers - restrict to allowed origins
+const getAllowedOrigins = () => {
+  const allowedOrigins = process.env.ALLOWED_ORIGINS?.split(',') || ['http://localhost:3000'];
+  return allowedOrigins;
+};
+
+const getCorsHeaders = (origin?: string) => {
+  const allowedOrigins = getAllowedOrigins();
+  const isAllowed = origin && allowedOrigins.includes(origin);
+
+  return {
+    'Access-Control-Allow-Origin': isAllowed ? origin : allowedOrigins[0],
+    'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Max-Age': '86400',
+  };
 };
 
 // Handle OPTIONS request for CORS preflight
 export async function OPTIONS(request: NextRequest) {
-  return NextResponse.json({}, { headers: corsHeaders });
+  const origin = request.headers.get('origin');
+  return NextResponse.json({}, { headers: getCorsHeaders(origin) });
 }
 
 // POST endpoint to handle quote submissions
 export async function POST(request: NextRequest) {
   try {
+    const origin = request.headers.get('origin');
+    const corsHeaders = getCorsHeaders(origin);
+
+    // Check rate limit
+    const clientIP = getClientIP(request.headers);
+    const rateLimitCheck = checkRateLimit(
+      `quote:${clientIP}`,
+      RATE_LIMIT_CONFIG.quote
+    );
+
+    if (!rateLimitCheck.allowed) {
+      return NextResponse.json(
+        {
+          success: false,
+          message: 'Too many requests',
+          error: 'You have exceeded the rate limit for quote submissions. Please try again later.',
+        } as QuoteApiResponse,
+        {
+          status: 429,
+          headers: {
+            ...corsHeaders,
+            'Retry-After': String(Math.ceil((rateLimitCheck.resetTime - Date.now()) / 1000)),
+            'X-RateLimit-Limit': String(RATE_LIMIT_CONFIG.quote.maxRequests),
+            'X-RateLimit-Remaining': String(rateLimitCheck.remaining),
+            'X-RateLimit-Reset': String(rateLimitCheck.resetTime),
+          },
+        }
+      );
+    }
+
     // Parse request body
     const body = await request.json();
 
@@ -70,18 +114,14 @@ export async function POST(request: NextRequest) {
       },
     });
 
-    // TODO: Send confirmation email
-    // This is a placeholder for email functionality
-    // You can integrate with services like SendGrid, Resend, or NodeMailer
-    /*
-    await sendConfirmationEmail({
-      to: validatedData.email,
+    // Send confirmation email to customer
+    await sendQuoteConfirmationEmail({
       name: validatedData.name,
+      email: validatedData.email,
       quoteId: quote.id,
       dumpsterSize: validatedData.dumpsterSize,
       deliveryDate: deliveryDate,
     });
-    */
 
     // Return success response
     return NextResponse.json(
@@ -150,6 +190,9 @@ export async function POST(request: NextRequest) {
 // GET endpoint to retrieve quotes (optional - for admin/dashboard use)
 export async function GET(request: NextRequest) {
   try {
+    const origin = request.headers.get('origin');
+    const corsHeaders = getCorsHeaders(origin);
+
     const { searchParams } = new URL(request.url);
     const status = searchParams.get('status');
     const limit = parseInt(searchParams.get('limit') || '10');
@@ -184,6 +227,8 @@ export async function GET(request: NextRequest) {
     );
   } catch (error) {
     console.error('Error fetching quotes:', error);
+    const origin = request.headers.get('origin');
+    const corsHeaders = getCorsHeaders(origin);
     return NextResponse.json(
       { error: 'Failed to fetch quotes' },
       { status: 500, headers: corsHeaders }
