@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Metadata } from 'next';
 import { Hero } from '@/components/sections/Hero';
@@ -454,7 +455,7 @@ export default function HomePage() {
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-700 mb-4 italic">"{testimonial.text}"</p>
+                <p className="text-gray-700 mb-4 italic">&ldquo;{testimonial.text}&rdquo;</p>
                 <div className="mt-auto pt-4 border-t border-gray-200">
                   <p className="font-semibold text-gray-900">{testimonial.name}</p>
                   <p className="text-sm text-gray-600">{testimonial.role}</p>

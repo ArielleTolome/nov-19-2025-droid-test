@@ -165,7 +165,6 @@ const projectTypes = [
 ];
 
 export default function SizesPage() {
-  const [selectedSize, setSelectedSize] = useState<string | null>(null);
   const [projectType, setProjectType] = useState<string>('');
   const [projectScope, setProjectScope] = useState<string>('');
 
@@ -229,9 +228,9 @@ export default function SizesPage() {
                   <div className="mt-4 text-center">
                     <p className="font-semibold text-gray-900">{item.size}</p>
                     <p className="text-sm text-gray-600">
-                      {dumpsterSizes.find(d => d.size === item.size)?.dimensions.length}' × {' '}
-                      {dumpsterSizes.find(d => d.size === item.size)?.dimensions.width}' × {' '}
-                      {dumpsterSizes.find(d => d.size === item.size)?.dimensions.height}'
+                      {dumpsterSizes.find(d => d.size === item.size)?.dimensions.length}&apos; × {' '}
+                      {dumpsterSizes.find(d => d.size === item.size)?.dimensions.width}&apos; × {' '}
+                      {dumpsterSizes.find(d => d.size === item.size)?.dimensions.height}&apos;
                     </p>
                   </div>
                 </div>
@@ -424,13 +423,13 @@ export default function SizesPage() {
               Transparent Pricing
             </h2>
             <p className="text-lg text-gray-600">
-              Know exactly what you're paying for with our all-inclusive pricing
+              Know exactly what you&apos;re paying for with our all-inclusive pricing
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <Card>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">What's Included</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">What&apos;s Included</h3>
               <ul className="space-y-3">
                 {[
                   'Delivery to your location',
@@ -475,7 +474,7 @@ export default function SizesPage() {
           <div className="mt-8 text-center">
             <Card className="bg-blue-50 border-2 border-blue-200 max-w-3xl mx-auto">
               <p className="text-lg text-gray-700">
-                <span className="font-semibold text-blue-700">Price Match Guarantee:</span> We'll match any competitor's written quote for the same service in your area.
+                <span className="font-semibold text-blue-700">Price Match Guarantee:</span> We&apos;ll match any competitor&apos;s written quote for the same service in your area.
               </p>
             </Card>
           </div>

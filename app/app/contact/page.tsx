@@ -202,7 +202,7 @@ export default function ContactPage() {
                   Send Us a Message
                 </h2>
                 <p className="text-lg text-gray-600">
-                  Fill out the form below and we'll get back to you within one hour during business hours.
+                  Fill out the form below and we&apos;ll get back to you within one hour during business hours.
                 </p>
               </div>
 
@@ -215,7 +215,7 @@ export default function ContactPage() {
                       </svg>
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Message Sent!</h3>
-                    <p className="text-gray-600">We'll get back to you shortly.</p>
+                    <p className="text-gray-600">We&apos;ll get back to you shortly.</p>
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-6">
@@ -444,7 +444,7 @@ export default function ContactPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {officeLocations.map((location, index) => (
-              <Card key={index} hover className="h-full">
+              <Card key={index} className="h-full transition-all duration-200 hover:shadow-lg hover:border-blue-200">
                 <div className="mb-4">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
                     {location.name}

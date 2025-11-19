@@ -10,7 +10,7 @@ const corsHeaders = {
 };
 
 // Handle OPTIONS request for CORS preflight
-export async function OPTIONS(request: NextRequest) {
+export async function OPTIONS() {
   return NextResponse.json({}, { headers: corsHeaders });
 }
 
@@ -69,7 +69,7 @@ export async function POST(request: NextRequest) {
 
     // Handle Zod validation errors
     if (error instanceof z.ZodError) {
-      const errorMessages = error.errors.map((err) => err.message).join(', ');
+      const errorMessages = error.issues.map((err) => err.message).join(', ');
       return NextResponse.json(
         {
           success: false,

@@ -4,16 +4,6 @@ import * as path from 'path';
 
 const prisma = new PrismaClient();
 
-// Helper function to create slug from name
-function createSlug(name: string): string {
-  return name
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
-    .trim();
-}
-
 // Dumpster sizes data
 const dumpsterSizes = [
   {

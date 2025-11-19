@@ -1,8 +1,10 @@
 /** @type {import('next-sitemap').IConfig} */
 
+/* eslint-disable @typescript-eslint/no-require-imports */
 // Import data for dynamic routes
 const states = require('./data/states.json');
 const cities = require('./data/cities.json');
+/* eslint-enable @typescript-eslint/no-require-imports */
 
 module.exports = {
   siteUrl: process.env.SITE_URL || 'https://dumpsterrental.com',
@@ -39,7 +41,7 @@ module.exports = {
   },
 
   // Additional paths to include in sitemap
-  additionalPaths: async (config) => {
+  additionalPaths: async () => {
     const paths = [];
 
     // Static service pages

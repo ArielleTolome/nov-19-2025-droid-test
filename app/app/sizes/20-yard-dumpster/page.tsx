@@ -5,7 +5,7 @@ import { FAQ } from '@/components/sections/FAQ';
 import { CallToAction } from '@/components/sections/CallToAction';
 import { Container } from '@/components/ui/Container';
 import { Card } from '@/components/ui/Card';
-import { QuoteForm } from '@/components/forms/QuoteForm';
+import QuoteForm from '@/components/forms/QuoteForm';
 
 export const metadata: Metadata = {
   title: '20 Yard Dumpster Rental - Most Popular Size for Home Projects',

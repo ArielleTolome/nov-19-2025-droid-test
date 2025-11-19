@@ -59,7 +59,7 @@ export default function ContactForm({ onSuccess, className = '' }: ContactFormPr
           message: result.error || 'Failed to send message. Please try again.',
         });
       }
-    } catch (error) {
+    } catch {
       setSubmitStatus({
         type: 'error',
         message: 'An error occurred while sending your message. Please try again.',

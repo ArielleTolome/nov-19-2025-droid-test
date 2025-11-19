@@ -7,7 +7,7 @@ import { CallToAction } from '@/components/sections/CallToAction';
 import { Container } from '@/components/ui/Container';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
-import { QuoteForm } from '@/components/forms/QuoteForm';
+import QuoteForm from '@/components/forms/QuoteForm';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
@@ -302,7 +302,7 @@ export default function ResidentialDumpsterRentalPage() {
               Why Homeowners Choose Us
             </h2>
             <p className="text-lg text-gray-600">
-              We understand that your home is your biggest investment. That's why we go the extra mile to protect your property.
+              We understand that your home is your biggest investment. That&apos;s why we go the extra mile to protect your property.
             </p>
           </div>
 
@@ -404,7 +404,7 @@ export default function ResidentialDumpsterRentalPage() {
               Transparent Pricing for Homeowners
             </h2>
             <p className="text-lg text-gray-600">
-              Know exactly what you're paying for with our all-inclusive pricing
+              Know exactly what you&apos;re paying for with our all-inclusive pricing
             </p>
           </div>
 
@@ -416,7 +416,7 @@ export default function ResidentialDumpsterRentalPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">What's Included</h3>
+                <h3 className="text-2xl font-bold text-gray-900">What&apos;s Included</h3>
               </div>
               <ul className="space-y-3">
                 {pricingDetails.included.map((item, index) => (
@@ -459,7 +459,7 @@ export default function ResidentialDumpsterRentalPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <p className="text-lg text-gray-700">
-                  <span className="font-semibold text-blue-700">Price Match Guarantee:</span> We'll beat any competitor's quote for the same service in your area.
+                  <span className="font-semibold text-blue-700">Price Match Guarantee:</span> We&apos;ll beat any competitor&apos;s quote for the same service in your area.
                 </p>
               </div>
             </Card>

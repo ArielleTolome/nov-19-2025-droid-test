@@ -7,8 +7,6 @@ import {
   getStateBySlug,
   getNearbyCities,
   getCityPricing,
-  formatCityName,
-  City,
 } from '@/lib/location';
 import {
   ServiceAreaMap,
@@ -366,7 +364,7 @@ export default async function CityPage({ params }: CityPageProps) {
                   Do I need a permit for a dumpster in {city.name}?
                 </h3>
                 <p className="text-gray-700">
-                  In {city.name}, {state.abbreviation}, you typically don't need a
+                  In {city.name}, {state.abbreviation}, you typically don&apos;t need a
                   permit if the dumpster is placed on your private property. If
                   you need to place it on a public street, you may need a permit
                   from the {city.name} city office. We can help guide you through
@@ -382,7 +380,7 @@ export default async function CityPage({ params }: CityPageProps) {
                   You can dispose of most household debris, construction materials,
                   yard waste, and general junk. Prohibited items include hazardous
                   waste, chemicals, paint, tires, batteries, and electronics.
-                  Contact us if you're unsure about specific items.
+                  Contact us if you&apos;re unsure about specific items.
                 </p>
               </div>
 
@@ -404,7 +402,7 @@ export default async function CityPage({ params }: CityPageProps) {
         {nearbyCities.length > 0 && (
           <section className="py-16 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <NearbyCities cities={nearbyCities} currentCity={city.name} />
+              <NearbyCities cities={nearbyCities} />
             </div>
           </section>
         )}

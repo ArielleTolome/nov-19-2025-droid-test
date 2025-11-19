@@ -6,7 +6,7 @@ import { CallToAction } from '@/components/sections/CallToAction';
 import { Container } from '@/components/ui/Container';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
-import { QuoteForm } from '@/components/forms/QuoteForm';
+import QuoteForm from '@/components/forms/QuoteForm';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
@@ -447,7 +447,7 @@ export default function TenYardDumpsterPage() {
               Transparent Pricing
             </h2>
             <p className="text-lg text-gray-600">
-              Know exactly what you're paying for - no surprises
+              Know exactly what you&apos;re paying for - no surprises
             </p>
           </div>
 
@@ -459,7 +459,7 @@ export default function TenYardDumpsterPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">What's Included</h3>
+                <h3 className="text-xl font-bold text-gray-900">What&apos;s Included</h3>
               </div>
               <ul className="space-y-2">
                 {pricingDetails.whatsIncluded.map((item, index) => (
