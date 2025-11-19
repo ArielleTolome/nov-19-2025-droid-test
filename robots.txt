@@ -1,0 +1,8 @@
+# Dumpsters.com Robots.txt
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /templates/
+Disallow: /scripts/
+
+Sitemap: https://dumpsters.com/sitemap.xml
