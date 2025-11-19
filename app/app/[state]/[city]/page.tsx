@@ -77,7 +77,7 @@ export default async function CityPage({ params }: CityPageProps) {
     name: `Dumpster Rental ${city.name}`,
     description: `Professional dumpster rental services in ${city.name}, ${state.abbreviation}`,
     url: `https://yoursite.com/${stateSlug}/${citySlug}`,
-    telephone: '1-800-DUMPSTER',
+    telephone: '888-478-3867',
     priceRange: '$$',
     address: {
       '@type': 'PostalAddress',
