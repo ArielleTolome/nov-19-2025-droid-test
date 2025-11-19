@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calculate the cost of your dumpster rental instantly. Get accurate pricing based on size, location, rental duration, and project type.">
+    <title>Dumpster Rental Cost Calculator | Dumpsters.com</title>
+    <link rel="canonical" href="https://www.dumpsters.com/calculator.html">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .calculator-container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .calculator-box {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            padding: 40px;
+            margin-bottom: 30px;
+        }
+        
+        .calculator-title {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .calculator-subtitle {
+            color: #666;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .calc-form-group {
+            margin-bottom: 25px;
+        }
+        
+        .calc-label {
+            display: block;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+        
+        .calc-input, .calc-select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+        }
+        
+        .calc-input:focus, .calc-select:focus {
+            outline: none;
+            border-color: #FF6B35;
+        }
+        
+        .calc-slider {
+            width: 100%;
+            height: 8px;
+            border-radius: 5px;
+            background: #e0e0e0;
+            outline: none;
+            -webkit-appearance: none;
+        }
+        
+        .calc-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: #FF6B35;
+            cursor: pointer;
+        }
+        
+        .calc-slider::-moz-range-thumb {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: #FF6B35;
+            cursor: pointer;
+            border: none;
+        }
+        
+        .slider-value {
+            display: block;
+            margin-top: 8px;
+            color: #FF6B35;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+        
+        .price-result {
+            background: linear-gradient(135deg, #FF6B35 0%, #FF8555 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .price-result h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+        
+        .total-price {
+            font-size: 3.5em;
+            font-weight: 800;
+            margin: 20px 0;
+        }
+        
+        .price-breakdown {
+            background: rgba(255,255,255,0.2);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: left;
+        }
+        
+        .breakdown-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .breakdown-item:last-child {
+            border-bottom: none;
+            font-weight: 700;
+            font-size: 1.2em;
+            margin-top: 10px;
+            padding-top: 15px;
+            border-top: 2px solid rgba(255,255,255,0.4);
+        }
+        
+        .cta-buttons {
+            margin-top: 25px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+        
+        .info-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        
+        .info-box h4 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .info-box ul {
+            margin-left: 20px;
+            color: #666;
+        }
+        
+        .info-box li {
+            margin-bottom: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .calculator-box {
+                padding: 25px;
+            }
+            
+            .calculator-title {
+                font-size: 1.6em;
+            }
+            
+            .total-price {
+                font-size: 2.5em;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Promo Banner -->
+    <div class="promo-banner">
+        <div class="container">
+            <div class="promo-content">
+                <img src="https://www.dumpsters.com/images/pro+-logo-inverse-190x30.png" alt="Pro+ Logo" class="promo-logo">
+                <span class="promo-text">— your centralized site services program with exclusive loyalty rewards to save contractors more on every job.</span>
+                <a href="#" class="promo-link">Sign up now ›</a>
+            </div>
+            <button class="promo-close" aria-label="Close banner">X</button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="https://www.dumpsters.com/images/landing-pages/dcom-logo-inverse-300x64.png" alt="Dumpsters.com" style="height: 40px;">
+                        </a>
+                    </div>
+                    
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <ul class="nav-menu">
+                        <li><a href="dumpster-sizes.html" class="nav-link">Dumpster Sizes</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="service-areas.html" class="nav-link">Service Areas</a></li>
+                        <li><a href="resources.html" class="nav-link">Resources</a></li>
+                        <li><a href="contact.html" class="btn btn-primary">Check Your Price</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="container">
+                <div class="page-hero-content">
+                    <h1>Dumpster Rental Cost Calculator</h1>
+                    <p>Get an instant estimate for your dumpster rental. Adjust the options below to see real-time pricing.</p>
+                    
+                    <div class="breadcrumb">
+                        <a href="index.html">Home</a> / <span>Cost Calculator</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calculator Section -->
+        <div class="calculator-container">
+            <div class="calculator-box">
+                <h2 class="calculator-title">Calculate Your Rental Cost</h2>
+                <p class="calculator-subtitle">Customize your rental details to get an accurate price estimate</p>
+                
+                <form id="costCalculator">
+                    <!-- Dumpster Size -->
+                    <div class="calc-form-group">
+                        <label class="calc-label" for="dumpsterSize">Dumpster Size</label>
+                        <select id="dumpsterSize" class="calc-select">
+                            <option value="10">10 Yard - Small Projects</option>
+                            <option value="20" selected>20 Yard - Most Popular</option>
+                            <option value="30">30 Yard - Large Projects</option>
+                            <option value="40">40 Yard - Commercial/Industrial</option>
+                        </select>
+                    </div>
+                    
+                    <!-- Rental Duration -->
+                    <div class="calc-form-group">
+                        <label class="calc-label" for="rentalDuration">Rental Duration (days)</label>
+                        <input type="range" id="rentalDuration" class="calc-slider" min="3" max="30" value="7" step="1">
+                        <span class="slider-value" id="durationDisplay">7 days</span>
+                    </div>
+                    
+                    <!-- Project Type -->
+                    <div class="calc-form-group">
+                        <label class="calc-label" for="projectType">Project Type</label>
+                        <select id="projectType" class="calc-select">
+                            <option value="residential">Residential Cleanup</option>
+                            <option value="construction">Construction/Renovation</option>
+                            <option value="roofing">Roofing Project</option>
+                            <option value="commercial">Commercial Project</option>
+                            <option value="landscaping">Landscaping/Yard Waste</option>
+                        </select>
+                    </div>
+                    
+                    <!-- ZIP Code -->
+                    <div class="calc-form-group">
+                        <label class="calc-label" for="zipCode">ZIP Code (Optional)</label>
+                        <input type="text" id="zipCode" class="calc-input" placeholder="Enter your ZIP code" maxlength="5">
+                        <small style="color: #666; display: block; margin-top: 5px;">Prices may vary by location</small>
+                    </div>
+                    
+                    <!-- Additional Services -->
+                    <div class="calc-form-group">
+                        <label class="calc-label">Additional Services (Optional)</label>
+                        <div style="margin-top: 10px;">
+                            <label style="display: block; margin-bottom: 10px; cursor: pointer;">
+                                <input type="checkbox" id="rushDelivery" style="margin-right: 8px;">
+                                Rush Delivery (+$75)
+                            </label>
+                            <label style="display: block; margin-bottom: 10px; cursor: pointer;">
+                                <input type="checkbox" id="extendedRental" style="margin-right: 8px;">
+                                Extended Rental Insurance (+$50)
+                            </label>
+                        </div>
+                    </div>
+                </form>
+                
+                <!-- Price Result -->
+                <div class="price-result">
+                    <h3>Your Estimated Total</h3>
+                    <div class="total-price" id="totalPrice">$399</div>
+                    <p>Based on your selected options</p>
+                    
+                    <div class="price-breakdown">
+                        <div class="breakdown-item">
+                            <span>Base Rate</span>
+                            <span id="baseRate">$350</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span>Daily Rate (after 7 days)</span>
+                            <span id="dailyRate">$0</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span>Additional Services</span>
+                            <span id="additionalServices">$0</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span>Location Adjustment</span>
+                            <span id="locationFee">$0</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span>Total Estimated Cost</span>
+                            <span id="finalTotal">$350</span>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="btn btn-primary" style="background: white; color: #FF6B35;">Get Exact Quote</a>
+                        <a href="tel:888-478-3867" class="btn btn-secondary" style="background: rgba(255,255,255,0.2); color: white; border-color: white;">Call 888-478-DUMP</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Info Box -->
+            <div class="info-box">
+                <h4>💡 What's Included in the Price?</h4>
+                <ul>
+                    <li>Delivery and pickup of your dumpster</li>
+                    <li>7-day rental period (standard)</li>
+                    <li>Disposal fees for general waste (up to weight limit)</li>
+                    <li>Friendly customer service and support</li>
+                </ul>
+                
+                <h4 style="margin-top: 20px;">⚠️ Additional Charges May Apply For:</h4>
+                <ul>
+                    <li>Overweight loads (exceeding weight limit)</li>
+                    <li>Prohibited items (hazardous materials, tires, etc.)</li>
+                    <li>Extended rental beyond agreed period</li>
+                    <li>Difficult delivery locations or permit fees</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html#residential">Residential Dumpsters</a></li>
+                        <li><a href="services.html#commercial">Commercial Dumpsters</a></li>
+                        <li><a href="services.html#construction">Construction Dumpsters</a></li>
+                        <li><a href="services.html#rolloff">Roll Off Dumpsters</a></li>
+                        <li><a href="calculator.html">Cost Calculator</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="dumpster-sizes.html">Dumpster Sizes Guide</a></li>
+                        <li><a href="resources.html">FAQ</a></li>
+                        <li><a href="service-areas.html">Service Areas</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="reviews.html">Customer Reviews</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Dumpsters.com</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="reviews.html">Testimonials</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="contact-info">
+                        <li><strong>Phone:</strong> <a href="tel:888-478-3867">888-478-DUMP (3867)</a></li>
+                        <li><strong>Email:</strong> <a href="mailto:info@dumpsters.com">info@dumpsters.com</a></li>
+                        <li><strong>Hours:</strong> Mon-Fri: 7am-7pm<br>Sat: 8am-5pm<br>Sun: Closed</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dumpsters.com. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky Mobile Call Bar -->
+    <div class="mobile-call-bar">
+        <a href="tel:888-478-3867" class="mobile-call-button">
+            <span class="call-icon">📞</span>
+            <span class="call-text">Call Now: 888-478-DUMP</span>
+        </a>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Cost Calculator Logic
+        const basePrices = {
+            10: 325,
+            20: 400,
+            30: 475,
+            40: 575
+        };
+        
+        const projectMultipliers = {
+            residential: 1.0,
+            construction: 1.15,
+            roofing: 1.1,
+            commercial: 1.2,
+            landscaping: 0.95
+        };
+        
+        function calculateCost() {
+            const size = parseInt(document.getElementById('dumpsterSize').value);
+            const duration = parseInt(document.getElementById('rentalDuration').value);
+            const projectType = document.getElementById('projectType').value;
+            const zipCode = document.getElementById('zipCode').value;
+            const rushDelivery = document.getElementById('rushDelivery').checked;
+            const extendedRental = document.getElementById('extendedRental').checked;
+            
+            // Calculate base rate
+            let baseRate = basePrices[size] * projectMultipliers[projectType];
+            
+            // Calculate daily rate for rentals over 7 days
+            let dailyRate = 0;
+            if (duration > 7) {
+                const extraDays = duration - 7;
+                dailyRate = extraDays * 15; // $15 per day after first 7 days
+            }
+            
+            // Calculate additional services
+            let additionalServices = 0;
+            if (rushDelivery) additionalServices += 75;
+            if (extendedRental) additionalServices += 50;
+            
+            // Location adjustment based on ZIP code
+            let locationFee = 0;
+            if (zipCode && zipCode.length === 5) {
+                // Simple location adjustment based on first digit
+                const firstDigit = parseInt(zipCode.charAt(0));
+                if (firstDigit >= 9) locationFee = 25; // West Coast
+                else if (firstDigit <= 1) locationFee = 20; // East Coast
+                else locationFee = 0; // Midwest/Central
+            }
+            
+            // Calculate total
+            const total = Math.round(baseRate + dailyRate + additionalServices + locationFee);
+            
+            // Update display
+            document.getElementById('baseRate').textContent = '$' + Math.round(baseRate);
+            document.getElementById('dailyRate').textContent = '$' + dailyRate;
+            document.getElementById('additionalServices').textContent = '$' + additionalServices;
+            document.getElementById('locationFee').textContent = locationFee > 0 ? '+$' + locationFee : '$0';
+            document.getElementById('totalPrice').textContent = '$' + total;
+            document.getElementById('finalTotal').textContent = '$' + total;
+        }
+        
+        // Update duration display
+        document.getElementById('rentalDuration').addEventListener('input', function() {
+            const days = this.value;
+            document.getElementById('durationDisplay').textContent = days + ' day' + (days > 1 ? 's' : '');
+            calculateCost();
+        });
+        
+        // Add event listeners
+        document.getElementById('dumpsterSize').addEventListener('change', calculateCost);
+        document.getElementById('projectType').addEventListener('change', calculateCost);
+        document.getElementById('zipCode').addEventListener('input', calculateCost);
+        document.getElementById('rushDelivery').addEventListener('change', calculateCost);
+        document.getElementById('extendedRental').addEventListener('change', calculateCost);
+        
+        // Initial calculation
+        calculateCost();
+    </script>
+</body>
+</html>

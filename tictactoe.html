@@ -179,6 +179,75 @@
             transform: translateY(0);
         }
 
+        .difficulty-selector {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .difficulty-selector h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+
+        .difficulty-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .difficulty-btn {
+            padding: 10px 20px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .difficulty-btn.active {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border-color: #764ba2;
+        }
+
+        .difficulty-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .mode-selector {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .mode-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .mode-btn {
+            padding: 12px 25px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 1em;
+        }
+
+        .mode-btn.active {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border-color: #764ba2;
+        }
+
         .message {
             text-align: center;
             font-size: 1.3em;
@@ -249,6 +318,22 @@
     <div class="container">
         <h1>Tic-Tac-Toe</h1>
         
+        <div class="mode-selector">
+            <div class="mode-buttons">
+                <button class="mode-btn active" data-mode="pvp">Player vs Player</button>
+                <button class="mode-btn" data-mode="ai">Player vs AI</button>
+            </div>
+        </div>
+
+        <div class="difficulty-selector" id="difficulty-selector" style="display: none;">
+            <h3>AI Difficulty</h3>
+            <div class="difficulty-buttons">
+                <button class="difficulty-btn" data-difficulty="easy">Easy</button>
+                <button class="difficulty-btn active" data-difficulty="medium">Medium</button>
+                <button class="difficulty-btn" data-difficulty="hard">Hard</button>
+            </div>
+        </div>
+        
         <div class="game-info">
             <div class="current-player">Current Player: <span id="current-player">X</span></div>
         </div>
@@ -294,6 +379,10 @@
                 this.board = Array(9).fill('');
                 this.currentPlayer = 'X';
                 this.gameActive = true;
+                this.gameMode = 'pvp'; // 'pvp' or 'ai'
+                this.difficulty = 'medium'; // 'easy', 'medium', 'hard'
+                this.aiPlayer = 'O';
+                this.humanPlayer = 'X';
                 this.scores = {
                     X: 0,
                     O: 0,
@@ -332,6 +421,28 @@
                 document.getElementById('new-game').addEventListener('click', () => this.resetGame());
                 document.getElementById('reset-score').addEventListener('click', () => this.resetScores());
                 
+                // Mode selection
+                document.querySelectorAll('.mode-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+                        e.target.classList.add('active');
+                        this.gameMode = e.target.dataset.mode;
+                        document.getElementById('difficulty-selector').style.display = 
+                            this.gameMode === 'ai' ? 'block' : 'none';
+                        this.resetGame();
+                    });
+                });
+
+                // Difficulty selection
+                document.querySelectorAll('.difficulty-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        document.querySelectorAll('.difficulty-btn').forEach(b => b.classList.remove('active'));
+                        e.target.classList.add('active');
+                        this.difficulty = e.target.dataset.difficulty;
+                        this.resetGame();
+                    });
+                });
+                
                 // Prevent zoom on double tap
                 let lastTouchEnd = 0;
                 document.addEventListener('touchend', (e) => {
@@ -362,6 +473,11 @@
                     return;
                 }
 
+                // In AI mode, prevent clicking when it's AI's turn
+                if (this.gameMode === 'ai' && this.currentPlayer === this.aiPlayer) {
+                    return;
+                }
+
                 this.makeMove(index);
             }
 
@@ -376,7 +492,148 @@
                 } else {
                     this.currentPlayer = this.currentPlayer === 'X' ? 'O' : 'X';
                     this.updateDisplay();
+                    
+                    // If AI mode and now AI's turn, make AI move
+                    if (this.gameMode === 'ai' && this.currentPlayer === this.aiPlayer) {
+                        setTimeout(() => this.makeAIMove(), 500);
+                    }
                 }
+            }
+
+            makeAIMove() {
+                if (!this.gameActive) return;
+                
+                let move;
+                
+                switch(this.difficulty) {
+                    case 'easy':
+                        move = this.getEasyMove();
+                        break;
+                    case 'medium':
+                        move = this.getMediumMove();
+                        break;
+                    case 'hard':
+                        move = this.getHardMove();
+                        break;
+                }
+                
+                if (move !== -1) {
+                    this.makeMove(move);
+                }
+            }
+
+            getEasyMove() {
+                // Easy: Random available move
+                const availableMoves = this.board
+                    .map((cell, index) => cell === '' ? index : null)
+                    .filter(index => index !== null);
+                
+                return availableMoves[Math.floor(Math.random() * availableMoves.length)];
+            }
+
+            getMediumMove() {
+                // Medium: 70% chance of smart move, 30% random
+                if (Math.random() < 0.3) {
+                    return this.getEasyMove();
+                }
+                
+                // Try to win
+                let move = this.findWinningMove(this.aiPlayer);
+                if (move !== -1) return move;
+                
+                // Block opponent
+                move = this.findWinningMove(this.humanPlayer);
+                if (move !== -1) return move;
+                
+                // Take center if available
+                if (this.board[4] === '') return 4;
+                
+                // Random move
+                return this.getEasyMove();
+            }
+
+            getHardMove() {
+                // Hard: Unbeatable minimax algorithm
+                return this.minimax(this.board, this.aiPlayer).index;
+            }
+
+            findWinningMove(player) {
+                for (let condition of this.winningConditions) {
+                    const [a, b, c] = condition;
+                    const cells = [this.board[a], this.board[b], this.board[c]];
+                    
+                    if (cells.filter(cell => cell === player).length === 2 &&
+                        cells.includes('')) {
+                        if (this.board[a] === '') return a;
+                        if (this.board[b] === '') return b;
+                        if (this.board[c] === '') return c;
+                    }
+                }
+                return -1;
+            }
+
+            minimax(board, player) {
+                const availableMoves = board
+                    .map((cell, index) => cell === '' ? index : null)
+                    .filter(index => index !== null);
+
+                // Check for terminal states
+                if (this.checkWinForPlayer(board, this.humanPlayer)) {
+                    return { score: -10 };
+                } else if (this.checkWinForPlayer(board, this.aiPlayer)) {
+                    return { score: 10 };
+                } else if (availableMoves.length === 0) {
+                    return { score: 0 };
+                }
+
+                const moves = [];
+
+                for (let i = 0; i < availableMoves.length; i++) {
+                    const move = {};
+                    move.index = availableMoves[i];
+                    
+                    board[availableMoves[i]] = player;
+
+                    if (player === this.aiPlayer) {
+                        const result = this.minimax(board, this.humanPlayer);
+                        move.score = result.score;
+                    } else {
+                        const result = this.minimax(board, this.aiPlayer);
+                        move.score = result.score;
+                    }
+
+                    board[availableMoves[i]] = '';
+                    moves.push(move);
+                }
+
+                let bestMove;
+                if (player === this.aiPlayer) {
+                    let bestScore = -Infinity;
+                    for (let i = 0; i < moves.length; i++) {
+                        if (moves[i].score > bestScore) {
+                            bestScore = moves[i].score;
+                            bestMove = i;
+                        }
+                    }
+                } else {
+                    let bestScore = Infinity;
+                    for (let i = 0; i < moves.length; i++) {
+                        if (moves[i].score < bestScore) {
+                            bestScore = moves[i].score;
+                            bestMove = i;
+                        }
+                    }
+                }
+
+                return moves[bestMove];
+            }
+
+            checkWinForPlayer(board, player) {
+                return this.winningConditions.some(condition => {
+                    return condition.every(index => {
+                        return board[index] === player;
+                    });
+                });
             }
 
             updateCell(index) {
@@ -405,7 +662,9 @@
                     this.showMessage('Game is a draw!', 'draw');
                 } else {
                     this.scores[this.currentPlayer]++;
-                    this.showMessage(`Player ${this.currentPlayer} wins!`, 'win');
+                    const winnerName = this.gameMode === 'ai' && this.currentPlayer === this.aiPlayer ? 
+                        'AI' : `Player ${this.currentPlayer}`;
+                    this.showMessage(`${winnerName} wins!`, 'win');
                     this.highlightWinningCells();
                 }
                 
@@ -440,7 +699,9 @@
             }
 
             updateDisplay() {
-                document.getElementById('current-player').textContent = this.currentPlayer;
+                const displayName = this.gameMode === 'ai' && this.currentPlayer === this.aiPlayer ? 
+                    'AI (O)' : this.currentPlayer;
+                document.getElementById('current-player').textContent = displayName;
             }
 
             updateScoreDisplay() {
