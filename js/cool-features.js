@@ -485,6 +485,111 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Make it globally available
     window.showToast = showToast;
+    
+    // ========================================
+    // Feature 6: Smooth Scroll Enhancements
+    // ========================================
+    
+    // Add smooth reveal animations to elements as they enter viewport
+    function initScrollRevealAnimations() {
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    // Optionally unobserve after reveal
+                    // revealObserver.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        
+        // Apply to common elements
+        const elementsToReveal = document.querySelectorAll('.dumpster-card, .service-category, .faq-item, .step, .reason, .feature-card');
+        elementsToReveal.forEach((el, index) => {
+            el.classList.add('reveal-element');
+            el.style.animationDelay = `${index * 0.1}s`;
+            revealObserver.observe(el);
+        });
+    }
+    
+    // Initialize scroll animations after a short delay to ensure DOM is ready
+    setTimeout(initScrollRevealAnimations, 100);
+    
+    // ========================================
+    // Feature 7: Back to Top Button
+    // ========================================
+    
+    function createBackToTopButton() {
+        const backToTop = document.createElement('button');
+        backToTop.id = 'back-to-top';
+        backToTop.className = 'back-to-top-btn';
+        backToTop.setAttribute('aria-label', 'Back to top');
+        backToTop.innerHTML = `
+            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+            </svg>
+        `;
+        
+        document.body.appendChild(backToTop);
+        
+        // Show/hide based on scroll position
+        let scrollTimeout;
+        window.addEventListener('scroll', () => {
+            clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(() => {
+                if (window.pageYOffset > 300) {
+                    backToTop.classList.add('visible');
+                } else {
+                    backToTop.classList.remove('visible');
+                }
+            }, 100);
+        });
+        
+        // Scroll to top on click
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
+    
+    createBackToTopButton();
+    
+    // ========================================
+    // Feature 8: Enhanced Form Experience
+    // ========================================
+    
+    // Add floating label effect to form inputs
+    function enhanceFormInputs() {
+        const formInputs = document.querySelectorAll('input, textarea, select');
+        formInputs.forEach(input => {
+            // Add focus class for styling
+            input.addEventListener('focus', function() {
+                this.parentElement.classList.add('input-focused');
+            });
+            
+            input.addEventListener('blur', function() {
+                this.parentElement.classList.remove('input-focused');
+                if (this.value) {
+                    this.parentElement.classList.add('input-filled');
+                } else {
+                    this.parentElement.classList.remove('input-filled');
+                }
+            });
+            
+            // Check on load if already filled
+            if (input.value) {
+                input.parentElement.classList.add('input-filled');
+            }
+        });
+    }
+    
+    enhanceFormInputs();
 });
 
 // Add CSS animations
@@ -510,6 +615,77 @@ style.textContent = `
         opacity: 1;
         transform: scale(1);
     }
+}
+
+/* Scroll reveal animations */
+.reveal-element {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal-element.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Back to top button */
+.back-to-top-btn {
+    position: fixed;
+    bottom: 150px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
+    border: none;
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+    cursor: pointer;
+    z-index: 9998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+}
+
+.back-to-top-btn.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.back-to-top-btn:hover {
+    transform: scale(1.1) translateY(-2px);
+    box-shadow: 0 6px 16px rgba(255, 107, 53, 0.4);
+}
+
+@media (max-width: 768px) {
+    .back-to-top-btn {
+        bottom: 150px;
+        right: 15px;
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* Enhanced form input styling */
+.input-focused {
+    position: relative;
+}
+
+.input-focused::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #FF6B35 0%, #F7931E 100%);
+    animation: slideIn 0.3s ease;
 }
 `;
 document.head.appendChild(style);

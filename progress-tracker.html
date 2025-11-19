@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Track your dumpster rental quote request with our interactive progress tracker.">
+    <title>Quote Progress Tracker | Dumpsters.com</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .progress-tracker-demo {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 40px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        body.dark-mode .progress-tracker-demo {
+            background: #252525;
+        }
+
+        .tracker-steps {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            margin: 40px 0;
+            padding: 0 20px;
+        }
+
+        .tracker-line {
+            position: absolute;
+            top: 24px;
+            left: 10%;
+            right: 10%;
+            height: 4px;
+            background: #e0e0e0;
+            z-index: 1;
+        }
+
+        body.dark-mode .tracker-line {
+            background: #444;
+        }
+
+        .tracker-line-progress {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background: linear-gradient(90deg, #FF6B35 0%, #F7931E 100%);
+            width: 0%;
+            transition: width 0.8s ease;
+        }
+
+        .tracker-step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+            flex: 1;
+        }
+
+        .step-circle {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: white;
+            border: 4px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: #999;
+            transition: all 0.3s ease;
+            margin-bottom: 12px;
+        }
+
+        body.dark-mode .step-circle {
+            background: #2d2d2d;
+            border-color: #444;
+        }
+
+        .tracker-step.active .step-circle {
+            border-color: #FF6B35;
+            background: #FF6B35;
+            color: white;
+            animation: pulse 2s infinite;
+        }
+
+        .tracker-step.completed .step-circle {
+            border-color: #10b981;
+            background: #10b981;
+            color: white;
+        }
+
+        .step-label {
+            font-size: 0.9em;
+            font-weight: 600;
+            text-align: center;
+            color: #666;
+        }
+
+        body.dark-mode .step-label {
+            color: #999;
+        }
+
+        .tracker-step.active .step-label {
+            color: #FF6B35;
+        }
+
+        body.dark-mode .tracker-step.active .step-label {
+            color: #FF6B35;
+        }
+
+        .tracker-step.completed .step-label {
+            color: #10b981;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(255, 107, 53, 0.7);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 0 0 10px rgba(255, 107, 53, 0);
+            }
+        }
+
+        .tracker-controls {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .demo-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #FF6B35;
+        }
+
+        body.dark-mode .demo-info {
+            background: #2d2d2d;
+        }
+
+        .status-message {
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .status-message.info {
+            background: #e3f2fd;
+            color: #1976d2;
+        }
+
+        .status-message.success {
+            background: #e8f5e9;
+            color: #388e3c;
+        }
+
+        body.dark-mode .status-message.info {
+            background: #1a237e;
+            color: #90caf9;
+        }
+
+        body.dark-mode .status-message.success {
+            background: #1b5e20;
+            color: #81c784;
+        }
+
+        @media (max-width: 768px) {
+            .tracker-steps {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0;
+            }
+
+            .tracker-line {
+                left: 24px;
+                right: auto;
+                width: 4px;
+                height: auto;
+                top: 48px;
+                bottom: 48px;
+            }
+
+            .tracker-line-progress {
+                width: 100% !important;
+                height: 0%;
+                transition: height 0.8s ease;
+            }
+
+            .tracker-step {
+                flex-direction: row;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            .step-circle {
+                margin-bottom: 0;
+                margin-right: 15px;
+            }
+
+            .step-label {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="https://www.dumpsters.com/images/landing-pages/dcom-logo-inverse-300x64.png" alt="Dumpsters.com" style="height: 40px;">
+                        </a>
+                    </div>
+                    
+                    <ul class="nav-menu">
+                        <li><a href="dumpster-sizes.html" class="nav-link">Dumpster Sizes</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="service-areas.html" class="nav-link">Service Areas</a></li>
+                        <li><a href="cool-features.html" class="nav-link" style="color: #FF6B35; font-weight: 700;">✨ Cool Features</a></li>
+                        <li><a href="contact.html" class="btn btn-primary">Check Your Price</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <div style="text-align: center; padding: 40px 0;">
+                <h1 style="font-size: 2.5em; margin-bottom: 15px;">📊 Quote Progress Tracker</h1>
+                <p style="font-size: 1.2em; color: #666;">Track your dumpster rental quote request in real-time</p>
+            </div>
+
+            <div class="progress-tracker-demo">
+                <h2 style="margin-bottom: 30px; text-align: center;">Your Quote Request</h2>
+
+                <div class="demo-info">
+                    <strong>Demo Mode:</strong> This is an interactive demonstration of our progress tracker. 
+                    Click the buttons below to see how customers can track their quote requests through each stage.
+                </div>
+
+                <div id="status-message" class="status-message info">
+                    Click "Start Demo" to see the progress tracker in action!
+                </div>
+
+                <div class="tracker-steps">
+                    <div class="tracker-line">
+                        <div class="tracker-line-progress" id="tracker-progress"></div>
+                    </div>
+
+                    <div class="tracker-step" id="step-1">
+                        <div class="step-circle">1</div>
+                        <div class="step-label">Submit Request</div>
+                    </div>
+
+                    <div class="tracker-step" id="step-2">
+                        <div class="step-circle">2</div>
+                        <div class="step-label">Processing</div>
+                    </div>
+
+                    <div class="tracker-step" id="step-3">
+                        <div class="step-circle">3</div>
+                        <div class="step-label">Quote Ready</div>
+                    </div>
+
+                    <div class="tracker-step" id="step-4">
+                        <div class="step-circle">4</div>
+                        <div class="step-label">Confirmed</div>
+                    </div>
+                </div>
+
+                <div class="tracker-controls">
+                    <button id="start-demo" class="btn btn-primary">Start Demo</button>
+                    <button id="next-step" class="btn btn-outline" style="display: none;">Next Step</button>
+                    <button id="reset-demo" class="btn btn-outline" style="display: none;">Reset</button>
+                </div>
+
+                <div style="margin-top: 40px; padding: 20px; background: #f8f9fa; border-radius: 8px;">
+                    <h3 style="margin-bottom: 15px;">How It Works</h3>
+                    <ol style="line-height: 1.8;">
+                        <li><strong>Submit Request:</strong> Fill out our simple quote form with your project details</li>
+                        <li><strong>Processing:</strong> Our system matches you with available dumpsters in your area</li>
+                        <li><strong>Quote Ready:</strong> Receive your personalized quote with pricing and availability</li>
+                        <li><strong>Confirmed:</strong> Accept the quote and schedule your delivery</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 60px 40px; border-radius: 12px; text-align: center; color: white; margin: 60px 0;">
+                <h2 style="font-size: 2em; margin-bottom: 20px; color: white;">Ready to Get Your Quote?</h2>
+                <p style="font-size: 1.2em; margin-bottom: 30px; color: white;">Start your dumpster rental request today and track it every step of the way!</p>
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                    <a href="contact.html" class="btn btn-large" style="background: white; color: #667eea;">Get Started</a>
+                    <a href="cool-features.html" class="btn btn-large" style="border: 2px solid white; background: transparent; color: white;">View All Features</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dumpsters.com. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/cool-features.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let currentStep = 0;
+            const totalSteps = 4;
+            
+            const startBtn = document.getElementById('start-demo');
+            const nextBtn = document.getElementById('next-step');
+            const resetBtn = document.getElementById('reset-demo');
+            const progressBar = document.getElementById('tracker-progress');
+            const statusMsg = document.getElementById('status-message');
+            
+            const statusMessages = [
+                { text: "🎉 Quote request submitted successfully!", class: "success" },
+                { text: "⏳ Processing your request... Finding available dumpsters in your area", class: "info" },
+                { text: "✅ Your quote is ready! Check your email for pricing details", class: "success" },
+                { text: "🎊 Confirmed! Your dumpster delivery has been scheduled", class: "success" }
+            ];
+            
+            startBtn.addEventListener('click', function() {
+                currentStep = 1;
+                updateTracker();
+                startBtn.style.display = 'none';
+                nextBtn.style.display = 'inline-block';
+                resetBtn.style.display = 'inline-block';
+            });
+            
+            nextBtn.addEventListener('click', function() {
+                if (currentStep < totalSteps) {
+                    currentStep++;
+                    updateTracker();
+                }
+                
+                if (currentStep === totalSteps) {
+                    nextBtn.style.display = 'none';
+                }
+            });
+            
+            resetBtn.addEventListener('click', function() {
+                currentStep = 0;
+                updateTracker();
+                startBtn.style.display = 'inline-block';
+                nextBtn.style.display = 'none';
+                resetBtn.style.display = 'none';
+                statusMsg.textContent = "Click \"Start Demo\" to see the progress tracker in action!";
+                statusMsg.className = "status-message info";
+            });
+            
+            function updateTracker() {
+                // Update progress bar
+                const progressPercent = currentStep === 0 ? 0 : ((currentStep - 1) / (totalSteps - 1)) * 100;
+                progressBar.style.width = progressPercent + '%';
+                
+                // Update steps
+                for (let i = 1; i <= totalSteps; i++) {
+                    const step = document.getElementById(`step-${i}`);
+                    step.classList.remove('active', 'completed');
+                    
+                    if (i < currentStep) {
+                        step.classList.add('completed');
+                        step.querySelector('.step-circle').innerHTML = '✓';
+                    } else if (i === currentStep) {
+                        step.classList.add('active');
+                        step.querySelector('.step-circle').innerHTML = i;
+                    } else {
+                        step.querySelector('.step-circle').innerHTML = i;
+                    }
+                }
+                
+                // Update status message
+                if (currentStep > 0) {
+                    const status = statusMessages[currentStep - 1];
+                    statusMsg.textContent = status.text;
+                    statusMsg.className = `status-message ${status.class}`;
+                }
+            }
+        });
+    </script>
+</body>
+</html>
