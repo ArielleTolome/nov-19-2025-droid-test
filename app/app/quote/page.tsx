@@ -67,7 +67,7 @@ export default function QuotePage() {
               </li>
               <li className="flex items-start">
                 <span className="font-bold text-blue-600 mr-2">3.</span>
-                <span>Schedule your delivery and we'll handle the rest!</span>
+                <span>Schedule your delivery and we&apos;ll handle the rest!</span>
               </li>
             </ol>
           </div>

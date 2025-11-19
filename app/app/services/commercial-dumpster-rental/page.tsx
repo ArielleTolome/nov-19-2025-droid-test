@@ -522,7 +522,7 @@ export default function CommercialDumpsterRentalPage() {
                 Get a Custom Business Quote
               </h2>
               <p className="text-lg text-gray-600">
-                Tell us about your business needs and we'll create a custom waste management solution
+                Tell us about your business needs and we&apos;ll create a custom waste management solution
               </p>
             </div>
             <Card className="bg-gray-50">

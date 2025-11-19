@@ -6,8 +6,6 @@ import {
   getStateBySlug,
   getCitiesByState,
   getStatePricing,
-  formatStateName,
-  State,
 } from '@/lib/location';
 import { CityGrid } from '@/components/location';
 import { Header, Footer } from '@/components/layout';
@@ -329,7 +327,7 @@ export default async function StatePage({ params }: StatePageProps) {
                 <p className="text-gray-700">
                   Permit requirements vary by city in {state.name}. Generally, if
                   the dumpster is placed on private property, no permit is needed.
-                  If it's on a public street, you may need a permit. We can help
+                  If it&apos;s on a public street, you may need a permit. We can help
                   guide you through the permit process.
                 </p>
               </div>

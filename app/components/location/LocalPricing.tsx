@@ -108,7 +108,7 @@ export default function LocalPricing({
 
         <div className="border-t border-gray-200 pt-4">
           <h4 className="text-sm font-semibold text-gray-900 mb-2">
-            What's Included:
+            What&apos;s Included:
           </h4>
           <ul className="space-y-2">
             <li className="flex items-start">

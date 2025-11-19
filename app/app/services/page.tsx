@@ -238,7 +238,7 @@ export default function ServicesPage() {
           </div>
 
           <div className="space-y-12">
-            {detailedServices.map((service, index) => (
+            {detailedServices.map((service) => (
               <div
                 key={service.id}
                 id={service.id}
@@ -352,7 +352,7 @@ export default function ServicesPage() {
               Why Choose Our Services?
             </h2>
             <p className="text-lg text-gray-600">
-              We're committed to providing exceptional service every step of the way
+              We&apos;re committed to providing exceptional service every step of the way
             </p>
           </div>
 

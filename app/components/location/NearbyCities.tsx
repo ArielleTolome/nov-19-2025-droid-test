@@ -3,12 +3,10 @@ import { City } from '@/lib/location';
 
 interface NearbyCitiesProps {
   cities: City[];
-  currentCity: string;
 }
 
 export default function NearbyCities({
   cities,
-  currentCity,
 }: NearbyCitiesProps) {
   if (cities.length === 0) return null;
 

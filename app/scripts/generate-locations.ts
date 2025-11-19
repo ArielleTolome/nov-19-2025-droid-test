@@ -679,7 +679,16 @@ export function generateLocationData() {
     slug: generateSlug(state.name),
   }));
 
-  const cities: any[] = [];
+  const cities: Array<{
+    name: string;
+    slug: string;
+    stateAbbr: string;
+    stateName: string;
+    population: number;
+    zipCodes: string[];
+    latitude: number;
+    longitude: number;
+  }> = [];
   states.forEach(state => {
     const stateCities = citiesByState[state.abbreviation] || [];
     stateCities.forEach(city => {

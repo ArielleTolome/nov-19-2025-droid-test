@@ -5,9 +5,6 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import {
   quoteFormSchema,
-  locationSchema,
-  projectDetailsSchema,
-  contactInfoSchema,
   type QuoteFormData,
   type QuoteApiResponse,
 } from '@/lib/validations/quote';
@@ -69,7 +66,6 @@ export default function QuoteForm() {
     handleSubmit,
     formState: { errors },
     trigger,
-    getValues,
   } = useForm<QuoteFormData>({
     resolver: zodResolver(quoteFormSchema),
     mode: 'onBlur',
@@ -137,7 +133,7 @@ export default function QuoteForm() {
           message: result.error || 'Failed to submit quote. Please try again.',
         });
       }
-    } catch (error) {
+    } catch {
       setSubmitStatus({
         type: 'error',
         message: 'An error occurred while submitting your quote. Please try again.',

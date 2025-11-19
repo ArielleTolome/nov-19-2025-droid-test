@@ -71,7 +71,7 @@ export const DumpsterSizeCard: React.FC<DumpsterSizeCardProps> = ({
         </div>
         {dimensions && (
           <p className="text-sm text-gray-500">
-            {dimensions.length}' L × {dimensions.width}' W × {dimensions.height}' H
+            {dimensions.length}&apos; L × {dimensions.width}&apos; W × {dimensions.height}&apos; H
           </p>
         )}
       </div>

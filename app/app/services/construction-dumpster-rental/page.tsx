@@ -386,7 +386,7 @@ export default function ConstructionDumpsterRentalPage() {
               Ideal for Construction Projects
             </h2>
             <p className="text-lg text-gray-600">
-              Whatever you're building or demolishing, we have the right solution
+              Whatever you&apos;re building or demolishing, we have the right solution
             </p>
           </div>
 
@@ -488,7 +488,7 @@ export default function ConstructionDumpsterRentalPage() {
           <div className="mt-8 text-center">
             <Card className="bg-white border-2 border-orange-200 max-w-3xl mx-auto">
               <p className="text-gray-700">
-                <span className="font-semibold text-orange-700">Not sure about a specific material?</span> Contact us before disposal. We'll help you determine the best way to dispose of any questionable items legally and safely.
+                <span className="font-semibold text-orange-700">Not sure about a specific material?</span> Contact us before disposal. We&apos;ll help you determine the best way to dispose of any questionable items legally and safely.
               </p>
             </Card>
           </div>

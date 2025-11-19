@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { Container } from '../ui/Container';
 
 export interface FAQItem {
@@ -100,7 +101,7 @@ export const FAQ: React.FC<FAQProps> = ({
         {/* Contact Section */}
         <div className="mt-12 text-center">
           <p className="text-gray-600 mb-4">
-            Still have questions? We're here to help!
+            Still have questions? We&apos;re here to help!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -112,7 +113,7 @@ export const FAQ: React.FC<FAQProps> = ({
               </svg>
               Call Us
             </a>
-            <a
+            <Link
               href="/contact"
               className="inline-flex items-center justify-center px-6 py-3 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
             >
@@ -120,7 +121,7 @@ export const FAQ: React.FC<FAQProps> = ({
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
       </Container>
