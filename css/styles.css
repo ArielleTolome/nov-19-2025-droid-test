@@ -978,3 +978,322 @@ body {
         padding-bottom: 80px;
     }
 }
+
+/* ========================================
+   COOL FEATURES STYLES
+   ======================================== */
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+body.dark-mode .header {
+    background-color: #252525;
+    border-bottom: 1px solid #333;
+}
+
+body.dark-mode .navbar {
+    background-color: #252525;
+}
+
+body.dark-mode .nav-link {
+    color: #e0e0e0;
+}
+
+body.dark-mode .nav-link:hover {
+    color: #FF6B35;
+}
+
+body.dark-mode .hero {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+}
+
+body.dark-mode .hero h1,
+body.dark-mode .hero p {
+    color: #e0e0e0;
+}
+
+body.dark-mode .service-category,
+body.dark-mode .dumpster-card,
+body.dark-mode .calculator-box,
+body.dark-mode .faq-item,
+body.dark-mode .step,
+body.dark-mode .reason {
+    background-color: #252525;
+    border-color: #333;
+    color: #e0e0e0;
+}
+
+body.dark-mode .service-category h3,
+body.dark-mode .dumpster-card h3,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4 {
+    color: #e0e0e0;
+}
+
+body.dark-mode .footer {
+    background-color: #1a1a1a;
+    border-top: 1px solid #333;
+}
+
+body.dark-mode .footer-links a {
+    color: #b0b0b0;
+}
+
+body.dark-mode input,
+body.dark-mode select,
+body.dark-mode textarea {
+    background-color: #2d2d2d;
+    border-color: #444;
+    color: #e0e0e0;
+}
+
+body.dark-mode .calc-input,
+body.dark-mode .calc-select {
+    background-color: #2d2d2d;
+    border-color: #444;
+    color: #e0e0e0;
+}
+
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.dark-mode-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+.dark-mode-toggle:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+    .dark-mode-toggle {
+        bottom: 100px;
+        right: 15px;
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* Share Buttons */
+.share-btn {
+    padding: 8px 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.share-facebook:hover {
+    background: #1877f2;
+    border-color: #1877f2;
+    color: white;
+}
+
+.share-twitter:hover {
+    background: #1da1f2;
+    border-color: #1da1f2;
+    color: white;
+}
+
+.share-linkedin:hover {
+    background: #0077b5;
+    border-color: #0077b5;
+    color: white;
+}
+
+.share-email:hover {
+    background: #ea4335;
+    border-color: #ea4335;
+    color: white;
+}
+
+.share-copy:hover {
+    background: #34a853;
+    border-color: #34a853;
+    color: white;
+}
+
+body.dark-mode .share-btn {
+    background: #2d2d2d;
+    border-color: #444;
+    color: #e0e0e0;
+}
+
+/* Availability Checker */
+.availability-checker {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 40px;
+    border-radius: 12px;
+    color: white;
+    margin: 40px 0;
+}
+
+.availability-checker h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.availability-checker input {
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 200px;
+    margin-right: 10px;
+}
+
+.availability-checker button {
+    padding: 14px 28px;
+    background: white;
+    color: #667eea;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.availability-checker button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.availability-checker button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.availability-result {
+    display: none;
+    animation: slideIn 0.3s ease;
+}
+
+/* Waste Identifier Quiz */
+.waste-identifier-quiz {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 40px 0;
+}
+
+body.dark-mode .waste-identifier-quiz {
+    background: #252525;
+}
+
+/* Smooth Animations */
+.animated-fade-in {
+    animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-slide-in {
+    animation: slideIn 0.4s ease;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Keyboard Navigation Helpers */
+*:focus-visible {
+    outline: 3px solid #FF6B35;
+    outline-offset: 2px;
+}
+
+.skip-to-content {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background: #FF6B35;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    z-index: 10000;
+}
+
+.skip-to-content:focus {
+    top: 0;
+}
+
+/* Recently Viewed */
+.recently-viewed-container {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+body.dark-mode .recently-viewed-container {
+    background: #2d2d2d;
+}
+
+/* Responsive adjustments for cool features */
+@media (max-width: 768px) {
+    .availability-checker {
+        padding: 20px;
+    }
+    
+    .availability-checker input,
+    .availability-checker button {
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .waste-identifier-quiz {
+        padding: 20px;
+    }
+    
+    .share-buttons-group {
+        flex-wrap: wrap;
+    }
+}
