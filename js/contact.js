@@ -359,7 +359,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 <div class="contact-info" style="background: #f0f9ff; padding: 16px; border-radius: 8px; margin-bottom: 24px;">
                     <p style="margin: 0;"><strong>Need immediate assistance?</strong></p>
-                    <p style="margin: 8px 0;">Call us directly: <a href="tel:1-800-DUMPSTER" style="color: #2563eb; font-weight: bold;">1-800-DUMPSTER</a></p>
+                    <p style="margin: 8px 0;">Call us directly: <a href="tel:888-478-3867" style="color: #2563eb; font-weight: bold;">888-478-DUMP (3867)</a></p>
                     <p style="margin: 0;">Mention your quote request for faster service.</p>
                 </div>
                 

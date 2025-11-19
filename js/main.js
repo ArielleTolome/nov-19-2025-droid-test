@@ -1,4 +1,4 @@
-// Main JavaScript functionality for DumpsterRentalPro website
+// Main JavaScript functionality for Dumpsters.com website
 
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile menu toggle
