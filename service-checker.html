@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Check if dumpster rental service is available in your area. Enter your ZIP code to verify coverage.">
+    <title>Service Area Checker | ZIP Code Lookup | Dumpsters.com</title>
+    <link rel="canonical" href="https://www.dumpsters.com/service-checker.html">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .checker-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .checker-box {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            padding: 50px;
+            text-align: center;
+        }
+        
+        .checker-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        
+        .checker-title {
+            color: #333;
+            font-size: 2.2em;
+            margin-bottom: 15px;
+        }
+        
+        .checker-subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 40px;
+        }
+        
+        .zip-input-group {
+            display: flex;
+            gap: 15px;
+            max-width: 500px;
+            margin: 0 auto 30px;
+        }
+        
+        .zip-input {
+            flex: 1;
+            padding: 18px 25px;
+            font-size: 1.3em;
+            border: 3px solid #e0e0e0;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: 600;
+            transition: border-color 0.3s;
+        }
+        
+        .zip-input:focus {
+            outline: none;
+            border-color: #FF6B35;
+        }
+        
+        .check-btn {
+            padding: 18px 40px;
+            background: linear-gradient(135deg, #FF6B35 0%, #FF8555 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.2em;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .check-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+        }
+        
+        .check-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .result-box {
+            display: none;
+            margin-top: 40px;
+            padding: 30px;
+            border-radius: 12px;
+            animation: slideIn 0.4s ease;
+        }
+        
+        .result-box.available {
+            background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+            color: white;
+        }
+        
+        .result-box.unavailable {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .result-icon {
+            font-size: 3.5em;
+            margin-bottom: 15px;
+        }
+        
+        .result-title {
+            font-size: 2em;
+            font-weight: 800;
+            margin-bottom: 15px;
+        }
+        
+        .result-message {
+            font-size: 1.2em;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+        
+        .location-details {
+            background: rgba(255,255,255,0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 25px 0;
+            text-align: left;
+        }
+        
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .detail-row:last-child {
+            border-bottom: none;
+        }
+        
+        .detail-label {
+            font-weight: 600;
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 25px;
+        }
+        
+        .nearby-areas {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-top: 30px;
+            text-align: left;
+        }
+        
+        .nearby-areas h3 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .nearby-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .nearby-item {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #FF6B35;
+        }
+        
+        .nearby-item strong {
+            color: #333;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .nearby-item small {
+            color: #666;
+        }
+        
+        @media (max-width: 768px) {
+            .checker-box {
+                padding: 30px 20px;
+            }
+            
+            .checker-title {
+                font-size: 1.8em;
+            }
+            
+            .zip-input-group {
+                flex-direction: column;
+            }
+            
+            .action-buttons {
+                flex-direction: column;
+            }
+            
+            .nearby-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Promo Banner -->
+    <div class="promo-banner">
+        <div class="container">
+            <div class="promo-content">
+                <img src="https://www.dumpsters.com/images/pro+-logo-inverse-190x30.png" alt="Pro+ Logo" class="promo-logo">
+                <span class="promo-text">— your centralized site services program with exclusive loyalty rewards to save contractors more on every job.</span>
+                <a href="#" class="promo-link">Sign up now ›</a>
+            </div>
+            <button class="promo-close" aria-label="Close banner">X</button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="https://www.dumpsters.com/images/landing-pages/dcom-logo-inverse-300x64.png" alt="Dumpsters.com" style="height: 40px;">
+                        </a>
+                    </div>
+                    
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <ul class="nav-menu">
+                        <li><a href="dumpster-sizes.html" class="nav-link">Dumpster Sizes</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="service-areas.html" class="nav-link">Service Areas</a></li>
+                        <li><a href="resources.html" class="nav-link">Resources</a></li>
+                        <li><a href="contact.html" class="btn btn-primary">Check Your Price</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="container">
+                <div class="page-hero-content">
+                    <h1>Service Area Checker</h1>
+                    <p>Enter your ZIP code to see if we service your area and get instant pricing information.</p>
+                    
+                    <div class="breadcrumb">
+                        <a href="index.html">Home</a> / <a href="service-areas.html">Service Areas</a> / <span>ZIP Checker</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Checker Section -->
+        <div class="checker-container">
+            <div class="checker-box">
+                <div class="checker-icon">📍</div>
+                <h2 class="checker-title">Do We Service Your Area?</h2>
+                <p class="checker-subtitle">Enter your ZIP code below to check availability and pricing</p>
+                
+                <div class="zip-input-group">
+                    <input 
+                        type="text" 
+                        id="zipInput" 
+                        class="zip-input" 
+                        placeholder="Enter ZIP Code"
+                        maxlength="5"
+                        pattern="[0-9]{5}"
+                    >
+                    <button class="check-btn" onclick="checkServiceArea()">Check Now</button>
+                </div>
+                
+                <p style="color: #666; font-size: 0.95em;">
+                    We serve all 50 states. Enter your ZIP for specific local details.
+                </p>
+            </div>
+            
+            <div class="result-box" id="resultBox">
+                <div class="result-icon" id="resultIcon"></div>
+                <div class="result-title" id="resultTitle"></div>
+                <div class="result-message" id="resultMessage"></div>
+                
+                <div class="location-details" id="locationDetails">
+                    <div class="detail-row">
+                        <span class="detail-label">Location:</span>
+                        <span id="locationName"></span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Service Level:</span>
+                        <span id="serviceLevel"></span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Delivery Time:</span>
+                        <span id="deliveryTime"></span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Starting Price:</span>
+                        <span id="startingPrice"></span>
+                    </div>
+                </div>
+                
+                <div class="action-buttons">
+                    <a href="contact.html" class="btn btn-primary" style="background: white; color: #FF6B35;">Request Quote</a>
+                    <a href="tel:888-478-3867" class="btn btn-secondary" style="background: rgba(255,255,255,0.2); color: white; border-color: white;">Call Now</a>
+                </div>
+            </div>
+            
+            <div class="nearby-areas" id="nearbyAreas" style="display: none;">
+                <h3>🗺️ Nearby Service Areas</h3>
+                <div class="nearby-grid" id="nearbyGrid"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html#residential">Residential Dumpsters</a></li>
+                        <li><a href="services.html#commercial">Commercial Dumpsters</a></li>
+                        <li><a href="services.html#construction">Construction Dumpsters</a></li>
+                        <li><a href="services.html#rolloff">Roll Off Dumpsters</a></li>
+                        <li><a href="calculator.html">Cost Calculator</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="dumpster-sizes.html">Dumpster Sizes Guide</a></li>
+                        <li><a href="compare-sizes.html">Compare Sizes</a></li>
+                        <li><a href="weight-estimator.html">Weight Estimator</a></li>
+                        <li><a href="service-checker.html">Service Area Checker</a></li>
+                        <li><a href="resources.html">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Dumpsters.com</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="reviews.html">Testimonials</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="contact-info">
+                        <li><strong>Phone:</strong> <a href="tel:888-478-3867">888-478-DUMP (3867)</a></li>
+                        <li><strong>Email:</strong> <a href="mailto:info@dumpsters.com">info@dumpsters.com</a></li>
+                        <li><strong>Hours:</strong> Mon-Fri: 7am-7pm<br>Sat: 8am-5pm<br>Sun: Closed</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dumpsters.com. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky Mobile Call Bar -->
+    <div class="mobile-call-bar">
+        <a href="tel:888-478-3867" class="mobile-call-button">
+            <span class="call-icon">📞</span>
+            <span class="call-text">Call Now: 888-478-DUMP</span>
+        </a>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Simulated ZIP code database (first digit determines region)
+        const regionData = {
+            0: { region: 'Northeast', cities: ['Boston, MA', 'Providence, RI', 'Manchester, NH'] },
+            1: { region: 'Northeast', cities: ['New York, NY', 'Newark, NJ', 'Philadelphia, PA'] },
+            2: { region: 'Mid-Atlantic', cities: ['Washington, DC', 'Baltimore, MD', 'Richmond, VA'] },
+            3: { region: 'Southeast', cities: ['Atlanta, GA', 'Miami, FL', 'Tampa, FL'] },
+            4: { region: 'Southeast', cities: ['Louisville, KY', 'Memphis, TN', 'Birmingham, AL'] },
+            5: { region: 'Midwest', cities: ['Minneapolis, MN', 'Milwaukee, WI', 'Des Moines, IA'] },
+            6: { region: 'Central', cities: ['Chicago, IL', 'St. Louis, MO', 'Kansas City, MO'] },
+            7: { region: 'South Central', cities: ['Dallas, TX', 'Houston, TX', 'Little Rock, AR'] },
+            8: { region: 'Mountain', cities: ['Denver, CO', 'Phoenix, AZ', 'Albuquerque, NM'] },
+            9: { region: 'West Coast', cities: ['Los Angeles, CA', 'San Francisco, CA', 'Seattle, WA'] }
+        };
+
+        // Allow only numbers
+        document.getElementById('zipInput').addEventListener('input', function(e) {
+            this.value = this.value.replace(/[^0-9]/g, '');
+        });
+
+        // Allow Enter key to check
+        document.getElementById('zipInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                checkServiceArea();
+            }
+        });
+
+        function checkServiceArea() {
+            const zipInput = document.getElementById('zipInput');
+            const zip = zipInput.value.trim();
+            
+            // Validate ZIP code
+            if (zip.length !== 5 || !/^\d{5}$/.test(zip)) {
+                alert('Please enter a valid 5-digit ZIP code');
+                zipInput.focus();
+                return;
+            }
+            
+            // Get region based on first digit
+            const firstDigit = parseInt(zip.charAt(0));
+            const region = regionData[firstDigit];
+            
+            // Show result
+            const resultBox = document.getElementById('resultBox');
+            const resultIcon = document.getElementById('resultIcon');
+            const resultTitle = document.getElementById('resultTitle');
+            const resultMessage = document.getElementById('resultMessage');
+            
+            // All ZIP codes are available (nationwide service)
+            resultBox.className = 'result-box available';
+            resultBox.style.display = 'block';
+            
+            resultIcon.textContent = '✅';
+            resultTitle.textContent = 'Great News!';
+            resultMessage.textContent = `We service ZIP code ${zip}! We're ready to help with your dumpster rental needs.`;
+            
+            // Set location details
+            document.getElementById('locationName').textContent = `${region.region} Region`;
+            document.getElementById('serviceLevel').textContent = 'Full Service';
+            
+            // Vary delivery time by region
+            const deliveryTimes = ['Same Day', 'Next Day', '1-2 Days'];
+            const randomDelivery = deliveryTimes[firstDigit % 3];
+            document.getElementById('deliveryTime').textContent = randomDelivery + ' Available';
+            
+            // Vary pricing slightly by region
+            const basePrice = 325;
+            const regionMultiplier = 1 + (firstDigit * 0.05);
+            const startPrice = Math.round(basePrice * regionMultiplier);
+            document.getElementById('startingPrice').textContent = `From $${startPrice}`;
+            
+            // Show nearby areas
+            const nearbyAreas = document.getElementById('nearbyAreas');
+            const nearbyGrid = document.getElementById('nearbyGrid');
+            nearbyAreas.style.display = 'block';
+            
+            nearbyGrid.innerHTML = region.cities.map(city => `
+                <div class="nearby-item">
+                    <strong>${city}</strong>
+                    <small>Full Service Available</small>
+                </div>
+            `).join('');
+            
+            // Smooth scroll to results
+            setTimeout(() => {
+                resultBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 100);
+        }
+
+        // Auto-focus on ZIP input
+        document.getElementById('zipInput').focus();
+    </script>
+</body>
+</html>
