@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator Test</title>
+</head>
+<body>
+    <div id="test-results"></div>
+
+    <!-- Minimal HTML structure from calculator.html -->
+    <select id="dumpsterSize" style="display: none;">
+        <option value="10">10 Yard</option>
+        <option value="20" selected>20 Yard</option>
+    </select>
+    <input type="range" id="rentalDuration" value="7" style="display: none;">
+    <select id="projectType" style="display: none;">
+        <option value="residential" selected>Residential</option>
+    </select>
+    <input type="text" id="zipCode" style="display: none;">
+    <input type="checkbox" id="rushDelivery" style="display: none;">
+    <input type="checkbox" id="extendedRental" style="display: none;">
+
+    <div id="totalPrice"></div>
+    <div id="baseRate"></div>
+    <div id="finalTotal"></div>
+
+    <script>
+        // Copy of the calculator's logic
+        const basePrices = {
+            10: 325,
+            20: 400,
+            30: 475,
+            40: 575
+        };
+
+        const projectMultipliers = {
+            residential: 1.0,
+            construction: 1.15,
+            roofing: 1.1,
+            commercial: 1.2,
+            landscaping: 0.95
+        };
+
+        function calculateCost() {
+            const size = parseInt(document.getElementById('dumpsterSize').value);
+            const duration = parseInt(document.getElementById('rentalDuration').value);
+            const projectType = document.getElementById('projectType').value;
+            const zipCode = document.getElementById('zipCode').value;
+            const rushDelivery = document.getElementById('rushDelivery').checked;
+            const extendedRental = document.getElementById('extendedRental').checked;
+
+            let baseRate = basePrices[size] * projectMultipliers[projectType];
+
+            let dailyRate = 0;
+            if (duration > 7) {
+                const extraDays = duration - 7;
+                dailyRate = extraDays * 15;
+            }
+
+            let additionalServices = 0;
+            if (rushDelivery) additionalServices += 75;
+            if (extendedRental) additionalServices += 50;
+
+            let locationFee = 0;
+            if (zipCode && zipCode.length === 5) {
+                const firstDigit = parseInt(zipCode.charAt(0));
+                if (firstDigit >= 9) locationFee = 25;
+                else if (firstDigit <= 1) locationFee = 20;
+                else locationFee = 0;
+            }
+
+            const total = Math.round(baseRate + dailyRate + additionalServices + locationFee);
+
+            document.getElementById('baseRate').textContent = '$' + Math.round(baseRate);
+            document.getElementById('totalPrice').textContent = '$' + total;
+            document.getElementById('finalTotal').textContent = '$' + total;
+        }
+
+        // Test runner
+        function runTest() {
+            calculateCost(); // Simulate initial calculation
+
+            const baseRateEl = document.getElementById('baseRate');
+            const finalTotalEl = document.getElementById('finalTotal');
+            const resultsEl = document.getElementById('test-results');
+
+            const expectedBaseRate = '$400';
+            const expectedFinalTotal = '$400';
+
+            let pass = true;
+            let message = '';
+
+            if (baseRateEl.textContent !== expectedBaseRate) {
+                pass = false;
+                message += `FAIL: Base rate is incorrect. Expected ${expectedBaseRate}, but got ${baseRateEl.textContent}.<br>`;
+            } else {
+                message += `PASS: Base rate is correct (${expectedBaseRate}).<br>`;
+            }
+
+            if (finalTotalEl.textContent !== expectedFinalTotal) {
+                pass = false;
+                message += `FAIL: Final total is incorrect. Expected ${expectedFinalTotal}, but got ${finalTotalEl.textContent}.<br>`;
+            } else {
+                message += `PASS: Final total is correct (${expectedFinalTotal}).<br>`;
+            }
+
+            resultsEl.innerHTML = message;
+            resultsEl.style.color = pass ? 'green' : 'red';
+        }
+
+        window.onload = runTest;
+    </script>
+</body>
+</html>
