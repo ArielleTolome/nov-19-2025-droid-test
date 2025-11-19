@@ -1,0 +1,121 @@
+// Prisma schema for dumpster rental website
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model State {
+  id           String   @id @default(cuid())
+  name         String
+  slug         String   @unique
+  abbreviation String   @unique
+  cities       City[]
+  population   Int?
+  content      String?  @db.Text
+  metaTitle    String?
+  metaDesc     String?  @db.Text
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([slug])
+}
+
+model City {
+  id          String   @id @default(cuid())
+  name        String
+  slug        String
+  state       State    @relation(fields: [stateId], references: [id])
+  stateId     String
+  population  Int?
+  zipCodes    String[]
+  latitude    Float?
+  longitude   Float?
+  content     String?  @db.Text
+  metaTitle   String?
+  metaDesc    String?  @db.Text
+  quotes      Quote[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([stateId, slug])
+  @@index([stateId])
+  @@index([slug])
+}
+
+model DumpsterSize {
+  id          String   @id @default(cuid())
+  size        Int      // 10, 20, 30, 40 yards
+  name        String   // "10 Yard Dumpster"
+  slug        String   @unique
+  dimensions  String   // "14' L x 8' W x 4' H"
+  capacity    String   // "Holds 3-4 pickup truck loads"
+  basePrice   Float
+  description String   @db.Text
+  idealFor    String[] // ["Home cleanouts", "Small renovations"]
+  weight      String   // "2 tons weight limit"
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([slug])
+}
+
+model ServiceType {
+  id          String   @id @default(cuid())
+  name        String
+  slug        String   @unique
+  description String   @db.Text
+  icon        String?
+  metaTitle   String?
+  metaDesc    String?  @db.Text
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([slug])
+}
+
+model Quote {
+  id             String    @id @default(cuid())
+  name           String
+  email          String
+  phone          String
+  city           City?     @relation(fields: [cityId], references: [id])
+  cityId         String?
+  dumpsterSize   String
+  serviceType    String
+  projectType    String
+  rentalDuration String
+  deliveryDate   DateTime?
+  address        String?
+  zipCode        String
+  message        String?   @db.Text
+  status         String    @default("pending")
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  @@index([status])
+  @@index([createdAt])
+  @@index([cityId])
+}
+
+model BlogPost {
+  id          String    @id @default(cuid())
+  title       String
+  slug        String    @unique
+  content     String    @db.Text
+  excerpt     String
+  author      String    @default("DumpsterRentalPro Team")
+  published   Boolean   @default(false)
+  publishedAt DateTime?
+  metaTitle   String?
+  metaDesc    String?   @db.Text
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([published])
+  @@index([slug])
+}
