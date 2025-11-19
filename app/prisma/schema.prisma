@@ -108,7 +108,7 @@ model BlogPost {
   slug        String    @unique
   content     String    @db.Text
   excerpt     String
-  author      String    @default("DumpsterRentalPro Team")
+  author      String    @default("Dumpsters.com Team")
   published   Boolean   @default(false)
   publishedAt DateTime?
   metaTitle   String?
