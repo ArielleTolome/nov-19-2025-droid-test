@@ -1,0 +1,7756 @@
+{
+  "states": [
+    {
+      "name": "Alabama",
+      "slug": "alabama",
+      "abbreviation": "AL"
+    },
+    {
+      "name": "Alaska",
+      "slug": "alaska",
+      "abbreviation": "AK"
+    },
+    {
+      "name": "Arizona",
+      "slug": "arizona",
+      "abbreviation": "AZ"
+    },
+    {
+      "name": "Arkansas",
+      "slug": "arkansas",
+      "abbreviation": "AR"
+    },
+    {
+      "name": "California",
+      "slug": "california",
+      "abbreviation": "CA"
+    },
+    {
+      "name": "Colorado",
+      "slug": "colorado",
+      "abbreviation": "CO"
+    },
+    {
+      "name": "Connecticut",
+      "slug": "connecticut",
+      "abbreviation": "CT"
+    },
+    {
+      "name": "Delaware",
+      "slug": "delaware",
+      "abbreviation": "DE"
+    },
+    {
+      "name": "Florida",
+      "slug": "florida",
+      "abbreviation": "FL"
+    },
+    {
+      "name": "Georgia",
+      "slug": "georgia",
+      "abbreviation": "GA"
+    },
+    {
+      "name": "Hawaii",
+      "slug": "hawaii",
+      "abbreviation": "HI"
+    },
+    {
+      "name": "Idaho",
+      "slug": "idaho",
+      "abbreviation": "ID"
+    },
+    {
+      "name": "Illinois",
+      "slug": "illinois",
+      "abbreviation": "IL"
+    },
+    {
+      "name": "Indiana",
+      "slug": "indiana",
+      "abbreviation": "IN"
+    },
+    {
+      "name": "Iowa",
+      "slug": "iowa",
+      "abbreviation": "IA"
+    },
+    {
+      "name": "Kansas",
+      "slug": "kansas",
+      "abbreviation": "KS"
+    },
+    {
+      "name": "Kentucky",
+      "slug": "kentucky",
+      "abbreviation": "KY"
+    },
+    {
+      "name": "Louisiana",
+      "slug": "louisiana",
+      "abbreviation": "LA"
+    },
+    {
+      "name": "Maine",
+      "slug": "maine",
+      "abbreviation": "ME"
+    },
+    {
+      "name": "Maryland",
+      "slug": "maryland",
+      "abbreviation": "MD"
+    },
+    {
+      "name": "Massachusetts",
+      "slug": "massachusetts",
+      "abbreviation": "MA"
+    },
+    {
+      "name": "Michigan",
+      "slug": "michigan",
+      "abbreviation": "MI"
+    },
+    {
+      "name": "Minnesota",
+      "slug": "minnesota",
+      "abbreviation": "MN"
+    },
+    {
+      "name": "Mississippi",
+      "slug": "mississippi",
+      "abbreviation": "MS"
+    },
+    {
+      "name": "Missouri",
+      "slug": "missouri",
+      "abbreviation": "MO"
+    },
+    {
+      "name": "Montana",
+      "slug": "montana",
+      "abbreviation": "MT"
+    },
+    {
+      "name": "Nebraska",
+      "slug": "nebraska",
+      "abbreviation": "NE"
+    },
+    {
+      "name": "Nevada",
+      "slug": "nevada",
+      "abbreviation": "NV"
+    },
+    {
+      "name": "New Hampshire",
+      "slug": "new-hampshire",
+      "abbreviation": "NH"
+    },
+    {
+      "name": "New Jersey",
+      "slug": "new-jersey",
+      "abbreviation": "NJ"
+    },
+    {
+      "name": "New Mexico",
+      "slug": "new-mexico",
+      "abbreviation": "NM"
+    },
+    {
+      "name": "New York",
+      "slug": "new-york",
+      "abbreviation": "NY"
+    },
+    {
+      "name": "North Carolina",
+      "slug": "north-carolina",
+      "abbreviation": "NC"
+    },
+    {
+      "name": "North Dakota",
+      "slug": "north-dakota",
+      "abbreviation": "ND"
+    },
+    {
+      "name": "Ohio",
+      "slug": "ohio",
+      "abbreviation": "OH"
+    },
+    {
+      "name": "Oklahoma",
+      "slug": "oklahoma",
+      "abbreviation": "OK"
+    },
+    {
+      "name": "Oregon",
+      "slug": "oregon",
+      "abbreviation": "OR"
+    },
+    {
+      "name": "Pennsylvania",
+      "slug": "pennsylvania",
+      "abbreviation": "PA"
+    },
+    {
+      "name": "Rhode Island",
+      "slug": "rhode-island",
+      "abbreviation": "RI"
+    },
+    {
+      "name": "South Carolina",
+      "slug": "south-carolina",
+      "abbreviation": "SC"
+    },
+    {
+      "name": "South Dakota",
+      "slug": "south-dakota",
+      "abbreviation": "SD"
+    },
+    {
+      "name": "Tennessee",
+      "slug": "tennessee",
+      "abbreviation": "TN"
+    },
+    {
+      "name": "Texas",
+      "slug": "texas",
+      "abbreviation": "TX"
+    },
+    {
+      "name": "Utah",
+      "slug": "utah",
+      "abbreviation": "UT"
+    },
+    {
+      "name": "Vermont",
+      "slug": "vermont",
+      "abbreviation": "VT"
+    },
+    {
+      "name": "Virginia",
+      "slug": "virginia",
+      "abbreviation": "VA"
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "abbreviation": "WA"
+    },
+    {
+      "name": "West Virginia",
+      "slug": "west-virginia",
+      "abbreviation": "WV"
+    },
+    {
+      "name": "Wisconsin",
+      "slug": "wisconsin",
+      "abbreviation": "WI"
+    },
+    {
+      "name": "Wyoming",
+      "slug": "wyoming",
+      "abbreviation": "WY"
+    }
+  ],
+  "cities": [
+    {
+      "name": "Birmingham",
+      "slug": "birmingham",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbr": "AL",
+      "population": 480351,
+      "zipCodes": [
+        "59221",
+        "59222",
+        "59223"
+      ],
+      "latitude": 39.67377445142504,
+      "longitude": -98.66521994519573
+    },
+    {
+      "name": "Montgomery",
+      "slug": "montgomery",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbr": "AL",
+      "population": 452199,
+      "zipCodes": [
+        "64803",
+        "64804",
+        "64805"
+      ],
+      "latitude": 40.10061286703912,
+      "longitude": -98.51577413460251
+    },
+    {
+      "name": "Mobile",
+      "slug": "mobile",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbr": "AL",
+      "population": 481838,
+      "zipCodes": [
+        "29233",
+        "29234",
+        "29235"
+      ],
+      "latitude": 39.07895838368885,
+      "longitude": -98.42948699206092
+    },
+    {
+      "name": "Huntsville",
+      "slug": "huntsville",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbr": "AL",
+      "population": 273931,
+      "zipCodes": [
+        "39752",
+        "39753",
+        "39754"
+      ],
+      "latitude": 39.911357732370135,
+      "longitude": -97.92654412566266
+    },
+    {
+      "name": "Tuscaloosa",
+      "slug": "tuscaloosa",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbr": "AL",
+      "population": 411198,
+      "zipCodes": [
+        "62261",
+        "62262",
+        "62263"
+      ],
+      "latitude": 38.91714815624806,
+      "longitude": -98.62367344401437
+    },
+    {
+      "name": "Hoover",
+      "slug": "hoover",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbr": "AL",
+      "population": 451497,
+      "zipCodes": [
+        "20777",
+        "20778",
+        "20779"
+      ],
+      "latitude": 39.03495364547624,
+      "longitude": -98.7556102903354
+    },
+    {
+      "name": "Dothan",
+      "slug": "dothan",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbr": "AL",
+      "population": 152446,
+      "zipCodes": [
+        "54457",
+        "54458",
+        "54459"
+      ],
+      "latitude": 39.58331720939984,
+      "longitude": -98.61864951812878
+    },
+    {
+      "name": "Auburn",
+      "slug": "auburn",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbr": "AL",
+      "population": 59813,
+      "zipCodes": [
+        "44436",
+        "44437",
+        "44438"
+      ],
+      "latitude": 38.912684740140925,
+      "longitude": -98.65907386839292
+    },
+    {
+      "name": "Decatur",
+      "slug": "decatur",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbr": "AL",
+      "population": 470976,
+      "zipCodes": [
+        "17653",
+        "17654",
+        "17655"
+      ],
+      "latitude": 40.64953578891258,
+      "longitude": -99.50954381647244
+    },
+    {
+      "name": "Madison",
+      "slug": "madison",
+      "state": "Alabama",
+      "stateSlug": "alabama",
+      "stateAbbr": "AL",
+      "population": 101837,
+      "zipCodes": [
+        "49762",
+        "49763",
+        "49764"
+      ],
+      "latitude": 39.37983453801077,
+      "longitude": -99.40658376133928
+    },
+    {
+      "name": "Anchorage",
+      "slug": "anchorage",
+      "state": "Alaska",
+      "stateSlug": "alaska",
+      "stateAbbr": "AK",
+      "population": 399219,
+      "zipCodes": [
+        "43407",
+        "43408",
+        "43409"
+      ],
+      "latitude": 38.90985521925112,
+      "longitude": -97.90216076109446
+    },
+    {
+      "name": "Fairbanks",
+      "slug": "fairbanks",
+      "state": "Alaska",
+      "stateSlug": "alaska",
+      "stateAbbr": "AK",
+      "population": 453173,
+      "zipCodes": [
+        "84868",
+        "84869",
+        "84870"
+      ],
+      "latitude": 40.49670343947396,
+      "longitude": -97.94182939819754
+    },
+    {
+      "name": "Juneau",
+      "slug": "juneau",
+      "state": "Alaska",
+      "stateSlug": "alaska",
+      "stateAbbr": "AK",
+      "population": 481717,
+      "zipCodes": [
+        "65984",
+        "65985",
+        "65986"
+      ],
+      "latitude": 40.82125542156381,
+      "longitude": -99.48743368207101
+    },
+    {
+      "name": "Sitka",
+      "slug": "sitka",
+      "state": "Alaska",
+      "stateSlug": "alaska",
+      "stateAbbr": "AK",
+      "population": 247622,
+      "zipCodes": [
+        "48460",
+        "48461",
+        "48462"
+      ],
+      "latitude": 39.296544427682875,
+      "longitude": -97.71504947593506
+    },
+    {
+      "name": "Ketchikan",
+      "slug": "ketchikan",
+      "state": "Alaska",
+      "stateSlug": "alaska",
+      "stateAbbr": "AK",
+      "population": 490640,
+      "zipCodes": [
+        "50523",
+        "50524",
+        "50525"
+      ],
+      "latitude": 40.60219500595156,
+      "longitude": -98.65840296396193
+    },
+    {
+      "name": "Wasilla",
+      "slug": "wasilla",
+      "state": "Alaska",
+      "stateSlug": "alaska",
+      "stateAbbr": "AK",
+      "population": 436250,
+      "zipCodes": [
+        "73864",
+        "73865",
+        "73866"
+      ],
+      "latitude": 39.99838925146886,
+      "longitude": -97.61528779294285
+    },
+    {
+      "name": "Kenai",
+      "slug": "kenai",
+      "state": "Alaska",
+      "stateSlug": "alaska",
+      "stateAbbr": "AK",
+      "population": 412969,
+      "zipCodes": [
+        "71178",
+        "71179",
+        "71180"
+      ],
+      "latitude": 39.45422922497956,
+      "longitude": -98.93699190408732
+    },
+    {
+      "name": "Kodiak",
+      "slug": "kodiak",
+      "state": "Alaska",
+      "stateSlug": "alaska",
+      "stateAbbr": "AK",
+      "population": 417760,
+      "zipCodes": [
+        "47262",
+        "47263",
+        "47264"
+      ],
+      "latitude": 39.95501817086705,
+      "longitude": -98.14261570681506
+    },
+    {
+      "name": "Bethel",
+      "slug": "bethel",
+      "state": "Alaska",
+      "stateSlug": "alaska",
+      "stateAbbr": "AK",
+      "population": 159367,
+      "zipCodes": [
+        "36053",
+        "36054",
+        "36055"
+      ],
+      "latitude": 38.94656583238787,
+      "longitude": -98.85478995823462
+    },
+    {
+      "name": "Palmer",
+      "slug": "palmer",
+      "state": "Alaska",
+      "stateSlug": "alaska",
+      "stateAbbr": "AK",
+      "population": 532016,
+      "zipCodes": [
+        "92664",
+        "92665",
+        "92666"
+      ],
+      "latitude": 40.04003975523111,
+      "longitude": -98.49645300151766
+    },
+    {
+      "name": "Phoenix",
+      "slug": "phoenix",
+      "state": "Arizona",
+      "stateSlug": "arizona",
+      "stateAbbr": "AZ",
+      "population": 147378,
+      "zipCodes": [
+        "53576",
+        "53577",
+        "53578"
+      ],
+      "latitude": 40.18833058030402,
+      "longitude": -99.23907678980405
+    },
+    {
+      "name": "Tucson",
+      "slug": "tucson",
+      "state": "Arizona",
+      "stateSlug": "arizona",
+      "stateAbbr": "AZ",
+      "population": 518693,
+      "zipCodes": [
+        "33659",
+        "33660",
+        "33661"
+      ],
+      "latitude": 39.288864480029574,
+      "longitude": -97.66728126001104
+    },
+    {
+      "name": "Mesa",
+      "slug": "mesa",
+      "state": "Arizona",
+      "stateSlug": "arizona",
+      "stateAbbr": "AZ",
+      "population": 313709,
+      "zipCodes": [
+        "48191",
+        "48192",
+        "48193"
+      ],
+      "latitude": 38.838962479242625,
+      "longitude": -98.38588483646281
+    },
+    {
+      "name": "Chandler",
+      "slug": "chandler",
+      "state": "Arizona",
+      "stateSlug": "arizona",
+      "stateAbbr": "AZ",
+      "population": 447810,
+      "zipCodes": [
+        "85693",
+        "85694",
+        "85695"
+      ],
+      "latitude": 38.990497589308376,
+      "longitude": -98.86474347849476
+    },
+    {
+      "name": "Scottsdale",
+      "slug": "scottsdale",
+      "state": "Arizona",
+      "stateSlug": "arizona",
+      "stateAbbr": "AZ",
+      "population": 93793,
+      "zipCodes": [
+        "87393",
+        "87394",
+        "87395"
+      ],
+      "latitude": 38.8966102797382,
+      "longitude": -98.14351719875114
+    },
+    {
+      "name": "Glendale",
+      "slug": "glendale",
+      "state": "Arizona",
+      "stateSlug": "arizona",
+      "stateAbbr": "AZ",
+      "population": 220464,
+      "zipCodes": [
+        "44867",
+        "44868",
+        "44869"
+      ],
+      "latitude": 39.44265139637836,
+      "longitude": -97.62932413805592
+    },
+    {
+      "name": "Gilbert",
+      "slug": "gilbert",
+      "state": "Arizona",
+      "stateSlug": "arizona",
+      "stateAbbr": "AZ",
+      "population": 320902,
+      "zipCodes": [
+        "37761",
+        "37762",
+        "37763"
+      ],
+      "latitude": 40.37477039025615,
+      "longitude": -99.34981332652606
+    },
+    {
+      "name": "Tempe",
+      "slug": "tempe",
+      "state": "Arizona",
+      "stateSlug": "arizona",
+      "stateAbbr": "AZ",
+      "population": 291199,
+      "zipCodes": [
+        "77604",
+        "77605",
+        "77606"
+      ],
+      "latitude": 40.48690654417146,
+      "longitude": -98.66871100368628
+    },
+    {
+      "name": "Peoria",
+      "slug": "peoria",
+      "state": "Arizona",
+      "stateSlug": "arizona",
+      "stateAbbr": "AZ",
+      "population": 455170,
+      "zipCodes": [
+        "21276",
+        "21277",
+        "21278"
+      ],
+      "latitude": 40.10204675147893,
+      "longitude": -98.77330712095679
+    },
+    {
+      "name": "Surprise",
+      "slug": "surprise",
+      "state": "Arizona",
+      "stateSlug": "arizona",
+      "stateAbbr": "AZ",
+      "population": 220364,
+      "zipCodes": [
+        "24194",
+        "24195",
+        "24196"
+      ],
+      "latitude": 39.60543550263734,
+      "longitude": -98.16686182029193
+    },
+    {
+      "name": "Little Rock",
+      "slug": "little-rock",
+      "state": "Arkansas",
+      "stateSlug": "arkansas",
+      "stateAbbr": "AR",
+      "population": 395130,
+      "zipCodes": [
+        "43298",
+        "43299",
+        "43300"
+      ],
+      "latitude": 39.65199115037427,
+      "longitude": -98.11895923225471
+    },
+    {
+      "name": "Fort Smith",
+      "slug": "fort-smith",
+      "state": "Arkansas",
+      "stateSlug": "arkansas",
+      "stateAbbr": "AR",
+      "population": 470227,
+      "zipCodes": [
+        "45352",
+        "45353",
+        "45354"
+      ],
+      "latitude": 39.957624554052224,
+      "longitude": -99.45677409455753
+    },
+    {
+      "name": "Fayetteville",
+      "slug": "fayetteville",
+      "state": "Arkansas",
+      "stateSlug": "arkansas",
+      "stateAbbr": "AR",
+      "population": 134776,
+      "zipCodes": [
+        "18583",
+        "18584",
+        "18585"
+      ],
+      "latitude": 39.61201912295601,
+      "longitude": -98.04049993912275
+    },
+    {
+      "name": "Springdale",
+      "slug": "springdale",
+      "state": "Arkansas",
+      "stateSlug": "arkansas",
+      "stateAbbr": "AR",
+      "population": 191273,
+      "zipCodes": [
+        "21839",
+        "21840",
+        "21841"
+      ],
+      "latitude": 39.11106946324413,
+      "longitude": -97.7573362194043
+    },
+    {
+      "name": "Jonesboro",
+      "slug": "jonesboro",
+      "state": "Arkansas",
+      "stateSlug": "arkansas",
+      "stateAbbr": "AR",
+      "population": 510575,
+      "zipCodes": [
+        "61990",
+        "61991",
+        "61992"
+      ],
+      "latitude": 39.49994975032458,
+      "longitude": -99.24131102477432
+    },
+    {
+      "name": "North Little Rock",
+      "slug": "north-little-rock",
+      "state": "Arkansas",
+      "stateSlug": "arkansas",
+      "stateAbbr": "AR",
+      "population": 55425,
+      "zipCodes": [
+        "61312",
+        "61313",
+        "61314"
+      ],
+      "latitude": 40.596499349195504,
+      "longitude": -98.21392829298914
+    },
+    {
+      "name": "Conway",
+      "slug": "conway",
+      "state": "Arkansas",
+      "stateSlug": "arkansas",
+      "stateAbbr": "AR",
+      "population": 120579,
+      "zipCodes": [
+        "80241",
+        "80242",
+        "80243"
+      ],
+      "latitude": 40.72905787948341,
+      "longitude": -99.41700093872304
+    },
+    {
+      "name": "Rogers",
+      "slug": "rogers",
+      "state": "Arkansas",
+      "stateSlug": "arkansas",
+      "stateAbbr": "AR",
+      "population": 370390,
+      "zipCodes": [
+        "74434",
+        "74435",
+        "74436"
+      ],
+      "latitude": 39.16877646120561,
+      "longitude": -99.33087497155049
+    },
+    {
+      "name": "Pine Bluff",
+      "slug": "pine-bluff",
+      "state": "Arkansas",
+      "stateSlug": "arkansas",
+      "stateAbbr": "AR",
+      "population": 397543,
+      "zipCodes": [
+        "99314",
+        "99315",
+        "99316"
+      ],
+      "latitude": 40.37153955510908,
+      "longitude": -98.13330802245291
+    },
+    {
+      "name": "Bentonville",
+      "slug": "bentonville",
+      "state": "Arkansas",
+      "stateSlug": "arkansas",
+      "stateAbbr": "AR",
+      "population": 472972,
+      "zipCodes": [
+        "24404",
+        "24405",
+        "24406"
+      ],
+      "latitude": 40.0610816059927,
+      "longitude": -99.01798916506655
+    },
+    {
+      "name": "Los Angeles",
+      "slug": "los-angeles",
+      "state": "California",
+      "stateSlug": "california",
+      "stateAbbr": "CA",
+      "population": 540089,
+      "zipCodes": [
+        "26433",
+        "26434",
+        "26435"
+      ],
+      "latitude": 36.62475643474543,
+      "longitude": -119.81254305912458
+    },
+    {
+      "name": "San Diego",
+      "slug": "san-diego",
+      "state": "California",
+      "stateSlug": "california",
+      "stateAbbr": "CA",
+      "population": 218901,
+      "zipCodes": [
+        "58362",
+        "58363",
+        "58364"
+      ],
+      "latitude": 35.94109238510937,
+      "longitude": -119.29903839424144
+    },
+    {
+      "name": "San Jose",
+      "slug": "san-jose",
+      "state": "California",
+      "stateSlug": "california",
+      "stateAbbr": "CA",
+      "population": 345880,
+      "zipCodes": [
+        "18950",
+        "18951",
+        "18952"
+      ],
+      "latitude": 35.99421514748172,
+      "longitude": -119.97476791749149
+    },
+    {
+      "name": "San Francisco",
+      "slug": "san-francisco",
+      "state": "California",
+      "stateSlug": "california",
+      "stateAbbr": "CA",
+      "population": 489461,
+      "zipCodes": [
+        "19842",
+        "19843",
+        "19844"
+      ],
+      "latitude": 36.00430163788968,
+      "longitude": -119.28779698815225
+    },
+    {
+      "name": "Fresno",
+      "slug": "fresno",
+      "state": "California",
+      "stateSlug": "california",
+      "stateAbbr": "CA",
+      "population": 222639,
+      "zipCodes": [
+        "42191",
+        "42192",
+        "42193"
+      ],
+      "latitude": 36.53659425075952,
+      "longitude": -120.16841846623635
+    },
+    {
+      "name": "Sacramento",
+      "slug": "sacramento",
+      "state": "California",
+      "stateSlug": "california",
+      "stateAbbr": "CA",
+      "population": 412107,
+      "zipCodes": [
+        "34100",
+        "34101",
+        "34102"
+      ],
+      "latitude": 36.450761589705465,
+      "longitude": -119.65538125499539
+    },
+    {
+      "name": "Long Beach",
+      "slug": "long-beach",
+      "state": "California",
+      "stateSlug": "california",
+      "stateAbbr": "CA",
+      "population": 268234,
+      "zipCodes": [
+        "37990",
+        "37991",
+        "37992"
+      ],
+      "latitude": 37.18149140110237,
+      "longitude": -119.25776201564547
+    },
+    {
+      "name": "Oakland",
+      "slug": "oakland",
+      "state": "California",
+      "stateSlug": "california",
+      "stateAbbr": "CA",
+      "population": 251811,
+      "zipCodes": [
+        "34242",
+        "34243",
+        "34244"
+      ],
+      "latitude": 36.04088993310779,
+      "longitude": -119.64367260705092
+    },
+    {
+      "name": "Bakersfield",
+      "slug": "bakersfield",
+      "state": "California",
+      "stateSlug": "california",
+      "stateAbbr": "CA",
+      "population": 231111,
+      "zipCodes": [
+        "52488",
+        "52489",
+        "52490"
+      ],
+      "latitude": 35.871479754021124,
+      "longitude": -119.68683425140011
+    },
+    {
+      "name": "Anaheim",
+      "slug": "anaheim",
+      "state": "California",
+      "stateSlug": "california",
+      "stateAbbr": "CA",
+      "population": 423720,
+      "zipCodes": [
+        "15235",
+        "15236",
+        "15237"
+      ],
+      "latitude": 36.98001683811966,
+      "longitude": -118.94312364463141
+    },
+    {
+      "name": "Denver",
+      "slug": "denver",
+      "state": "Colorado",
+      "stateSlug": "colorado",
+      "stateAbbr": "CO",
+      "population": 536168,
+      "zipCodes": [
+        "46160",
+        "46161",
+        "46162"
+      ],
+      "latitude": 40.626498781525875,
+      "longitude": -98.58973302367014
+    },
+    {
+      "name": "Colorado Springs",
+      "slug": "colorado-springs",
+      "state": "Colorado",
+      "stateSlug": "colorado",
+      "stateAbbr": "CO",
+      "population": 231712,
+      "zipCodes": [
+        "46124",
+        "46125",
+        "46126"
+      ],
+      "latitude": 40.32730582612963,
+      "longitude": -97.89854481520938
+    },
+    {
+      "name": "Aurora",
+      "slug": "aurora",
+      "state": "Colorado",
+      "stateSlug": "colorado",
+      "stateAbbr": "CO",
+      "population": 406818,
+      "zipCodes": [
+        "67755",
+        "67756",
+        "67757"
+      ],
+      "latitude": 40.34968971673167,
+      "longitude": -97.92031830073996
+    },
+    {
+      "name": "Fort Collins",
+      "slug": "fort-collins",
+      "state": "Colorado",
+      "stateSlug": "colorado",
+      "stateAbbr": "CO",
+      "population": 248450,
+      "zipCodes": [
+        "17262",
+        "17263",
+        "17264"
+      ],
+      "latitude": 38.86915304565668,
+      "longitude": -97.95429533119642
+    },
+    {
+      "name": "Lakewood",
+      "slug": "lakewood",
+      "state": "Colorado",
+      "stateSlug": "colorado",
+      "stateAbbr": "CO",
+      "population": 227834,
+      "zipCodes": [
+        "93573",
+        "93574",
+        "93575"
+      ],
+      "latitude": 39.19618400834874,
+      "longitude": -98.91701143566739
+    },
+    {
+      "name": "Thornton",
+      "slug": "thornton",
+      "state": "Colorado",
+      "stateSlug": "colorado",
+      "stateAbbr": "CO",
+      "population": 86261,
+      "zipCodes": [
+        "33692",
+        "33693",
+        "33694"
+      ],
+      "latitude": 40.507901282143635,
+      "longitude": -98.40343081691364
+    },
+    {
+      "name": "Arvada",
+      "slug": "arvada",
+      "state": "Colorado",
+      "stateSlug": "colorado",
+      "stateAbbr": "CO",
+      "population": 88375,
+      "zipCodes": [
+        "77937",
+        "77938",
+        "77939"
+      ],
+      "latitude": 38.97910839649094,
+      "longitude": -99.0927314130623
+    },
+    {
+      "name": "Westminster",
+      "slug": "westminster",
+      "state": "Colorado",
+      "stateSlug": "colorado",
+      "stateAbbr": "CO",
+      "population": 325533,
+      "zipCodes": [
+        "71838",
+        "71839",
+        "71840"
+      ],
+      "latitude": 40.761132038015624,
+      "longitude": -99.14793328346403
+    },
+    {
+      "name": "Pueblo",
+      "slug": "pueblo",
+      "state": "Colorado",
+      "stateSlug": "colorado",
+      "stateAbbr": "CO",
+      "population": 537940,
+      "zipCodes": [
+        "61213",
+        "61214",
+        "61215"
+      ],
+      "latitude": 40.09361732362723,
+      "longitude": -98.18738733127701
+    },
+    {
+      "name": "Centennial",
+      "slug": "centennial",
+      "state": "Colorado",
+      "stateSlug": "colorado",
+      "stateAbbr": "CO",
+      "population": 125558,
+      "zipCodes": [
+        "15232",
+        "15233",
+        "15234"
+      ],
+      "latitude": 40.45635788974204,
+      "longitude": -99.4696378365431
+    },
+    {
+      "name": "Bridgeport",
+      "slug": "bridgeport",
+      "state": "Connecticut",
+      "stateSlug": "connecticut",
+      "stateAbbr": "CT",
+      "population": 492778,
+      "zipCodes": [
+        "10032",
+        "10033",
+        "10034"
+      ],
+      "latitude": 39.58605129412081,
+      "longitude": -99.37428753697269
+    },
+    {
+      "name": "New Haven",
+      "slug": "new-haven",
+      "state": "Connecticut",
+      "stateSlug": "connecticut",
+      "stateAbbr": "CT",
+      "population": 356672,
+      "zipCodes": [
+        "50740",
+        "50741",
+        "50742"
+      ],
+      "latitude": 39.74542894267412,
+      "longitude": -98.01008377730993
+    },
+    {
+      "name": "Hartford",
+      "slug": "hartford",
+      "state": "Connecticut",
+      "stateSlug": "connecticut",
+      "stateAbbr": "CT",
+      "population": 539602,
+      "zipCodes": [
+        "99917",
+        "99918",
+        "99919"
+      ],
+      "latitude": 39.83704625143802,
+      "longitude": -99.22991831297361
+    },
+    {
+      "name": "Stamford",
+      "slug": "stamford",
+      "state": "Connecticut",
+      "stateSlug": "connecticut",
+      "stateAbbr": "CT",
+      "population": 348668,
+      "zipCodes": [
+        "76156",
+        "76157",
+        "76158"
+      ],
+      "latitude": 40.20606296325215,
+      "longitude": -98.94781089922064
+    },
+    {
+      "name": "Waterbury",
+      "slug": "waterbury",
+      "state": "Connecticut",
+      "stateSlug": "connecticut",
+      "stateAbbr": "CT",
+      "population": 310350,
+      "zipCodes": [
+        "89600",
+        "89601",
+        "89602"
+      ],
+      "latitude": 38.88703479690465,
+      "longitude": -98.51223328176616
+    },
+    {
+      "name": "Norwalk",
+      "slug": "norwalk",
+      "state": "Connecticut",
+      "stateSlug": "connecticut",
+      "stateAbbr": "CT",
+      "population": 429292,
+      "zipCodes": [
+        "78621",
+        "78622",
+        "78623"
+      ],
+      "latitude": 39.259694413171815,
+      "longitude": -98.1028139019951
+    },
+    {
+      "name": "Danbury",
+      "slug": "danbury",
+      "state": "Connecticut",
+      "stateSlug": "connecticut",
+      "stateAbbr": "CT",
+      "population": 436926,
+      "zipCodes": [
+        "15953",
+        "15954",
+        "15955"
+      ],
+      "latitude": 40.423167420522276,
+      "longitude": -99.15584181419173
+    },
+    {
+      "name": "New Britain",
+      "slug": "new-britain",
+      "state": "Connecticut",
+      "stateSlug": "connecticut",
+      "stateAbbr": "CT",
+      "population": 355494,
+      "zipCodes": [
+        "78273",
+        "78274",
+        "78275"
+      ],
+      "latitude": 40.667081891076144,
+      "longitude": -99.41440349485063
+    },
+    {
+      "name": "West Hartford",
+      "slug": "west-hartford",
+      "state": "Connecticut",
+      "stateSlug": "connecticut",
+      "stateAbbr": "CT",
+      "population": 406980,
+      "zipCodes": [
+        "21464",
+        "21465",
+        "21466"
+      ],
+      "latitude": 39.298036667795834,
+      "longitude": -97.99492787407432
+    },
+    {
+      "name": "Greenwich",
+      "slug": "greenwich",
+      "state": "Connecticut",
+      "stateSlug": "connecticut",
+      "stateAbbr": "CT",
+      "population": 177197,
+      "zipCodes": [
+        "59292",
+        "59293",
+        "59294"
+      ],
+      "latitude": 39.710807062226024,
+      "longitude": -97.79285394228887
+    },
+    {
+      "name": "Wilmington",
+      "slug": "wilmington",
+      "state": "Delaware",
+      "stateSlug": "delaware",
+      "stateAbbr": "DE",
+      "population": 378495,
+      "zipCodes": [
+        "46484",
+        "46485",
+        "46486"
+      ],
+      "latitude": 40.34294582680639,
+      "longitude": -97.87124456814391
+    },
+    {
+      "name": "Dover",
+      "slug": "dover",
+      "state": "Delaware",
+      "stateSlug": "delaware",
+      "stateAbbr": "DE",
+      "population": 328236,
+      "zipCodes": [
+        "21924",
+        "21925",
+        "21926"
+      ],
+      "latitude": 39.742957528413214,
+      "longitude": -98.37287369589994
+    },
+    {
+      "name": "Newark",
+      "slug": "newark",
+      "state": "Delaware",
+      "stateSlug": "delaware",
+      "stateAbbr": "DE",
+      "population": 350550,
+      "zipCodes": [
+        "66781",
+        "66782",
+        "66783"
+      ],
+      "latitude": 40.81722648615401,
+      "longitude": -99.18636566198835
+    },
+    {
+      "name": "Middletown",
+      "slug": "middletown",
+      "state": "Delaware",
+      "stateSlug": "delaware",
+      "stateAbbr": "DE",
+      "population": 299889,
+      "zipCodes": [
+        "46000",
+        "46001",
+        "46002"
+      ],
+      "latitude": 39.78032523630516,
+      "longitude": -99.36627397680324
+    },
+    {
+      "name": "Smyrna",
+      "slug": "smyrna",
+      "state": "Delaware",
+      "stateSlug": "delaware",
+      "stateAbbr": "DE",
+      "population": 142832,
+      "zipCodes": [
+        "41816",
+        "41817",
+        "41818"
+      ],
+      "latitude": 40.082819396474186,
+      "longitude": -98.9982239291282
+    },
+    {
+      "name": "Milford",
+      "slug": "milford",
+      "state": "Delaware",
+      "stateSlug": "delaware",
+      "stateAbbr": "DE",
+      "population": 370476,
+      "zipCodes": [
+        "73726",
+        "73727",
+        "73728"
+      ],
+      "latitude": 39.55535034256631,
+      "longitude": -98.34518732172775
+    },
+    {
+      "name": "Seaford",
+      "slug": "seaford",
+      "state": "Delaware",
+      "stateSlug": "delaware",
+      "stateAbbr": "DE",
+      "population": 464923,
+      "zipCodes": [
+        "11778",
+        "11779",
+        "11780"
+      ],
+      "latitude": 39.14624601109699,
+      "longitude": -97.78900949858347
+    },
+    {
+      "name": "Georgetown",
+      "slug": "georgetown",
+      "state": "Delaware",
+      "stateSlug": "delaware",
+      "stateAbbr": "DE",
+      "population": 232082,
+      "zipCodes": [
+        "34417",
+        "34418",
+        "34419"
+      ],
+      "latitude": 40.78777698846465,
+      "longitude": -97.98800753671517
+    },
+    {
+      "name": "Elsmere",
+      "slug": "elsmere",
+      "state": "Delaware",
+      "stateSlug": "delaware",
+      "stateAbbr": "DE",
+      "population": 142317,
+      "zipCodes": [
+        "30092",
+        "30093",
+        "30094"
+      ],
+      "latitude": 39.946748160024804,
+      "longitude": -98.80590236341875
+    },
+    {
+      "name": "Laurel",
+      "slug": "laurel",
+      "state": "Delaware",
+      "stateSlug": "delaware",
+      "stateAbbr": "DE",
+      "population": 340563,
+      "zipCodes": [
+        "69110",
+        "69111",
+        "69112"
+      ],
+      "latitude": 39.371171791047914,
+      "longitude": -99.4570705211391
+    },
+    {
+      "name": "Jacksonville",
+      "slug": "jacksonville",
+      "state": "Florida",
+      "stateSlug": "florida",
+      "stateAbbr": "FL",
+      "population": 61801,
+      "zipCodes": [
+        "40115",
+        "40116",
+        "40117"
+      ],
+      "latitude": 28.296889305594032,
+      "longitude": -82.4629448486478
+    },
+    {
+      "name": "Miami",
+      "slug": "miami",
+      "state": "Florida",
+      "stateSlug": "florida",
+      "stateAbbr": "FL",
+      "population": 180361,
+      "zipCodes": [
+        "49252",
+        "49253",
+        "49254"
+      ],
+      "latitude": 27.30933147469774,
+      "longitude": -81.36402303282222
+    },
+    {
+      "name": "Tampa",
+      "slug": "tampa",
+      "state": "Florida",
+      "stateSlug": "florida",
+      "stateAbbr": "FL",
+      "population": 536772,
+      "zipCodes": [
+        "35182",
+        "35183",
+        "35184"
+      ],
+      "latitude": 28.633776405637736,
+      "longitude": -81.96678760666101
+    },
+    {
+      "name": "Orlando",
+      "slug": "orlando",
+      "state": "Florida",
+      "stateSlug": "florida",
+      "stateAbbr": "FL",
+      "population": 321311,
+      "zipCodes": [
+        "27993",
+        "27994",
+        "27995"
+      ],
+      "latitude": 27.42875744592953,
+      "longitude": -82.15467182291805
+    },
+    {
+      "name": "St. Petersburg",
+      "slug": "st-petersburg",
+      "state": "Florida",
+      "stateSlug": "florida",
+      "stateAbbr": "FL",
+      "population": 422529,
+      "zipCodes": [
+        "13923",
+        "13924",
+        "13925"
+      ],
+      "latitude": 27.532330993117533,
+      "longitude": -82.43769542683452
+    },
+    {
+      "name": "Hialeah",
+      "slug": "hialeah",
+      "state": "Florida",
+      "stateSlug": "florida",
+      "stateAbbr": "FL",
+      "population": 492850,
+      "zipCodes": [
+        "33816",
+        "33817",
+        "33818"
+      ],
+      "latitude": 26.98789806805512,
+      "longitude": -81.85814011034721
+    },
+    {
+      "name": "Tallahassee",
+      "slug": "tallahassee",
+      "state": "Florida",
+      "stateSlug": "florida",
+      "stateAbbr": "FL",
+      "population": 63519,
+      "zipCodes": [
+        "38678",
+        "38679",
+        "38680"
+      ],
+      "latitude": 27.710452081248512,
+      "longitude": -81.21605693322974
+    },
+    {
+      "name": "Fort Lauderdale",
+      "slug": "fort-lauderdale",
+      "state": "Florida",
+      "stateSlug": "florida",
+      "stateAbbr": "FL",
+      "population": 229804,
+      "zipCodes": [
+        "31866",
+        "31867",
+        "31868"
+      ],
+      "latitude": 27.672455381831437,
+      "longitude": -82.07156981519424
+    },
+    {
+      "name": "Port St. Lucie",
+      "slug": "port-st-lucie",
+      "state": "Florida",
+      "stateSlug": "florida",
+      "stateAbbr": "FL",
+      "population": 375904,
+      "zipCodes": [
+        "83439",
+        "83440",
+        "83441"
+      ],
+      "latitude": 27.589162874186762,
+      "longitude": -81.84026879211487
+    },
+    {
+      "name": "Cape Coral",
+      "slug": "cape-coral",
+      "state": "Florida",
+      "stateSlug": "florida",
+      "stateAbbr": "FL",
+      "population": 422940,
+      "zipCodes": [
+        "27064",
+        "27065",
+        "27066"
+      ],
+      "latitude": 28.464037380365582,
+      "longitude": -82.48706386656656
+    },
+    {
+      "name": "Atlanta",
+      "slug": "atlanta",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbr": "GA",
+      "population": 357405,
+      "zipCodes": [
+        "69526",
+        "69527",
+        "69528"
+      ],
+      "latitude": 39.78484200398677,
+      "longitude": -99.27987044887517
+    },
+    {
+      "name": "Augusta",
+      "slug": "augusta",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbr": "GA",
+      "population": 449441,
+      "zipCodes": [
+        "44763",
+        "44764",
+        "44765"
+      ],
+      "latitude": 39.96996108340008,
+      "longitude": -97.69059500125182
+    },
+    {
+      "name": "Columbus",
+      "slug": "columbus",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbr": "GA",
+      "population": 529438,
+      "zipCodes": [
+        "94028",
+        "94029",
+        "94030"
+      ],
+      "latitude": 39.43161580354479,
+      "longitude": -99.0351659660599
+    },
+    {
+      "name": "Savannah",
+      "slug": "savannah",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbr": "GA",
+      "population": 485826,
+      "zipCodes": [
+        "31994",
+        "31995",
+        "31996"
+      ],
+      "latitude": 39.391425210287366,
+      "longitude": -98.73987206683731
+    },
+    {
+      "name": "Athens",
+      "slug": "athens",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbr": "GA",
+      "population": 495332,
+      "zipCodes": [
+        "53256",
+        "53257",
+        "53258"
+      ],
+      "latitude": 40.23010047122232,
+      "longitude": -98.42974711598391
+    },
+    {
+      "name": "Sandy Springs",
+      "slug": "sandy-springs",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbr": "GA",
+      "population": 80904,
+      "zipCodes": [
+        "66123",
+        "66124",
+        "66125"
+      ],
+      "latitude": 39.49294657532719,
+      "longitude": -99.2261646165225
+    },
+    {
+      "name": "Roswell",
+      "slug": "roswell",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbr": "GA",
+      "population": 423659,
+      "zipCodes": [
+        "50652",
+        "50653",
+        "50654"
+      ],
+      "latitude": 39.82181094456713,
+      "longitude": -99.47618774271649
+    },
+    {
+      "name": "Macon",
+      "slug": "macon",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbr": "GA",
+      "population": 186623,
+      "zipCodes": [
+        "60958",
+        "60959",
+        "60960"
+      ],
+      "latitude": 40.745001370516334,
+      "longitude": -99.23561036593071
+    },
+    {
+      "name": "Johns Creek",
+      "slug": "johns-creek",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbr": "GA",
+      "population": 297311,
+      "zipCodes": [
+        "25664",
+        "25665",
+        "25666"
+      ],
+      "latitude": 39.16566324141315,
+      "longitude": -99.43723070723429
+    },
+    {
+      "name": "Albany",
+      "slug": "albany",
+      "state": "Georgia",
+      "stateSlug": "georgia",
+      "stateAbbr": "GA",
+      "population": 111588,
+      "zipCodes": [
+        "30778",
+        "30779",
+        "30780"
+      ],
+      "latitude": 39.530165207199616,
+      "longitude": -98.89357114622979
+    },
+    {
+      "name": "Honolulu",
+      "slug": "honolulu",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbr": "HI",
+      "population": 500382,
+      "zipCodes": [
+        "14189",
+        "14190",
+        "14191"
+      ],
+      "latitude": 39.121080877949304,
+      "longitude": -97.85314545818036
+    },
+    {
+      "name": "Hilo",
+      "slug": "hilo",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbr": "HI",
+      "population": 215217,
+      "zipCodes": [
+        "31247",
+        "31248",
+        "31249"
+      ],
+      "latitude": 39.35777465955781,
+      "longitude": -98.66024468605214
+    },
+    {
+      "name": "Kailua",
+      "slug": "kailua",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbr": "HI",
+      "population": 95607,
+      "zipCodes": [
+        "25275",
+        "25276",
+        "25277"
+      ],
+      "latitude": 39.66662860338797,
+      "longitude": -98.42943415690883
+    },
+    {
+      "name": "Kaneohe",
+      "slug": "kaneohe",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbr": "HI",
+      "population": 254347,
+      "zipCodes": [
+        "99779",
+        "99780",
+        "99781"
+      ],
+      "latitude": 39.5208910455681,
+      "longitude": -98.1097494019676
+    },
+    {
+      "name": "Kahului",
+      "slug": "kahului",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbr": "HI",
+      "population": 128910,
+      "zipCodes": [
+        "56227",
+        "56228",
+        "56229"
+      ],
+      "latitude": 39.72739551005583,
+      "longitude": -98.12422846719363
+    },
+    {
+      "name": "Ewa Beach",
+      "slug": "ewa-beach",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbr": "HI",
+      "population": 129604,
+      "zipCodes": [
+        "75191",
+        "75192",
+        "75193"
+      ],
+      "latitude": 40.3671322918567,
+      "longitude": -98.88663555294569
+    },
+    {
+      "name": "Mililani",
+      "slug": "mililani",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbr": "HI",
+      "population": 310180,
+      "zipCodes": [
+        "51048",
+        "51049",
+        "51050"
+      ],
+      "latitude": 39.00208891219344,
+      "longitude": -98.23643258799153
+    },
+    {
+      "name": "Kihei",
+      "slug": "kihei",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbr": "HI",
+      "population": 234684,
+      "zipCodes": [
+        "29855",
+        "29856",
+        "29857"
+      ],
+      "latitude": 39.58260478292968,
+      "longitude": -98.92242215078117
+    },
+    {
+      "name": "Pearl City",
+      "slug": "pearl-city",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbr": "HI",
+      "population": 263901,
+      "zipCodes": [
+        "51519",
+        "51520",
+        "51521"
+      ],
+      "latitude": 39.79368284178666,
+      "longitude": -97.60249004895887
+    },
+    {
+      "name": "Waipahu",
+      "slug": "waipahu",
+      "state": "Hawaii",
+      "stateSlug": "hawaii",
+      "stateAbbr": "HI",
+      "population": 471587,
+      "zipCodes": [
+        "18207",
+        "18208",
+        "18209"
+      ],
+      "latitude": 38.951884766219436,
+      "longitude": -97.85744488738993
+    },
+    {
+      "name": "Boise",
+      "slug": "boise",
+      "state": "Idaho",
+      "stateSlug": "idaho",
+      "stateAbbr": "ID",
+      "population": 88198,
+      "zipCodes": [
+        "27151",
+        "27152",
+        "27153"
+      ],
+      "latitude": 38.864934866332405,
+      "longitude": -99.28434418591144
+    },
+    {
+      "name": "Nampa",
+      "slug": "nampa",
+      "state": "Idaho",
+      "stateSlug": "idaho",
+      "stateAbbr": "ID",
+      "population": 196315,
+      "zipCodes": [
+        "38755",
+        "38756",
+        "38757"
+      ],
+      "latitude": 39.17196775372038,
+      "longitude": -97.93660053751648
+    },
+    {
+      "name": "Meridian",
+      "slug": "meridian",
+      "state": "Idaho",
+      "stateSlug": "idaho",
+      "stateAbbr": "ID",
+      "population": 500739,
+      "zipCodes": [
+        "59490",
+        "59491",
+        "59492"
+      ],
+      "latitude": 39.428677089920946,
+      "longitude": -99.44636039358514
+    },
+    {
+      "name": "Idaho Falls",
+      "slug": "idaho-falls",
+      "state": "Idaho",
+      "stateSlug": "idaho",
+      "stateAbbr": "ID",
+      "population": 291672,
+      "zipCodes": [
+        "12635",
+        "12636",
+        "12637"
+      ],
+      "latitude": 39.26777752030456,
+      "longitude": -98.81745799439568
+    },
+    {
+      "name": "Pocatello",
+      "slug": "pocatello",
+      "state": "Idaho",
+      "stateSlug": "idaho",
+      "stateAbbr": "ID",
+      "population": 423249,
+      "zipCodes": [
+        "73449",
+        "73450",
+        "73451"
+      ],
+      "latitude": 39.08418258729747,
+      "longitude": -99.14351728052272
+    },
+    {
+      "name": "Caldwell",
+      "slug": "caldwell",
+      "state": "Idaho",
+      "stateSlug": "idaho",
+      "stateAbbr": "ID",
+      "population": 283744,
+      "zipCodes": [
+        "18641",
+        "18642",
+        "18643"
+      ],
+      "latitude": 40.47620960546212,
+      "longitude": -98.18320711593257
+    },
+    {
+      "name": "Coeur d'Alene",
+      "slug": "coeur-dalene",
+      "state": "Idaho",
+      "stateSlug": "idaho",
+      "stateAbbr": "ID",
+      "population": 315660,
+      "zipCodes": [
+        "45141",
+        "45142",
+        "45143"
+      ],
+      "latitude": 39.01293908937481,
+      "longitude": -97.86840685346026
+    },
+    {
+      "name": "Twin Falls",
+      "slug": "twin-falls",
+      "state": "Idaho",
+      "stateSlug": "idaho",
+      "stateAbbr": "ID",
+      "population": 265345,
+      "zipCodes": [
+        "60278",
+        "60279",
+        "60280"
+      ],
+      "latitude": 39.7652424843326,
+      "longitude": -98.78247993522996
+    },
+    {
+      "name": "Lewiston",
+      "slug": "lewiston",
+      "state": "Idaho",
+      "stateSlug": "idaho",
+      "stateAbbr": "ID",
+      "population": 541758,
+      "zipCodes": [
+        "62647",
+        "62648",
+        "62649"
+      ],
+      "latitude": 39.727944749606785,
+      "longitude": -99.12248763875061
+    },
+    {
+      "name": "Post Falls",
+      "slug": "post-falls",
+      "state": "Idaho",
+      "stateSlug": "idaho",
+      "stateAbbr": "ID",
+      "population": 148849,
+      "zipCodes": [
+        "33721",
+        "33722",
+        "33723"
+      ],
+      "latitude": 39.571379708055154,
+      "longitude": -98.18626134328058
+    },
+    {
+      "name": "Chicago",
+      "slug": "chicago",
+      "state": "Illinois",
+      "stateSlug": "illinois",
+      "stateAbbr": "IL",
+      "population": 116309,
+      "zipCodes": [
+        "10482",
+        "10483",
+        "10484"
+      ],
+      "latitude": 39.500257291573966,
+      "longitude": -98.56965603566158
+    },
+    {
+      "name": "Aurora",
+      "slug": "aurora",
+      "state": "Illinois",
+      "stateSlug": "illinois",
+      "stateAbbr": "IL",
+      "population": 335007,
+      "zipCodes": [
+        "84341",
+        "84342",
+        "84343"
+      ],
+      "latitude": 39.49672042387776,
+      "longitude": -99.38102313624078
+    },
+    {
+      "name": "Naperville",
+      "slug": "naperville",
+      "state": "Illinois",
+      "stateSlug": "illinois",
+      "stateAbbr": "IL",
+      "population": 223417,
+      "zipCodes": [
+        "45888",
+        "45889",
+        "45890"
+      ],
+      "latitude": 40.67686740945547,
+      "longitude": -98.75882216181456
+    },
+    {
+      "name": "Joliet",
+      "slug": "joliet",
+      "state": "Illinois",
+      "stateSlug": "illinois",
+      "stateAbbr": "IL",
+      "population": 469887,
+      "zipCodes": [
+        "52206",
+        "52207",
+        "52208"
+      ],
+      "latitude": 39.940072463255774,
+      "longitude": -98.04257631127248
+    },
+    {
+      "name": "Rockford",
+      "slug": "rockford",
+      "state": "Illinois",
+      "stateSlug": "illinois",
+      "stateAbbr": "IL",
+      "population": 194282,
+      "zipCodes": [
+        "52693",
+        "52694",
+        "52695"
+      ],
+      "latitude": 40.34468470304494,
+      "longitude": -97.6255235475966
+    },
+    {
+      "name": "Springfield",
+      "slug": "springfield",
+      "state": "Illinois",
+      "stateSlug": "illinois",
+      "stateAbbr": "IL",
+      "population": 421529,
+      "zipCodes": [
+        "19786",
+        "19787",
+        "19788"
+      ],
+      "latitude": 40.73879641756417,
+      "longitude": -98.9250698804489
+    },
+    {
+      "name": "Elgin",
+      "slug": "elgin",
+      "state": "Illinois",
+      "stateSlug": "illinois",
+      "stateAbbr": "IL",
+      "population": 342984,
+      "zipCodes": [
+        "27378",
+        "27379",
+        "27380"
+      ],
+      "latitude": 38.98968570129764,
+      "longitude": -97.82477360508743
+    },
+    {
+      "name": "Peoria",
+      "slug": "peoria",
+      "state": "Illinois",
+      "stateSlug": "illinois",
+      "stateAbbr": "IL",
+      "population": 494109,
+      "zipCodes": [
+        "49904",
+        "49905",
+        "49906"
+      ],
+      "latitude": 39.20445074895895,
+      "longitude": -97.8830693537105
+    },
+    {
+      "name": "Champaign",
+      "slug": "champaign",
+      "state": "Illinois",
+      "stateSlug": "illinois",
+      "stateAbbr": "IL",
+      "population": 109772,
+      "zipCodes": [
+        "92034",
+        "92035",
+        "92036"
+      ],
+      "latitude": 40.692617233290925,
+      "longitude": -98.57907856987627
+    },
+    {
+      "name": "Waukegan",
+      "slug": "waukegan",
+      "state": "Illinois",
+      "stateSlug": "illinois",
+      "stateAbbr": "IL",
+      "population": 323232,
+      "zipCodes": [
+        "11111",
+        "11112",
+        "11113"
+      ],
+      "latitude": 40.12864454328659,
+      "longitude": -97.64407526179474
+    },
+    {
+      "name": "Indianapolis",
+      "slug": "indianapolis",
+      "state": "Indiana",
+      "stateSlug": "indiana",
+      "stateAbbr": "IN",
+      "population": 284061,
+      "zipCodes": [
+        "36401",
+        "36402",
+        "36403"
+      ],
+      "latitude": 40.8162759463719,
+      "longitude": -97.81245328072656
+    },
+    {
+      "name": "Fort Wayne",
+      "slug": "fort-wayne",
+      "state": "Indiana",
+      "stateSlug": "indiana",
+      "stateAbbr": "IN",
+      "population": 341381,
+      "zipCodes": [
+        "27263",
+        "27264",
+        "27265"
+      ],
+      "latitude": 40.618510211570786,
+      "longitude": -99.25026360797864
+    },
+    {
+      "name": "Evansville",
+      "slug": "evansville",
+      "state": "Indiana",
+      "stateSlug": "indiana",
+      "stateAbbr": "IN",
+      "population": 176393,
+      "zipCodes": [
+        "82865",
+        "82866",
+        "82867"
+      ],
+      "latitude": 39.635126296679246,
+      "longitude": -97.65695775553901
+    },
+    {
+      "name": "South Bend",
+      "slug": "south-bend",
+      "state": "Indiana",
+      "stateSlug": "indiana",
+      "stateAbbr": "IN",
+      "population": 410194,
+      "zipCodes": [
+        "82994",
+        "82995",
+        "82996"
+      ],
+      "latitude": 40.136309662290216,
+      "longitude": -98.24828777528789
+    },
+    {
+      "name": "Carmel",
+      "slug": "carmel",
+      "state": "Indiana",
+      "stateSlug": "indiana",
+      "stateAbbr": "IN",
+      "population": 365374,
+      "zipCodes": [
+        "97103",
+        "97104",
+        "97105"
+      ],
+      "latitude": 40.71135581249588,
+      "longitude": -99.03436057234696
+    },
+    {
+      "name": "Fishers",
+      "slug": "fishers",
+      "state": "Indiana",
+      "stateSlug": "indiana",
+      "stateAbbr": "IN",
+      "population": 488203,
+      "zipCodes": [
+        "14831",
+        "14832",
+        "14833"
+      ],
+      "latitude": 40.314805248582324,
+      "longitude": -98.81933331696202
+    },
+    {
+      "name": "Bloomington",
+      "slug": "bloomington",
+      "state": "Indiana",
+      "stateSlug": "indiana",
+      "stateAbbr": "IN",
+      "population": 444285,
+      "zipCodes": [
+        "10237",
+        "10238",
+        "10239"
+      ],
+      "latitude": 40.76578500395133,
+      "longitude": -97.87134409892542
+    },
+    {
+      "name": "Hammond",
+      "slug": "hammond",
+      "state": "Indiana",
+      "stateSlug": "indiana",
+      "stateAbbr": "IN",
+      "population": 471749,
+      "zipCodes": [
+        "90438",
+        "90439",
+        "90440"
+      ],
+      "latitude": 40.04746969632426,
+      "longitude": -99.05209619913096
+    },
+    {
+      "name": "Gary",
+      "slug": "gary",
+      "state": "Indiana",
+      "stateSlug": "indiana",
+      "stateAbbr": "IN",
+      "population": 92986,
+      "zipCodes": [
+        "83686",
+        "83687",
+        "83688"
+      ],
+      "latitude": 39.87345235768241,
+      "longitude": -98.45808940800443
+    },
+    {
+      "name": "Muncie",
+      "slug": "muncie",
+      "state": "Indiana",
+      "stateSlug": "indiana",
+      "stateAbbr": "IN",
+      "population": 286064,
+      "zipCodes": [
+        "57013",
+        "57014",
+        "57015"
+      ],
+      "latitude": 39.15914676951541,
+      "longitude": -97.67478636182794
+    },
+    {
+      "name": "Des Moines",
+      "slug": "des-moines",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbr": "IA",
+      "population": 372879,
+      "zipCodes": [
+        "12310",
+        "12311",
+        "12312"
+      ],
+      "latitude": 39.908307187421144,
+      "longitude": -97.78955775536811
+    },
+    {
+      "name": "Cedar Rapids",
+      "slug": "cedar-rapids",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbr": "IA",
+      "population": 464788,
+      "zipCodes": [
+        "25867",
+        "25868",
+        "25869"
+      ],
+      "latitude": 39.91141132470192,
+      "longitude": -99.28407919511926
+    },
+    {
+      "name": "Davenport",
+      "slug": "davenport",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbr": "IA",
+      "population": 403514,
+      "zipCodes": [
+        "27381",
+        "27382",
+        "27383"
+      ],
+      "latitude": 40.23557932505563,
+      "longitude": -97.95029828089027
+    },
+    {
+      "name": "Sioux City",
+      "slug": "sioux-city",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbr": "IA",
+      "population": 513400,
+      "zipCodes": [
+        "68366",
+        "68367",
+        "68368"
+      ],
+      "latitude": 40.132475171420545,
+      "longitude": -99.29505931496897
+    },
+    {
+      "name": "Iowa City",
+      "slug": "iowa-city",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbr": "IA",
+      "population": 65470,
+      "zipCodes": [
+        "39795",
+        "39796",
+        "39797"
+      ],
+      "latitude": 39.17510987307472,
+      "longitude": -99.36613496792353
+    },
+    {
+      "name": "Waterloo",
+      "slug": "waterloo",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbr": "IA",
+      "population": 130287,
+      "zipCodes": [
+        "76259",
+        "76260",
+        "76261"
+      ],
+      "latitude": 40.76780311412803,
+      "longitude": -97.8559099984203
+    },
+    {
+      "name": "Council Bluffs",
+      "slug": "council-bluffs",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbr": "IA",
+      "population": 370414,
+      "zipCodes": [
+        "63036",
+        "63037",
+        "63038"
+      ],
+      "latitude": 39.14162844260267,
+      "longitude": -98.45085147668462
+    },
+    {
+      "name": "Ames",
+      "slug": "ames",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbr": "IA",
+      "population": 537854,
+      "zipCodes": [
+        "97915",
+        "97916",
+        "97917"
+      ],
+      "latitude": 40.01139346376463,
+      "longitude": -98.57599512604409
+    },
+    {
+      "name": "West Des Moines",
+      "slug": "west-des-moines",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbr": "IA",
+      "population": 330533,
+      "zipCodes": [
+        "64633",
+        "64634",
+        "64635"
+      ],
+      "latitude": 40.13534084465438,
+      "longitude": -98.75256132193367
+    },
+    {
+      "name": "Dubuque",
+      "slug": "dubuque",
+      "state": "Iowa",
+      "stateSlug": "iowa",
+      "stateAbbr": "IA",
+      "population": 143665,
+      "zipCodes": [
+        "20624",
+        "20625",
+        "20626"
+      ],
+      "latitude": 40.777459605178436,
+      "longitude": -98.43796830902818
+    },
+    {
+      "name": "Wichita",
+      "slug": "wichita",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbr": "KS",
+      "population": 269912,
+      "zipCodes": [
+        "64300",
+        "64301",
+        "64302"
+      ],
+      "latitude": 39.669694747138045,
+      "longitude": -97.62962260738408
+    },
+    {
+      "name": "Overland Park",
+      "slug": "overland-park",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbr": "KS",
+      "population": 370873,
+      "zipCodes": [
+        "31433",
+        "31434",
+        "31435"
+      ],
+      "latitude": 38.8359398645406,
+      "longitude": -98.57355739242291
+    },
+    {
+      "name": "Kansas City",
+      "slug": "kansas-city",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbr": "KS",
+      "population": 209791,
+      "zipCodes": [
+        "73378",
+        "73379",
+        "73380"
+      ],
+      "latitude": 39.283972177419805,
+      "longitude": -97.64843469250201
+    },
+    {
+      "name": "Olathe",
+      "slug": "olathe",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbr": "KS",
+      "population": 160561,
+      "zipCodes": [
+        "12670",
+        "12671",
+        "12672"
+      ],
+      "latitude": 40.49733571803487,
+      "longitude": -99.4982900018831
+    },
+    {
+      "name": "Topeka",
+      "slug": "topeka",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbr": "KS",
+      "population": 332351,
+      "zipCodes": [
+        "62677",
+        "62678",
+        "62679"
+      ],
+      "latitude": 39.8539897772586,
+      "longitude": -99.39990081715806
+    },
+    {
+      "name": "Lawrence",
+      "slug": "lawrence",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbr": "KS",
+      "population": 465310,
+      "zipCodes": [
+        "43791",
+        "43792",
+        "43793"
+      ],
+      "latitude": 39.51938351804519,
+      "longitude": -98.70440207177761
+    },
+    {
+      "name": "Shawnee",
+      "slug": "shawnee",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbr": "KS",
+      "population": 420110,
+      "zipCodes": [
+        "83929",
+        "83930",
+        "83931"
+      ],
+      "latitude": 39.25806725449522,
+      "longitude": -98.3008006124832
+    },
+    {
+      "name": "Manhattan",
+      "slug": "manhattan",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbr": "KS",
+      "population": 183754,
+      "zipCodes": [
+        "85011",
+        "85012",
+        "85013"
+      ],
+      "latitude": 39.782397052254076,
+      "longitude": -98.5234572845801
+    },
+    {
+      "name": "Lenexa",
+      "slug": "lenexa",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbr": "KS",
+      "population": 257160,
+      "zipCodes": [
+        "84881",
+        "84882",
+        "84883"
+      ],
+      "latitude": 39.05017556070581,
+      "longitude": -99.4975949300051
+    },
+    {
+      "name": "Salina",
+      "slug": "salina",
+      "state": "Kansas",
+      "stateSlug": "kansas",
+      "stateAbbr": "KS",
+      "population": 115897,
+      "zipCodes": [
+        "96322",
+        "96323",
+        "96324"
+      ],
+      "latitude": 39.76000661635612,
+      "longitude": -99.10587490710708
+    },
+    {
+      "name": "Louisville",
+      "slug": "louisville",
+      "state": "Kentucky",
+      "stateSlug": "kentucky",
+      "stateAbbr": "KY",
+      "population": 306625,
+      "zipCodes": [
+        "57254",
+        "57255",
+        "57256"
+      ],
+      "latitude": 40.609161005046204,
+      "longitude": -98.37045804564764
+    },
+    {
+      "name": "Lexington",
+      "slug": "lexington",
+      "state": "Kentucky",
+      "stateSlug": "kentucky",
+      "stateAbbr": "KY",
+      "population": 193361,
+      "zipCodes": [
+        "80336",
+        "80337",
+        "80338"
+      ],
+      "latitude": 39.07076838131865,
+      "longitude": -99.18624103050199
+    },
+    {
+      "name": "Bowling Green",
+      "slug": "bowling-green",
+      "state": "Kentucky",
+      "stateSlug": "kentucky",
+      "stateAbbr": "KY",
+      "population": 420348,
+      "zipCodes": [
+        "65693",
+        "65694",
+        "65695"
+      ],
+      "latitude": 38.904619821832725,
+      "longitude": -99.0348848464244
+    },
+    {
+      "name": "Owensboro",
+      "slug": "owensboro",
+      "state": "Kentucky",
+      "stateSlug": "kentucky",
+      "stateAbbr": "KY",
+      "population": 424397,
+      "zipCodes": [
+        "60989",
+        "60990",
+        "60991"
+      ],
+      "latitude": 39.35431274906476,
+      "longitude": -97.7372236140681
+    },
+    {
+      "name": "Covington",
+      "slug": "covington",
+      "state": "Kentucky",
+      "stateSlug": "kentucky",
+      "stateAbbr": "KY",
+      "population": 545016,
+      "zipCodes": [
+        "21516",
+        "21517",
+        "21518"
+      ],
+      "latitude": 40.78310581052708,
+      "longitude": -98.57299882088572
+    },
+    {
+      "name": "Hopkinsville",
+      "slug": "hopkinsville",
+      "state": "Kentucky",
+      "stateSlug": "kentucky",
+      "stateAbbr": "KY",
+      "population": 499927,
+      "zipCodes": [
+        "42078",
+        "42079",
+        "42080"
+      ],
+      "latitude": 39.86500057003313,
+      "longitude": -98.36857746210697
+    },
+    {
+      "name": "Richmond",
+      "slug": "richmond",
+      "state": "Kentucky",
+      "stateSlug": "kentucky",
+      "stateAbbr": "KY",
+      "population": 73812,
+      "zipCodes": [
+        "57734",
+        "57735",
+        "57736"
+      ],
+      "latitude": 40.32834541630605,
+      "longitude": -98.11062550896197
+    },
+    {
+      "name": "Florence",
+      "slug": "florence",
+      "state": "Kentucky",
+      "stateSlug": "kentucky",
+      "stateAbbr": "KY",
+      "population": 361131,
+      "zipCodes": [
+        "50474",
+        "50475",
+        "50476"
+      ],
+      "latitude": 40.02063014006851,
+      "longitude": -99.12841654207233
+    },
+    {
+      "name": "Georgetown",
+      "slug": "georgetown",
+      "state": "Kentucky",
+      "stateSlug": "kentucky",
+      "stateAbbr": "KY",
+      "population": 209813,
+      "zipCodes": [
+        "39193",
+        "39194",
+        "39195"
+      ],
+      "latitude": 39.53870170500908,
+      "longitude": -97.79781254870338
+    },
+    {
+      "name": "Henderson",
+      "slug": "henderson",
+      "state": "Kentucky",
+      "stateSlug": "kentucky",
+      "stateAbbr": "KY",
+      "population": 146145,
+      "zipCodes": [
+        "97100",
+        "97101",
+        "97102"
+      ],
+      "latitude": 38.929453625322346,
+      "longitude": -99.52229304830051
+    },
+    {
+      "name": "New Orleans",
+      "slug": "new-orleans",
+      "state": "Louisiana",
+      "stateSlug": "louisiana",
+      "stateAbbr": "LA",
+      "population": 177933,
+      "zipCodes": [
+        "48015",
+        "48016",
+        "48017"
+      ],
+      "latitude": 39.529385000548025,
+      "longitude": -99.07088142223887
+    },
+    {
+      "name": "Baton Rouge",
+      "slug": "baton-rouge",
+      "state": "Louisiana",
+      "stateSlug": "louisiana",
+      "stateAbbr": "LA",
+      "population": 135339,
+      "zipCodes": [
+        "61715",
+        "61716",
+        "61717"
+      ],
+      "latitude": 40.80591245119581,
+      "longitude": -98.27278541471023
+    },
+    {
+      "name": "Shreveport",
+      "slug": "shreveport",
+      "state": "Louisiana",
+      "stateSlug": "louisiana",
+      "stateAbbr": "LA",
+      "population": 158342,
+      "zipCodes": [
+        "42598",
+        "42599",
+        "42600"
+      ],
+      "latitude": 39.023363263513616,
+      "longitude": -97.6204382719682
+    },
+    {
+      "name": "Lafayette",
+      "slug": "lafayette",
+      "state": "Louisiana",
+      "stateSlug": "louisiana",
+      "stateAbbr": "LA",
+      "population": 184612,
+      "zipCodes": [
+        "49963",
+        "49964",
+        "49965"
+      ],
+      "latitude": 39.40661457422854,
+      "longitude": -99.09699916794824
+    },
+    {
+      "name": "Lake Charles",
+      "slug": "lake-charles",
+      "state": "Louisiana",
+      "stateSlug": "louisiana",
+      "stateAbbr": "LA",
+      "population": 129905,
+      "zipCodes": [
+        "35453",
+        "35454",
+        "35455"
+      ],
+      "latitude": 40.70549363439932,
+      "longitude": -98.34482432447776
+    },
+    {
+      "name": "Kenner",
+      "slug": "kenner",
+      "state": "Louisiana",
+      "stateSlug": "louisiana",
+      "stateAbbr": "LA",
+      "population": 480217,
+      "zipCodes": [
+        "97741",
+        "97742",
+        "97743"
+      ],
+      "latitude": 40.78928365965807,
+      "longitude": -97.88378661926242
+    },
+    {
+      "name": "Bossier City",
+      "slug": "bossier-city",
+      "state": "Louisiana",
+      "stateSlug": "louisiana",
+      "stateAbbr": "LA",
+      "population": 417554,
+      "zipCodes": [
+        "13270",
+        "13271",
+        "13272"
+      ],
+      "latitude": 40.33070490055348,
+      "longitude": -97.7634476477822
+    },
+    {
+      "name": "Monroe",
+      "slug": "monroe",
+      "state": "Louisiana",
+      "stateSlug": "louisiana",
+      "stateAbbr": "LA",
+      "population": 217383,
+      "zipCodes": [
+        "47621",
+        "47622",
+        "47623"
+      ],
+      "latitude": 39.82209105334055,
+      "longitude": -98.95557426043067
+    },
+    {
+      "name": "Alexandria",
+      "slug": "alexandria",
+      "state": "Louisiana",
+      "stateSlug": "louisiana",
+      "stateAbbr": "LA",
+      "population": 467782,
+      "zipCodes": [
+        "57074",
+        "57075",
+        "57076"
+      ],
+      "latitude": 39.15573694572652,
+      "longitude": -98.28374225256499
+    },
+    {
+      "name": "Houma",
+      "slug": "houma",
+      "state": "Louisiana",
+      "stateSlug": "louisiana",
+      "stateAbbr": "LA",
+      "population": 263589,
+      "zipCodes": [
+        "51948",
+        "51949",
+        "51950"
+      ],
+      "latitude": 39.59698395730345,
+      "longitude": -99.49400216113528
+    },
+    {
+      "name": "Portland",
+      "slug": "portland",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbr": "ME",
+      "population": 372555,
+      "zipCodes": [
+        "94514",
+        "94515",
+        "94516"
+      ],
+      "latitude": 38.90740873011106,
+      "longitude": -99.16651532177298
+    },
+    {
+      "name": "Lewiston",
+      "slug": "lewiston",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbr": "ME",
+      "population": 430856,
+      "zipCodes": [
+        "32858",
+        "32859",
+        "32860"
+      ],
+      "latitude": 39.01505381192287,
+      "longitude": -98.39076081974774
+    },
+    {
+      "name": "Bangor",
+      "slug": "bangor",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbr": "ME",
+      "population": 234149,
+      "zipCodes": [
+        "11341",
+        "11342",
+        "11343"
+      ],
+      "latitude": 39.93386889928497,
+      "longitude": -99.30821758207102
+    },
+    {
+      "name": "South Portland",
+      "slug": "south-portland",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbr": "ME",
+      "population": 236385,
+      "zipCodes": [
+        "76817",
+        "76818",
+        "76819"
+      ],
+      "latitude": 40.05592125798412,
+      "longitude": -98.01968427156653
+    },
+    {
+      "name": "Auburn",
+      "slug": "auburn",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbr": "ME",
+      "population": 191000,
+      "zipCodes": [
+        "31642",
+        "31643",
+        "31644"
+      ],
+      "latitude": 40.33492854474826,
+      "longitude": -99.11789963138145
+    },
+    {
+      "name": "Biddeford",
+      "slug": "biddeford",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbr": "ME",
+      "population": 481710,
+      "zipCodes": [
+        "89732",
+        "89733",
+        "89734"
+      ],
+      "latitude": 40.41614264186543,
+      "longitude": -98.68504158240492
+    },
+    {
+      "name": "Sanford",
+      "slug": "sanford",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbr": "ME",
+      "population": 402792,
+      "zipCodes": [
+        "97268",
+        "97269",
+        "97270"
+      ],
+      "latitude": 39.72816569893078,
+      "longitude": -98.86770543459103
+    },
+    {
+      "name": "Saco",
+      "slug": "saco",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbr": "ME",
+      "population": 437737,
+      "zipCodes": [
+        "28304",
+        "28305",
+        "28306"
+      ],
+      "latitude": 40.1011333309926,
+      "longitude": -97.83410349977996
+    },
+    {
+      "name": "Augusta",
+      "slug": "augusta",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbr": "ME",
+      "population": 209676,
+      "zipCodes": [
+        "88694",
+        "88695",
+        "88696"
+      ],
+      "latitude": 39.49812070278577,
+      "longitude": -99.06400443116738
+    },
+    {
+      "name": "Westbrook",
+      "slug": "westbrook",
+      "state": "Maine",
+      "stateSlug": "maine",
+      "stateAbbr": "ME",
+      "population": 256696,
+      "zipCodes": [
+        "35996",
+        "35997",
+        "35998"
+      ],
+      "latitude": 40.70774066387597,
+      "longitude": -99.49176335942336
+    },
+    {
+      "name": "Baltimore",
+      "slug": "baltimore",
+      "state": "Maryland",
+      "stateSlug": "maryland",
+      "stateAbbr": "MD",
+      "population": 407506,
+      "zipCodes": [
+        "88275",
+        "88276",
+        "88277"
+      ],
+      "latitude": 39.333118529574,
+      "longitude": -98.10873066431775
+    },
+    {
+      "name": "Frederick",
+      "slug": "frederick",
+      "state": "Maryland",
+      "stateSlug": "maryland",
+      "stateAbbr": "MD",
+      "population": 277075,
+      "zipCodes": [
+        "97332",
+        "97333",
+        "97334"
+      ],
+      "latitude": 39.70156408030137,
+      "longitude": -98.93895084634151
+    },
+    {
+      "name": "Rockville",
+      "slug": "rockville",
+      "state": "Maryland",
+      "stateSlug": "maryland",
+      "stateAbbr": "MD",
+      "population": 464223,
+      "zipCodes": [
+        "81609",
+        "81610",
+        "81611"
+      ],
+      "latitude": 39.97666895418549,
+      "longitude": -99.40638211176578
+    },
+    {
+      "name": "Gaithersburg",
+      "slug": "gaithersburg",
+      "state": "Maryland",
+      "stateSlug": "maryland",
+      "stateAbbr": "MD",
+      "population": 271170,
+      "zipCodes": [
+        "44670",
+        "44671",
+        "44672"
+      ],
+      "latitude": 39.45552642712893,
+      "longitude": -97.8704058916997
+    },
+    {
+      "name": "Bowie",
+      "slug": "bowie",
+      "state": "Maryland",
+      "stateSlug": "maryland",
+      "stateAbbr": "MD",
+      "population": 304153,
+      "zipCodes": [
+        "35979",
+        "35980",
+        "35981"
+      ],
+      "latitude": 39.6374059813287,
+      "longitude": -97.84862955146718
+    },
+    {
+      "name": "Annapolis",
+      "slug": "annapolis",
+      "state": "Maryland",
+      "stateSlug": "maryland",
+      "stateAbbr": "MD",
+      "population": 124785,
+      "zipCodes": [
+        "71639",
+        "71640",
+        "71641"
+      ],
+      "latitude": 40.74256497582685,
+      "longitude": -98.01177471012478
+    },
+    {
+      "name": "College Park",
+      "slug": "college-park",
+      "state": "Maryland",
+      "stateSlug": "maryland",
+      "stateAbbr": "MD",
+      "population": 476056,
+      "zipCodes": [
+        "45910",
+        "45911",
+        "45912"
+      ],
+      "latitude": 40.0504617898372,
+      "longitude": -98.42862618952248
+    },
+    {
+      "name": "Salisbury",
+      "slug": "salisbury",
+      "state": "Maryland",
+      "stateSlug": "maryland",
+      "stateAbbr": "MD",
+      "population": 184216,
+      "zipCodes": [
+        "12876",
+        "12877",
+        "12878"
+      ],
+      "latitude": 40.27328062595261,
+      "longitude": -98.43661877364633
+    },
+    {
+      "name": "Laurel",
+      "slug": "laurel",
+      "state": "Maryland",
+      "stateSlug": "maryland",
+      "stateAbbr": "MD",
+      "population": 444306,
+      "zipCodes": [
+        "91451",
+        "91452",
+        "91453"
+      ],
+      "latitude": 40.189900610305585,
+      "longitude": -97.78149412083076
+    },
+    {
+      "name": "Greenbelt",
+      "slug": "greenbelt",
+      "state": "Maryland",
+      "stateSlug": "maryland",
+      "stateAbbr": "MD",
+      "population": 294879,
+      "zipCodes": [
+        "33735",
+        "33736",
+        "33737"
+      ],
+      "latitude": 40.17581212802994,
+      "longitude": -98.55527577009376
+    },
+    {
+      "name": "Boston",
+      "slug": "boston",
+      "state": "Massachusetts",
+      "stateSlug": "massachusetts",
+      "stateAbbr": "MA",
+      "population": 367490,
+      "zipCodes": [
+        "80352",
+        "80353",
+        "80354"
+      ],
+      "latitude": 40.81743615985937,
+      "longitude": -98.38138199480576
+    },
+    {
+      "name": "Worcester",
+      "slug": "worcester",
+      "state": "Massachusetts",
+      "stateSlug": "massachusetts",
+      "stateAbbr": "MA",
+      "population": 403571,
+      "zipCodes": [
+        "77348",
+        "77349",
+        "77350"
+      ],
+      "latitude": 39.83394835422817,
+      "longitude": -98.54499110411749
+    },
+    {
+      "name": "Springfield",
+      "slug": "springfield",
+      "state": "Massachusetts",
+      "stateSlug": "massachusetts",
+      "stateAbbr": "MA",
+      "population": 470056,
+      "zipCodes": [
+        "52172",
+        "52173",
+        "52174"
+      ],
+      "latitude": 39.11418799946529,
+      "longitude": -99.11792028968432
+    },
+    {
+      "name": "Lowell",
+      "slug": "lowell",
+      "state": "Massachusetts",
+      "stateSlug": "massachusetts",
+      "stateAbbr": "MA",
+      "population": 339866,
+      "zipCodes": [
+        "20125",
+        "20126",
+        "20127"
+      ],
+      "latitude": 39.73672076078106,
+      "longitude": -98.12062393310609
+    },
+    {
+      "name": "Cambridge",
+      "slug": "cambridge",
+      "state": "Massachusetts",
+      "stateSlug": "massachusetts",
+      "stateAbbr": "MA",
+      "population": 425612,
+      "zipCodes": [
+        "59891",
+        "59892",
+        "59893"
+      ],
+      "latitude": 40.3528912778262,
+      "longitude": -99.284818694641
+    },
+    {
+      "name": "New Bedford",
+      "slug": "new-bedford",
+      "state": "Massachusetts",
+      "stateSlug": "massachusetts",
+      "stateAbbr": "MA",
+      "population": 95940,
+      "zipCodes": [
+        "83131",
+        "83132",
+        "83133"
+      ],
+      "latitude": 40.748833590417746,
+      "longitude": -99.11380670159964
+    },
+    {
+      "name": "Brockton",
+      "slug": "brockton",
+      "state": "Massachusetts",
+      "stateSlug": "massachusetts",
+      "stateAbbr": "MA",
+      "population": 280753,
+      "zipCodes": [
+        "69080",
+        "69081",
+        "69082"
+      ],
+      "latitude": 40.266847253272914,
+      "longitude": -98.58466007147793
+    },
+    {
+      "name": "Quincy",
+      "slug": "quincy",
+      "state": "Massachusetts",
+      "stateSlug": "massachusetts",
+      "stateAbbr": "MA",
+      "population": 392014,
+      "zipCodes": [
+        "59609",
+        "59610",
+        "59611"
+      ],
+      "latitude": 40.44229366030939,
+      "longitude": -98.33330516695091
+    },
+    {
+      "name": "Lynn",
+      "slug": "lynn",
+      "state": "Massachusetts",
+      "stateSlug": "massachusetts",
+      "stateAbbr": "MA",
+      "population": 468237,
+      "zipCodes": [
+        "24911",
+        "24912",
+        "24913"
+      ],
+      "latitude": 39.13028572404035,
+      "longitude": -99.57490120885814
+    },
+    {
+      "name": "Fall River",
+      "slug": "fall-river",
+      "state": "Massachusetts",
+      "stateSlug": "massachusetts",
+      "stateAbbr": "MA",
+      "population": 191572,
+      "zipCodes": [
+        "97064",
+        "97065",
+        "97066"
+      ],
+      "latitude": 38.886489387651,
+      "longitude": -99.08252622977987
+    },
+    {
+      "name": "Detroit",
+      "slug": "detroit",
+      "state": "Michigan",
+      "stateSlug": "michigan",
+      "stateAbbr": "MI",
+      "population": 235759,
+      "zipCodes": [
+        "35227",
+        "35228",
+        "35229"
+      ],
+      "latitude": 39.9237282767367,
+      "longitude": -98.77181316731496
+    },
+    {
+      "name": "Grand Rapids",
+      "slug": "grand-rapids",
+      "state": "Michigan",
+      "stateSlug": "michigan",
+      "stateAbbr": "MI",
+      "population": 130257,
+      "zipCodes": [
+        "76631",
+        "76632",
+        "76633"
+      ],
+      "latitude": 39.8241430302146,
+      "longitude": -98.60089609496514
+    },
+    {
+      "name": "Warren",
+      "slug": "warren",
+      "state": "Michigan",
+      "stateSlug": "michigan",
+      "stateAbbr": "MI",
+      "population": 233957,
+      "zipCodes": [
+        "76751",
+        "76752",
+        "76753"
+      ],
+      "latitude": 39.57184143043792,
+      "longitude": -97.97597002525517
+    },
+    {
+      "name": "Sterling Heights",
+      "slug": "sterling-heights",
+      "state": "Michigan",
+      "stateSlug": "michigan",
+      "stateAbbr": "MI",
+      "population": 152675,
+      "zipCodes": [
+        "80118",
+        "80119",
+        "80120"
+      ],
+      "latitude": 39.118694252964225,
+      "longitude": -97.85892817955228
+    },
+    {
+      "name": "Lansing",
+      "slug": "lansing",
+      "state": "Michigan",
+      "stateSlug": "michigan",
+      "stateAbbr": "MI",
+      "population": 320376,
+      "zipCodes": [
+        "35767",
+        "35768",
+        "35769"
+      ],
+      "latitude": 39.251650518405775,
+      "longitude": -98.53170387786338
+    },
+    {
+      "name": "Ann Arbor",
+      "slug": "ann-arbor",
+      "state": "Michigan",
+      "stateSlug": "michigan",
+      "stateAbbr": "MI",
+      "population": 164256,
+      "zipCodes": [
+        "95667",
+        "95668",
+        "95669"
+      ],
+      "latitude": 40.643846552906155,
+      "longitude": -99.35482345250445
+    },
+    {
+      "name": "Flint",
+      "slug": "flint",
+      "state": "Michigan",
+      "stateSlug": "michigan",
+      "stateAbbr": "MI",
+      "population": 340689,
+      "zipCodes": [
+        "34626",
+        "34627",
+        "34628"
+      ],
+      "latitude": 40.28500329374826,
+      "longitude": -98.65781663253523
+    },
+    {
+      "name": "Dearborn",
+      "slug": "dearborn",
+      "state": "Michigan",
+      "stateSlug": "michigan",
+      "stateAbbr": "MI",
+      "population": 297746,
+      "zipCodes": [
+        "21606",
+        "21607",
+        "21608"
+      ],
+      "latitude": 40.31334839540448,
+      "longitude": -99.17667207068072
+    },
+    {
+      "name": "Livonia",
+      "slug": "livonia",
+      "state": "Michigan",
+      "stateSlug": "michigan",
+      "stateAbbr": "MI",
+      "population": 506674,
+      "zipCodes": [
+        "93107",
+        "93108",
+        "93109"
+      ],
+      "latitude": 40.26511643176528,
+      "longitude": -98.27040409439044
+    },
+    {
+      "name": "Troy",
+      "slug": "troy",
+      "state": "Michigan",
+      "stateSlug": "michigan",
+      "stateAbbr": "MI",
+      "population": 166272,
+      "zipCodes": [
+        "55905",
+        "55906",
+        "55907"
+      ],
+      "latitude": 39.44488294065886,
+      "longitude": -97.97176712355403
+    },
+    {
+      "name": "Minneapolis",
+      "slug": "minneapolis",
+      "state": "Minnesota",
+      "stateSlug": "minnesota",
+      "stateAbbr": "MN",
+      "population": 86420,
+      "zipCodes": [
+        "75454",
+        "75455",
+        "75456"
+      ],
+      "latitude": 38.922656943885094,
+      "longitude": -97.88267083774764
+    },
+    {
+      "name": "St. Paul",
+      "slug": "st-paul",
+      "state": "Minnesota",
+      "stateSlug": "minnesota",
+      "stateAbbr": "MN",
+      "population": 219134,
+      "zipCodes": [
+        "15620",
+        "15621",
+        "15622"
+      ],
+      "latitude": 39.024338649988344,
+      "longitude": -98.62951166963313
+    },
+    {
+      "name": "Rochester",
+      "slug": "rochester",
+      "state": "Minnesota",
+      "stateSlug": "minnesota",
+      "stateAbbr": "MN",
+      "population": 372800,
+      "zipCodes": [
+        "46073",
+        "46074",
+        "46075"
+      ],
+      "latitude": 40.38911858153828,
+      "longitude": -99.22688609913043
+    },
+    {
+      "name": "Duluth",
+      "slug": "duluth",
+      "state": "Minnesota",
+      "stateSlug": "minnesota",
+      "stateAbbr": "MN",
+      "population": 245811,
+      "zipCodes": [
+        "58429",
+        "58430",
+        "58431"
+      ],
+      "latitude": 40.55052164242846,
+      "longitude": -97.91297405518446
+    },
+    {
+      "name": "Bloomington",
+      "slug": "bloomington",
+      "state": "Minnesota",
+      "stateSlug": "minnesota",
+      "stateAbbr": "MN",
+      "population": 127467,
+      "zipCodes": [
+        "23580",
+        "23581",
+        "23582"
+      ],
+      "latitude": 39.83694582122754,
+      "longitude": -99.45698468586853
+    },
+    {
+      "name": "Brooklyn Park",
+      "slug": "brooklyn-park",
+      "state": "Minnesota",
+      "stateSlug": "minnesota",
+      "stateAbbr": "MN",
+      "population": 238410,
+      "zipCodes": [
+        "17056",
+        "17057",
+        "17058"
+      ],
+      "latitude": 39.30356794472909,
+      "longitude": -98.33568993746886
+    },
+    {
+      "name": "Plymouth",
+      "slug": "plymouth",
+      "state": "Minnesota",
+      "stateSlug": "minnesota",
+      "stateAbbr": "MN",
+      "population": 130086,
+      "zipCodes": [
+        "88593",
+        "88594",
+        "88595"
+      ],
+      "latitude": 40.78013385693428,
+      "longitude": -99.14570744405816
+    },
+    {
+      "name": "St. Cloud",
+      "slug": "st-cloud",
+      "state": "Minnesota",
+      "stateSlug": "minnesota",
+      "stateAbbr": "MN",
+      "population": 125195,
+      "zipCodes": [
+        "14912",
+        "14913",
+        "14914"
+      ],
+      "latitude": 38.976315473492775,
+      "longitude": -99.32207828522552
+    },
+    {
+      "name": "Eagan",
+      "slug": "eagan",
+      "state": "Minnesota",
+      "stateSlug": "minnesota",
+      "stateAbbr": "MN",
+      "population": 161427,
+      "zipCodes": [
+        "89823",
+        "89824",
+        "89825"
+      ],
+      "latitude": 39.63644773964927,
+      "longitude": -99.45284645284003
+    },
+    {
+      "name": "Woodbury",
+      "slug": "woodbury",
+      "state": "Minnesota",
+      "stateSlug": "minnesota",
+      "stateAbbr": "MN",
+      "population": 522661,
+      "zipCodes": [
+        "63859",
+        "63860",
+        "63861"
+      ],
+      "latitude": 39.19423078527312,
+      "longitude": -98.13842146594678
+    },
+    {
+      "name": "Jackson",
+      "slug": "jackson",
+      "state": "Mississippi",
+      "stateSlug": "mississippi",
+      "stateAbbr": "MS",
+      "population": 74217,
+      "zipCodes": [
+        "13918",
+        "13919",
+        "13920"
+      ],
+      "latitude": 39.94341990946009,
+      "longitude": -97.93606290703889
+    },
+    {
+      "name": "Gulfport",
+      "slug": "gulfport",
+      "state": "Mississippi",
+      "stateSlug": "mississippi",
+      "stateAbbr": "MS",
+      "population": 449215,
+      "zipCodes": [
+        "67103",
+        "67104",
+        "67105"
+      ],
+      "latitude": 40.76907992360794,
+      "longitude": -99.01714884331385
+    },
+    {
+      "name": "Southaven",
+      "slug": "southaven",
+      "state": "Mississippi",
+      "stateSlug": "mississippi",
+      "stateAbbr": "MS",
+      "population": 441532,
+      "zipCodes": [
+        "60680",
+        "60681",
+        "60682"
+      ],
+      "latitude": 40.007405275210964,
+      "longitude": -98.24079431141628
+    },
+    {
+      "name": "Hattiesburg",
+      "slug": "hattiesburg",
+      "state": "Mississippi",
+      "stateSlug": "mississippi",
+      "stateAbbr": "MS",
+      "population": 166024,
+      "zipCodes": [
+        "89474",
+        "89475",
+        "89476"
+      ],
+      "latitude": 40.475404392331114,
+      "longitude": -98.66194294714543
+    },
+    {
+      "name": "Biloxi",
+      "slug": "biloxi",
+      "state": "Mississippi",
+      "stateSlug": "mississippi",
+      "stateAbbr": "MS",
+      "population": 534766,
+      "zipCodes": [
+        "46489",
+        "46490",
+        "46491"
+      ],
+      "latitude": 40.27783522168433,
+      "longitude": -98.18448263590122
+    },
+    {
+      "name": "Meridian",
+      "slug": "meridian",
+      "state": "Mississippi",
+      "stateSlug": "mississippi",
+      "stateAbbr": "MS",
+      "population": 155889,
+      "zipCodes": [
+        "13815",
+        "13816",
+        "13817"
+      ],
+      "latitude": 40.17153506438056,
+      "longitude": -99.49082264632321
+    },
+    {
+      "name": "Tupelo",
+      "slug": "tupelo",
+      "state": "Mississippi",
+      "stateSlug": "mississippi",
+      "stateAbbr": "MS",
+      "population": 152441,
+      "zipCodes": [
+        "24323",
+        "24324",
+        "24325"
+      ],
+      "latitude": 40.269664888638985,
+      "longitude": -98.46283815681767
+    },
+    {
+      "name": "Greenville",
+      "slug": "greenville",
+      "state": "Mississippi",
+      "stateSlug": "mississippi",
+      "stateAbbr": "MS",
+      "population": 141115,
+      "zipCodes": [
+        "35314",
+        "35315",
+        "35316"
+      ],
+      "latitude": 40.203155923663914,
+      "longitude": -98.78961450665616
+    },
+    {
+      "name": "Olive Branch",
+      "slug": "olive-branch",
+      "state": "Mississippi",
+      "stateSlug": "mississippi",
+      "stateAbbr": "MS",
+      "population": 289642,
+      "zipCodes": [
+        "78003",
+        "78004",
+        "78005"
+      ],
+      "latitude": 40.6709455384922,
+      "longitude": -98.89204316480719
+    },
+    {
+      "name": "Horn Lake",
+      "slug": "horn-lake",
+      "state": "Mississippi",
+      "stateSlug": "mississippi",
+      "stateAbbr": "MS",
+      "population": 215666,
+      "zipCodes": [
+        "64956",
+        "64957",
+        "64958"
+      ],
+      "latitude": 40.242812886498974,
+      "longitude": -97.78253116516443
+    },
+    {
+      "name": "Kansas City",
+      "slug": "kansas-city",
+      "state": "Missouri",
+      "stateSlug": "missouri",
+      "stateAbbr": "MO",
+      "population": 62659,
+      "zipCodes": [
+        "27993",
+        "27994",
+        "27995"
+      ],
+      "latitude": 40.0458843910719,
+      "longitude": -99.50233525593337
+    },
+    {
+      "name": "St. Louis",
+      "slug": "st-louis",
+      "state": "Missouri",
+      "stateSlug": "missouri",
+      "stateAbbr": "MO",
+      "population": 199066,
+      "zipCodes": [
+        "76605",
+        "76606",
+        "76607"
+      ],
+      "latitude": 39.214407210296045,
+      "longitude": -97.77038819079645
+    },
+    {
+      "name": "Springfield",
+      "slug": "springfield",
+      "state": "Missouri",
+      "stateSlug": "missouri",
+      "stateAbbr": "MO",
+      "population": 277379,
+      "zipCodes": [
+        "49235",
+        "49236",
+        "49237"
+      ],
+      "latitude": 38.835850464772605,
+      "longitude": -97.5883984338833
+    },
+    {
+      "name": "Columbia",
+      "slug": "columbia",
+      "state": "Missouri",
+      "stateSlug": "missouri",
+      "stateAbbr": "MO",
+      "population": 69246,
+      "zipCodes": [
+        "92533",
+        "92534",
+        "92535"
+      ],
+      "latitude": 39.67498790508763,
+      "longitude": -99.30099512138142
+    },
+    {
+      "name": "Independence",
+      "slug": "independence",
+      "state": "Missouri",
+      "stateSlug": "missouri",
+      "stateAbbr": "MO",
+      "population": 424704,
+      "zipCodes": [
+        "55846",
+        "55847",
+        "55848"
+      ],
+      "latitude": 38.86798355622876,
+      "longitude": -98.00571656632644
+    },
+    {
+      "name": "Lee's Summit",
+      "slug": "lees-summit",
+      "state": "Missouri",
+      "stateSlug": "missouri",
+      "stateAbbr": "MO",
+      "population": 473382,
+      "zipCodes": [
+        "64999",
+        "65000",
+        "65001"
+      ],
+      "latitude": 38.9413791192707,
+      "longitude": -99.08376180344418
+    },
+    {
+      "name": "O'Fallon",
+      "slug": "ofallon",
+      "state": "Missouri",
+      "stateSlug": "missouri",
+      "stateAbbr": "MO",
+      "population": 463220,
+      "zipCodes": [
+        "52953",
+        "52954",
+        "52955"
+      ],
+      "latitude": 40.25316046518534,
+      "longitude": -98.60789056560542
+    },
+    {
+      "name": "St. Joseph",
+      "slug": "st-joseph",
+      "state": "Missouri",
+      "stateSlug": "missouri",
+      "stateAbbr": "MO",
+      "population": 532033,
+      "zipCodes": [
+        "78691",
+        "78692",
+        "78693"
+      ],
+      "latitude": 40.72610291480977,
+      "longitude": -98.16083214962272
+    },
+    {
+      "name": "St. Charles",
+      "slug": "st-charles",
+      "state": "Missouri",
+      "stateSlug": "missouri",
+      "stateAbbr": "MO",
+      "population": 116833,
+      "zipCodes": [
+        "69171",
+        "69172",
+        "69173"
+      ],
+      "latitude": 38.91990834373024,
+      "longitude": -98.21070903825984
+    },
+    {
+      "name": "St. Peters",
+      "slug": "st-peters",
+      "state": "Missouri",
+      "stateSlug": "missouri",
+      "stateAbbr": "MO",
+      "population": 196034,
+      "zipCodes": [
+        "27277",
+        "27278",
+        "27279"
+      ],
+      "latitude": 40.28415756015913,
+      "longitude": -98.9932374524864
+    },
+    {
+      "name": "Billings",
+      "slug": "billings",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbr": "MT",
+      "population": 434918,
+      "zipCodes": [
+        "87291",
+        "87292",
+        "87293"
+      ],
+      "latitude": 39.8649258614885,
+      "longitude": -97.94854254058154
+    },
+    {
+      "name": "Missoula",
+      "slug": "missoula",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbr": "MT",
+      "population": 66795,
+      "zipCodes": [
+        "27700",
+        "27701",
+        "27702"
+      ],
+      "latitude": 40.179518627978915,
+      "longitude": -97.69536367523048
+    },
+    {
+      "name": "Great Falls",
+      "slug": "great-falls",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbr": "MT",
+      "population": 439227,
+      "zipCodes": [
+        "77882",
+        "77883",
+        "77884"
+      ],
+      "latitude": 38.8993044389954,
+      "longitude": -99.54561684644477
+    },
+    {
+      "name": "Bozeman",
+      "slug": "bozeman",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbr": "MT",
+      "population": 459648,
+      "zipCodes": [
+        "22429",
+        "22430",
+        "22431"
+      ],
+      "latitude": 40.82717155883169,
+      "longitude": -98.74914523073551
+    },
+    {
+      "name": "Butte",
+      "slug": "butte",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbr": "MT",
+      "population": 480247,
+      "zipCodes": [
+        "26190",
+        "26191",
+        "26192"
+      ],
+      "latitude": 38.91546487308216,
+      "longitude": -97.69609292002976
+    },
+    {
+      "name": "Helena",
+      "slug": "helena",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbr": "MT",
+      "population": 184103,
+      "zipCodes": [
+        "96628",
+        "96629",
+        "96630"
+      ],
+      "latitude": 39.24425262985136,
+      "longitude": -98.45511974967046
+    },
+    {
+      "name": "Kalispell",
+      "slug": "kalispell",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbr": "MT",
+      "population": 113006,
+      "zipCodes": [
+        "83542",
+        "83543",
+        "83544"
+      ],
+      "latitude": 39.29305977659371,
+      "longitude": -98.39274081393738
+    },
+    {
+      "name": "Havre",
+      "slug": "havre",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbr": "MT",
+      "population": 73984,
+      "zipCodes": [
+        "50746",
+        "50747",
+        "50748"
+      ],
+      "latitude": 40.281372853896485,
+      "longitude": -98.96271777597372
+    },
+    {
+      "name": "Anaconda",
+      "slug": "anaconda",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbr": "MT",
+      "population": 164248,
+      "zipCodes": [
+        "78620",
+        "78621",
+        "78622"
+      ],
+      "latitude": 39.5389318821512,
+      "longitude": -99.52194761922514
+    },
+    {
+      "name": "Miles City",
+      "slug": "miles-city",
+      "state": "Montana",
+      "stateSlug": "montana",
+      "stateAbbr": "MT",
+      "population": 294957,
+      "zipCodes": [
+        "31039",
+        "31040",
+        "31041"
+      ],
+      "latitude": 39.7475410828282,
+      "longitude": -98.2600081084488
+    },
+    {
+      "name": "Omaha",
+      "slug": "omaha",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbr": "NE",
+      "population": 91172,
+      "zipCodes": [
+        "57035",
+        "57036",
+        "57037"
+      ],
+      "latitude": 40.091805912421776,
+      "longitude": -98.21621583972414
+    },
+    {
+      "name": "Lincoln",
+      "slug": "lincoln",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbr": "NE",
+      "population": 237977,
+      "zipCodes": [
+        "84607",
+        "84608",
+        "84609"
+      ],
+      "latitude": 39.18554180694151,
+      "longitude": -99.00641805850024
+    },
+    {
+      "name": "Bellevue",
+      "slug": "bellevue",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbr": "NE",
+      "population": 72261,
+      "zipCodes": [
+        "37966",
+        "37967",
+        "37968"
+      ],
+      "latitude": 40.532537802118156,
+      "longitude": -98.33995785776456
+    },
+    {
+      "name": "Grand Island",
+      "slug": "grand-island",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbr": "NE",
+      "population": 285584,
+      "zipCodes": [
+        "51412",
+        "51413",
+        "51414"
+      ],
+      "latitude": 39.340627437734696,
+      "longitude": -98.44711984328634
+    },
+    {
+      "name": "Kearney",
+      "slug": "kearney",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbr": "NE",
+      "population": 130175,
+      "zipCodes": [
+        "23846",
+        "23847",
+        "23848"
+      ],
+      "latitude": 39.974863201761664,
+      "longitude": -98.27526233442045
+    },
+    {
+      "name": "Fremont",
+      "slug": "fremont",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbr": "NE",
+      "population": 168916,
+      "zipCodes": [
+        "13466",
+        "13467",
+        "13468"
+      ],
+      "latitude": 40.765450710824645,
+      "longitude": -99.2933054480741
+    },
+    {
+      "name": "Hastings",
+      "slug": "hastings",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbr": "NE",
+      "population": 505073,
+      "zipCodes": [
+        "47065",
+        "47066",
+        "47067"
+      ],
+      "latitude": 39.85863583505353,
+      "longitude": -99.19324336918099
+    },
+    {
+      "name": "North Platte",
+      "slug": "north-platte",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbr": "NE",
+      "population": 533940,
+      "zipCodes": [
+        "94518",
+        "94519",
+        "94520"
+      ],
+      "latitude": 40.2146180139003,
+      "longitude": -98.65334283974269
+    },
+    {
+      "name": "Norfolk",
+      "slug": "norfolk",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbr": "NE",
+      "population": 481834,
+      "zipCodes": [
+        "40932",
+        "40933",
+        "40934"
+      ],
+      "latitude": 39.957241915166705,
+      "longitude": -99.46993630758722
+    },
+    {
+      "name": "Columbus",
+      "slug": "columbus",
+      "state": "Nebraska",
+      "stateSlug": "nebraska",
+      "stateAbbr": "NE",
+      "population": 356899,
+      "zipCodes": [
+        "37179",
+        "37180",
+        "37181"
+      ],
+      "latitude": 40.269191074520585,
+      "longitude": -99.372878124125
+    },
+    {
+      "name": "Las Vegas",
+      "slug": "las-vegas",
+      "state": "Nevada",
+      "stateSlug": "nevada",
+      "stateAbbr": "NV",
+      "population": 496542,
+      "zipCodes": [
+        "59552",
+        "59553",
+        "59554"
+      ],
+      "latitude": 40.55313874546452,
+      "longitude": -98.53224541571932
+    },
+    {
+      "name": "Henderson",
+      "slug": "henderson",
+      "state": "Nevada",
+      "stateSlug": "nevada",
+      "stateAbbr": "NV",
+      "population": 284585,
+      "zipCodes": [
+        "96906",
+        "96907",
+        "96908"
+      ],
+      "latitude": 40.819978139884036,
+      "longitude": -98.87885618145503
+    },
+    {
+      "name": "Reno",
+      "slug": "reno",
+      "state": "Nevada",
+      "stateSlug": "nevada",
+      "stateAbbr": "NV",
+      "population": 163957,
+      "zipCodes": [
+        "77377",
+        "77378",
+        "77379"
+      ],
+      "latitude": 39.39419266705234,
+      "longitude": -97.93980325387949
+    },
+    {
+      "name": "North Las Vegas",
+      "slug": "north-las-vegas",
+      "state": "Nevada",
+      "stateSlug": "nevada",
+      "stateAbbr": "NV",
+      "population": 244438,
+      "zipCodes": [
+        "27539",
+        "27540",
+        "27541"
+      ],
+      "latitude": 40.55967649185036,
+      "longitude": -99.40926616179382
+    },
+    {
+      "name": "Sparks",
+      "slug": "sparks",
+      "state": "Nevada",
+      "stateSlug": "nevada",
+      "stateAbbr": "NV",
+      "population": 164466,
+      "zipCodes": [
+        "87954",
+        "87955",
+        "87956"
+      ],
+      "latitude": 40.181304931710486,
+      "longitude": -99.23367988546212
+    },
+    {
+      "name": "Carson City",
+      "slug": "carson-city",
+      "state": "Nevada",
+      "stateSlug": "nevada",
+      "stateAbbr": "NV",
+      "population": 316111,
+      "zipCodes": [
+        "39192",
+        "39193",
+        "39194"
+      ],
+      "latitude": 39.22863384049444,
+      "longitude": -99.5262025023738
+    },
+    {
+      "name": "Fernley",
+      "slug": "fernley",
+      "state": "Nevada",
+      "stateSlug": "nevada",
+      "stateAbbr": "NV",
+      "population": 538981,
+      "zipCodes": [
+        "80093",
+        "80094",
+        "80095"
+      ],
+      "latitude": 40.13275611272693,
+      "longitude": -99.0765124461084
+    },
+    {
+      "name": "Elko",
+      "slug": "elko",
+      "state": "Nevada",
+      "stateSlug": "nevada",
+      "stateAbbr": "NV",
+      "population": 176334,
+      "zipCodes": [
+        "72561",
+        "72562",
+        "72563"
+      ],
+      "latitude": 39.77433735597097,
+      "longitude": -98.04623787179207
+    },
+    {
+      "name": "Mesquite",
+      "slug": "mesquite",
+      "state": "Nevada",
+      "stateSlug": "nevada",
+      "stateAbbr": "NV",
+      "population": 106922,
+      "zipCodes": [
+        "40510",
+        "40511",
+        "40512"
+      ],
+      "latitude": 39.73632181270277,
+      "longitude": -98.91879358296158
+    },
+    {
+      "name": "Boulder City",
+      "slug": "boulder-city",
+      "state": "Nevada",
+      "stateSlug": "nevada",
+      "stateAbbr": "NV",
+      "population": 133195,
+      "zipCodes": [
+        "87805",
+        "87806",
+        "87807"
+      ],
+      "latitude": 40.60464779429077,
+      "longitude": -98.53829097207182
+    },
+    {
+      "name": "Manchester",
+      "slug": "manchester",
+      "state": "New Hampshire",
+      "stateSlug": "new-hampshire",
+      "stateAbbr": "NH",
+      "population": 377040,
+      "zipCodes": [
+        "84974",
+        "84975",
+        "84976"
+      ],
+      "latitude": 40.48942330867122,
+      "longitude": -99.39558030361121
+    },
+    {
+      "name": "Nashua",
+      "slug": "nashua",
+      "state": "New Hampshire",
+      "stateSlug": "new-hampshire",
+      "stateAbbr": "NH",
+      "population": 133916,
+      "zipCodes": [
+        "82932",
+        "82933",
+        "82934"
+      ],
+      "latitude": 38.88052092998417,
+      "longitude": -98.4657594688464
+    },
+    {
+      "name": "Concord",
+      "slug": "concord",
+      "state": "New Hampshire",
+      "stateSlug": "new-hampshire",
+      "stateAbbr": "NH",
+      "population": 478367,
+      "zipCodes": [
+        "22244",
+        "22245",
+        "22246"
+      ],
+      "latitude": 39.85549721849828,
+      "longitude": -97.97443620257975
+    },
+    {
+      "name": "Derry",
+      "slug": "derry",
+      "state": "New Hampshire",
+      "stateSlug": "new-hampshire",
+      "stateAbbr": "NH",
+      "population": 467750,
+      "zipCodes": [
+        "71254",
+        "71255",
+        "71256"
+      ],
+      "latitude": 39.25812382933698,
+      "longitude": -98.60347241327636
+    },
+    {
+      "name": "Rochester",
+      "slug": "rochester",
+      "state": "New Hampshire",
+      "stateSlug": "new-hampshire",
+      "stateAbbr": "NH",
+      "population": 402165,
+      "zipCodes": [
+        "85748",
+        "85749",
+        "85750"
+      ],
+      "latitude": 39.4120092859801,
+      "longitude": -98.1796819747908
+    },
+    {
+      "name": "Dover",
+      "slug": "dover",
+      "state": "New Hampshire",
+      "stateSlug": "new-hampshire",
+      "stateAbbr": "NH",
+      "population": 356579,
+      "zipCodes": [
+        "51592",
+        "51593",
+        "51594"
+      ],
+      "latitude": 39.494819215714614,
+      "longitude": -98.07614753461849
+    },
+    {
+      "name": "Salem",
+      "slug": "salem",
+      "state": "New Hampshire",
+      "stateSlug": "new-hampshire",
+      "stateAbbr": "NH",
+      "population": 533246,
+      "zipCodes": [
+        "59318",
+        "59319",
+        "59320"
+      ],
+      "latitude": 39.69746530687557,
+      "longitude": -99.51091721022618
+    },
+    {
+      "name": "Merrimack",
+      "slug": "merrimack",
+      "state": "New Hampshire",
+      "stateSlug": "new-hampshire",
+      "stateAbbr": "NH",
+      "population": 332816,
+      "zipCodes": [
+        "44296",
+        "44297",
+        "44298"
+      ],
+      "latitude": 39.88462471671949,
+      "longitude": -98.05448732031589
+    },
+    {
+      "name": "Londonderry",
+      "slug": "londonderry",
+      "state": "New Hampshire",
+      "stateSlug": "new-hampshire",
+      "stateAbbr": "NH",
+      "population": 299602,
+      "zipCodes": [
+        "99532",
+        "99533",
+        "99534"
+      ],
+      "latitude": 40.37383632664715,
+      "longitude": -99.03982622244378
+    },
+    {
+      "name": "Hudson",
+      "slug": "hudson",
+      "state": "New Hampshire",
+      "stateSlug": "new-hampshire",
+      "stateAbbr": "NH",
+      "population": 202321,
+      "zipCodes": [
+        "67177",
+        "67178",
+        "67179"
+      ],
+      "latitude": 40.251196675072656,
+      "longitude": -97.85868777913991
+    },
+    {
+      "name": "Newark",
+      "slug": "newark",
+      "state": "New Jersey",
+      "stateSlug": "new-jersey",
+      "stateAbbr": "NJ",
+      "population": 313041,
+      "zipCodes": [
+        "69563",
+        "69564",
+        "69565"
+      ],
+      "latitude": 39.12696618792758,
+      "longitude": -98.52030471709128
+    },
+    {
+      "name": "Jersey City",
+      "slug": "jersey-city",
+      "state": "New Jersey",
+      "stateSlug": "new-jersey",
+      "stateAbbr": "NJ",
+      "population": 132682,
+      "zipCodes": [
+        "39412",
+        "39413",
+        "39414"
+      ],
+      "latitude": 40.675956908679275,
+      "longitude": -99.37841744599395
+    },
+    {
+      "name": "Paterson",
+      "slug": "paterson",
+      "state": "New Jersey",
+      "stateSlug": "new-jersey",
+      "stateAbbr": "NJ",
+      "population": 177624,
+      "zipCodes": [
+        "59616",
+        "59617",
+        "59618"
+      ],
+      "latitude": 39.518994840234754,
+      "longitude": -97.74638731183767
+    },
+    {
+      "name": "Elizabeth",
+      "slug": "elizabeth",
+      "state": "New Jersey",
+      "stateSlug": "new-jersey",
+      "stateAbbr": "NJ",
+      "population": 173455,
+      "zipCodes": [
+        "34935",
+        "34936",
+        "34937"
+      ],
+      "latitude": 40.73508959377547,
+      "longitude": -97.60452285876787
+    },
+    {
+      "name": "Edison",
+      "slug": "edison",
+      "state": "New Jersey",
+      "stateSlug": "new-jersey",
+      "stateAbbr": "NJ",
+      "population": 289281,
+      "zipCodes": [
+        "81209",
+        "81210",
+        "81211"
+      ],
+      "latitude": 38.89398561651863,
+      "longitude": -98.62106727701563
+    },
+    {
+      "name": "Woodbridge",
+      "slug": "woodbridge",
+      "state": "New Jersey",
+      "stateSlug": "new-jersey",
+      "stateAbbr": "NJ",
+      "population": 546001,
+      "zipCodes": [
+        "21729",
+        "21730",
+        "21731"
+      ],
+      "latitude": 39.784251402265326,
+      "longitude": -99.04876642652067
+    },
+    {
+      "name": "Lakewood",
+      "slug": "lakewood",
+      "state": "New Jersey",
+      "stateSlug": "new-jersey",
+      "stateAbbr": "NJ",
+      "population": 493761,
+      "zipCodes": [
+        "63851",
+        "63852",
+        "63853"
+      ],
+      "latitude": 39.753225963209196,
+      "longitude": -97.82821523018876
+    },
+    {
+      "name": "Toms River",
+      "slug": "toms-river",
+      "state": "New Jersey",
+      "stateSlug": "new-jersey",
+      "stateAbbr": "NJ",
+      "population": 507116,
+      "zipCodes": [
+        "88957",
+        "88958",
+        "88959"
+      ],
+      "latitude": 40.312816326445564,
+      "longitude": -98.74847313533238
+    },
+    {
+      "name": "Hamilton",
+      "slug": "hamilton",
+      "state": "New Jersey",
+      "stateSlug": "new-jersey",
+      "stateAbbr": "NJ",
+      "population": 322559,
+      "zipCodes": [
+        "97998",
+        "97999",
+        "98000"
+      ],
+      "latitude": 38.974509500884935,
+      "longitude": -98.15460202726264
+    },
+    {
+      "name": "Trenton",
+      "slug": "trenton",
+      "state": "New Jersey",
+      "stateSlug": "new-jersey",
+      "stateAbbr": "NJ",
+      "population": 136826,
+      "zipCodes": [
+        "81036",
+        "81037",
+        "81038"
+      ],
+      "latitude": 40.7294985087709,
+      "longitude": -97.84786280087238
+    },
+    {
+      "name": "Albuquerque",
+      "slug": "albuquerque",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbr": "NM",
+      "population": 259172,
+      "zipCodes": [
+        "40524",
+        "40525",
+        "40526"
+      ],
+      "latitude": 40.336991347581545,
+      "longitude": -99.38992550195445
+    },
+    {
+      "name": "Las Cruces",
+      "slug": "las-cruces",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbr": "NM",
+      "population": 86499,
+      "zipCodes": [
+        "19306",
+        "19307",
+        "19308"
+      ],
+      "latitude": 40.128396418366805,
+      "longitude": -98.12439629438418
+    },
+    {
+      "name": "Rio Rancho",
+      "slug": "rio-rancho",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbr": "NM",
+      "population": 61506,
+      "zipCodes": [
+        "78480",
+        "78481",
+        "78482"
+      ],
+      "latitude": 39.38027174701441,
+      "longitude": -98.98750855392527
+    },
+    {
+      "name": "Santa Fe",
+      "slug": "santa-fe",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbr": "NM",
+      "population": 393016,
+      "zipCodes": [
+        "12618",
+        "12619",
+        "12620"
+      ],
+      "latitude": 40.39935971706034,
+      "longitude": -99.53321435746572
+    },
+    {
+      "name": "Roswell",
+      "slug": "roswell",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbr": "NM",
+      "population": 253718,
+      "zipCodes": [
+        "69602",
+        "69603",
+        "69604"
+      ],
+      "latitude": 40.45186659189153,
+      "longitude": -98.3736302249942
+    },
+    {
+      "name": "Farmington",
+      "slug": "farmington",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbr": "NM",
+      "population": 221129,
+      "zipCodes": [
+        "97931",
+        "97932",
+        "97933"
+      ],
+      "latitude": 40.6326187029802,
+      "longitude": -99.02585008867452
+    },
+    {
+      "name": "Clovis",
+      "slug": "clovis",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbr": "NM",
+      "population": 155293,
+      "zipCodes": [
+        "28648",
+        "28649",
+        "28650"
+      ],
+      "latitude": 39.243917608179586,
+      "longitude": -99.1590989084266
+    },
+    {
+      "name": "Hobbs",
+      "slug": "hobbs",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbr": "NM",
+      "population": 517228,
+      "zipCodes": [
+        "24800",
+        "24801",
+        "24802"
+      ],
+      "latitude": 40.4229225644949,
+      "longitude": -99.06809197610494
+    },
+    {
+      "name": "Alamogordo",
+      "slug": "alamogordo",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbr": "NM",
+      "population": 355494,
+      "zipCodes": [
+        "52076",
+        "52077",
+        "52078"
+      ],
+      "latitude": 40.17448482872147,
+      "longitude": -99.13311348441096
+    },
+    {
+      "name": "Carlsbad",
+      "slug": "carlsbad",
+      "state": "New Mexico",
+      "stateSlug": "new-mexico",
+      "stateAbbr": "NM",
+      "population": 173463,
+      "zipCodes": [
+        "41333",
+        "41334",
+        "41335"
+      ],
+      "latitude": 39.56405155988358,
+      "longitude": -99.15277768289212
+    },
+    {
+      "name": "New York City",
+      "slug": "new-york-city",
+      "state": "New York",
+      "stateSlug": "new-york",
+      "stateAbbr": "NY",
+      "population": 483194,
+      "zipCodes": [
+        "20413",
+        "20414",
+        "20415"
+      ],
+      "latitude": 41.19328154791499,
+      "longitude": -74.29703881348267
+    },
+    {
+      "name": "Buffalo",
+      "slug": "buffalo",
+      "state": "New York",
+      "stateSlug": "new-york",
+      "stateAbbr": "NY",
+      "population": 531530,
+      "zipCodes": [
+        "72754",
+        "72755",
+        "72756"
+      ],
+      "latitude": 41.48496343639978,
+      "longitude": -75.69669021098875
+    },
+    {
+      "name": "Rochester",
+      "slug": "rochester",
+      "state": "New York",
+      "stateSlug": "new-york",
+      "stateAbbr": "NY",
+      "population": 411989,
+      "zipCodes": [
+        "12915",
+        "12916",
+        "12917"
+      ],
+      "latitude": 42.59158614163255,
+      "longitude": -75.7742327573483
+    },
+    {
+      "name": "Yonkers",
+      "slug": "yonkers",
+      "state": "New York",
+      "stateSlug": "new-york",
+      "stateAbbr": "NY",
+      "population": 235001,
+      "zipCodes": [
+        "95060",
+        "95061",
+        "95062"
+      ],
+      "latitude": 41.70625975766403,
+      "longitude": -74.80827087416286
+    },
+    {
+      "name": "Syracuse",
+      "slug": "syracuse",
+      "state": "New York",
+      "stateSlug": "new-york",
+      "stateAbbr": "NY",
+      "population": 247432,
+      "zipCodes": [
+        "32143",
+        "32144",
+        "32145"
+      ],
+      "latitude": 41.636645495231235,
+      "longitude": -74.73631984801119
+    },
+    {
+      "name": "Albany",
+      "slug": "albany",
+      "state": "New York",
+      "stateSlug": "new-york",
+      "stateAbbr": "NY",
+      "population": 435080,
+      "zipCodes": [
+        "33928",
+        "33929",
+        "33930"
+      ],
+      "latitude": 42.731045186465195,
+      "longitude": -74.7003286390044
+    },
+    {
+      "name": "New Rochelle",
+      "slug": "new-rochelle",
+      "state": "New York",
+      "stateSlug": "new-york",
+      "stateAbbr": "NY",
+      "population": 238633,
+      "zipCodes": [
+        "34500",
+        "34501",
+        "34502"
+      ],
+      "latitude": 42.337771001721656,
+      "longitude": -74.53928213666721
+    },
+    {
+      "name": "Mount Vernon",
+      "slug": "mount-vernon",
+      "state": "New York",
+      "stateSlug": "new-york",
+      "stateAbbr": "NY",
+      "population": 150590,
+      "zipCodes": [
+        "22858",
+        "22859",
+        "22860"
+      ],
+      "latitude": 41.56146294231169,
+      "longitude": -75.29043137666011
+    },
+    {
+      "name": "Schenectady",
+      "slug": "schenectady",
+      "state": "New York",
+      "stateSlug": "new-york",
+      "stateAbbr": "NY",
+      "population": 121730,
+      "zipCodes": [
+        "59898",
+        "59899",
+        "59900"
+      ],
+      "latitude": 43.02979115189395,
+      "longitude": -74.39598264051638
+    },
+    {
+      "name": "Utica",
+      "slug": "utica",
+      "state": "New York",
+      "stateSlug": "new-york",
+      "stateAbbr": "NY",
+      "population": 341486,
+      "zipCodes": [
+        "44638",
+        "44639",
+        "44640"
+      ],
+      "latitude": 42.460181527900566,
+      "longitude": -74.54953599346523
+    },
+    {
+      "name": "Charlotte",
+      "slug": "charlotte",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbr": "NC",
+      "population": 346638,
+      "zipCodes": [
+        "34524",
+        "34525",
+        "34526"
+      ],
+      "latitude": 39.4321327400375,
+      "longitude": -99.5632788192541
+    },
+    {
+      "name": "Raleigh",
+      "slug": "raleigh",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbr": "NC",
+      "population": 422421,
+      "zipCodes": [
+        "78020",
+        "78021",
+        "78022"
+      ],
+      "latitude": 39.0729848875309,
+      "longitude": -98.31674317998096
+    },
+    {
+      "name": "Greensboro",
+      "slug": "greensboro",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbr": "NC",
+      "population": 346650,
+      "zipCodes": [
+        "81580",
+        "81581",
+        "81582"
+      ],
+      "latitude": 39.44287137902923,
+      "longitude": -98.23996925946665
+    },
+    {
+      "name": "Durham",
+      "slug": "durham",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbr": "NC",
+      "population": 133860,
+      "zipCodes": [
+        "49214",
+        "49215",
+        "49216"
+      ],
+      "latitude": 39.31450304675654,
+      "longitude": -98.12666365380441
+    },
+    {
+      "name": "Winston-Salem",
+      "slug": "winston-salem",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbr": "NC",
+      "population": 272822,
+      "zipCodes": [
+        "59981",
+        "59982",
+        "59983"
+      ],
+      "latitude": 39.81435829042092,
+      "longitude": -99.42251924177363
+    },
+    {
+      "name": "Fayetteville",
+      "slug": "fayetteville",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbr": "NC",
+      "population": 145998,
+      "zipCodes": [
+        "39865",
+        "39866",
+        "39867"
+      ],
+      "latitude": 39.6908422887046,
+      "longitude": -99.08533174913121
+    },
+    {
+      "name": "Cary",
+      "slug": "cary",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbr": "NC",
+      "population": 361353,
+      "zipCodes": [
+        "49651",
+        "49652",
+        "49653"
+      ],
+      "latitude": 39.83091471187936,
+      "longitude": -97.65688300902552
+    },
+    {
+      "name": "Wilmington",
+      "slug": "wilmington",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbr": "NC",
+      "population": 256102,
+      "zipCodes": [
+        "76957",
+        "76958",
+        "76959"
+      ],
+      "latitude": 39.638576635075,
+      "longitude": -98.12506115219855
+    },
+    {
+      "name": "High Point",
+      "slug": "high-point",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbr": "NC",
+      "population": 195009,
+      "zipCodes": [
+        "24439",
+        "24440",
+        "24441"
+      ],
+      "latitude": 40.22784290244552,
+      "longitude": -97.87961705609983
+    },
+    {
+      "name": "Concord",
+      "slug": "concord",
+      "state": "North Carolina",
+      "stateSlug": "north-carolina",
+      "stateAbbr": "NC",
+      "population": 380006,
+      "zipCodes": [
+        "75710",
+        "75711",
+        "75712"
+      ],
+      "latitude": 39.350813421068324,
+      "longitude": -98.21515808039489
+    },
+    {
+      "name": "Fargo",
+      "slug": "fargo",
+      "state": "North Dakota",
+      "stateSlug": "north-dakota",
+      "stateAbbr": "ND",
+      "population": 109499,
+      "zipCodes": [
+        "55721",
+        "55722",
+        "55723"
+      ],
+      "latitude": 40.09042875878067,
+      "longitude": -97.9449683135768
+    },
+    {
+      "name": "Bismarck",
+      "slug": "bismarck",
+      "state": "North Dakota",
+      "stateSlug": "north-dakota",
+      "stateAbbr": "ND",
+      "population": 549328,
+      "zipCodes": [
+        "80119",
+        "80120",
+        "80121"
+      ],
+      "latitude": 40.186354684182035,
+      "longitude": -98.33278738959126
+    },
+    {
+      "name": "Grand Forks",
+      "slug": "grand-forks",
+      "state": "North Dakota",
+      "stateSlug": "north-dakota",
+      "stateAbbr": "ND",
+      "population": 240284,
+      "zipCodes": [
+        "23787",
+        "23788",
+        "23789"
+      ],
+      "latitude": 40.617800681530554,
+      "longitude": -98.81318948658925
+    },
+    {
+      "name": "Minot",
+      "slug": "minot",
+      "state": "North Dakota",
+      "stateSlug": "north-dakota",
+      "stateAbbr": "ND",
+      "population": 69563,
+      "zipCodes": [
+        "61002",
+        "61003",
+        "61004"
+      ],
+      "latitude": 39.4739625657101,
+      "longitude": -98.47226576771483
+    },
+    {
+      "name": "West Fargo",
+      "slug": "west-fargo",
+      "state": "North Dakota",
+      "stateSlug": "north-dakota",
+      "stateAbbr": "ND",
+      "population": 113652,
+      "zipCodes": [
+        "44627",
+        "44628",
+        "44629"
+      ],
+      "latitude": 40.02236390540001,
+      "longitude": -99.34541203715598
+    },
+    {
+      "name": "Williston",
+      "slug": "williston",
+      "state": "North Dakota",
+      "stateSlug": "north-dakota",
+      "stateAbbr": "ND",
+      "population": 128388,
+      "zipCodes": [
+        "31863",
+        "31864",
+        "31865"
+      ],
+      "latitude": 38.98670824570674,
+      "longitude": -98.52091198576001
+    },
+    {
+      "name": "Dickinson",
+      "slug": "dickinson",
+      "state": "North Dakota",
+      "stateSlug": "north-dakota",
+      "stateAbbr": "ND",
+      "population": 366393,
+      "zipCodes": [
+        "56890",
+        "56891",
+        "56892"
+      ],
+      "latitude": 39.29459575502637,
+      "longitude": -98.54590703811438
+    },
+    {
+      "name": "Mandan",
+      "slug": "mandan",
+      "state": "North Dakota",
+      "stateSlug": "north-dakota",
+      "stateAbbr": "ND",
+      "population": 58511,
+      "zipCodes": [
+        "12730",
+        "12731",
+        "12732"
+      ],
+      "latitude": 40.29181805309783,
+      "longitude": -97.60214052333323
+    },
+    {
+      "name": "Jamestown",
+      "slug": "jamestown",
+      "state": "North Dakota",
+      "stateSlug": "north-dakota",
+      "stateAbbr": "ND",
+      "population": 210967,
+      "zipCodes": [
+        "77747",
+        "77748",
+        "77749"
+      ],
+      "latitude": 39.02983501101772,
+      "longitude": -98.67751091488213
+    },
+    {
+      "name": "Wahpeton",
+      "slug": "wahpeton",
+      "state": "North Dakota",
+      "stateSlug": "north-dakota",
+      "stateAbbr": "ND",
+      "population": 175453,
+      "zipCodes": [
+        "23427",
+        "23428",
+        "23429"
+      ],
+      "latitude": 40.732630344053874,
+      "longitude": -97.66536388224235
+    },
+    {
+      "name": "Columbus",
+      "slug": "columbus",
+      "state": "Ohio",
+      "stateSlug": "ohio",
+      "stateAbbr": "OH",
+      "population": 111055,
+      "zipCodes": [
+        "33415",
+        "33416",
+        "33417"
+      ],
+      "latitude": 38.981638065060444,
+      "longitude": -98.29932131311588
+    },
+    {
+      "name": "Cleveland",
+      "slug": "cleveland",
+      "state": "Ohio",
+      "stateSlug": "ohio",
+      "stateAbbr": "OH",
+      "population": 525588,
+      "zipCodes": [
+        "63454",
+        "63455",
+        "63456"
+      ],
+      "latitude": 40.82392993893055,
+      "longitude": -99.04857782729388
+    },
+    {
+      "name": "Cincinnati",
+      "slug": "cincinnati",
+      "state": "Ohio",
+      "stateSlug": "ohio",
+      "stateAbbr": "OH",
+      "population": 149062,
+      "zipCodes": [
+        "84287",
+        "84288",
+        "84289"
+      ],
+      "latitude": 40.334111135466564,
+      "longitude": -99.46151681556412
+    },
+    {
+      "name": "Toledo",
+      "slug": "toledo",
+      "state": "Ohio",
+      "stateSlug": "ohio",
+      "stateAbbr": "OH",
+      "population": 113459,
+      "zipCodes": [
+        "41686",
+        "41687",
+        "41688"
+      ],
+      "latitude": 40.39158848929679,
+      "longitude": -97.62639314713746
+    },
+    {
+      "name": "Akron",
+      "slug": "akron",
+      "state": "Ohio",
+      "stateSlug": "ohio",
+      "stateAbbr": "OH",
+      "population": 55960,
+      "zipCodes": [
+        "90427",
+        "90428",
+        "90429"
+      ],
+      "latitude": 38.984859331656594,
+      "longitude": -99.39626069519059
+    },
+    {
+      "name": "Dayton",
+      "slug": "dayton",
+      "state": "Ohio",
+      "stateSlug": "ohio",
+      "stateAbbr": "OH",
+      "population": 289457,
+      "zipCodes": [
+        "26124",
+        "26125",
+        "26126"
+      ],
+      "latitude": 39.112447206309504,
+      "longitude": -99.36498625490609
+    },
+    {
+      "name": "Parma",
+      "slug": "parma",
+      "state": "Ohio",
+      "stateSlug": "ohio",
+      "stateAbbr": "OH",
+      "population": 393497,
+      "zipCodes": [
+        "61151",
+        "61152",
+        "61153"
+      ],
+      "latitude": 40.34781922962423,
+      "longitude": -97.76422432347778
+    },
+    {
+      "name": "Canton",
+      "slug": "canton",
+      "state": "Ohio",
+      "stateSlug": "ohio",
+      "stateAbbr": "OH",
+      "population": 531935,
+      "zipCodes": [
+        "23176",
+        "23177",
+        "23178"
+      ],
+      "latitude": 40.069587857538544,
+      "longitude": -98.1606808760987
+    },
+    {
+      "name": "Youngstown",
+      "slug": "youngstown",
+      "state": "Ohio",
+      "stateSlug": "ohio",
+      "stateAbbr": "OH",
+      "population": 504653,
+      "zipCodes": [
+        "68728",
+        "68729",
+        "68730"
+      ],
+      "latitude": 40.670252138114535,
+      "longitude": -97.95094920342109
+    },
+    {
+      "name": "Lorain",
+      "slug": "lorain",
+      "state": "Ohio",
+      "stateSlug": "ohio",
+      "stateAbbr": "OH",
+      "population": 182027,
+      "zipCodes": [
+        "81303",
+        "81304",
+        "81305"
+      ],
+      "latitude": 39.96097204095474,
+      "longitude": -99.47095035103412
+    },
+    {
+      "name": "Oklahoma City",
+      "slug": "oklahoma-city",
+      "state": "Oklahoma",
+      "stateSlug": "oklahoma",
+      "stateAbbr": "OK",
+      "population": 269406,
+      "zipCodes": [
+        "93753",
+        "93754",
+        "93755"
+      ],
+      "latitude": 40.70671736632656,
+      "longitude": -99.05068461778717
+    },
+    {
+      "name": "Tulsa",
+      "slug": "tulsa",
+      "state": "Oklahoma",
+      "stateSlug": "oklahoma",
+      "stateAbbr": "OK",
+      "population": 303034,
+      "zipCodes": [
+        "88544",
+        "88545",
+        "88546"
+      ],
+      "latitude": 38.92005886756262,
+      "longitude": -98.977160098401
+    },
+    {
+      "name": "Norman",
+      "slug": "norman",
+      "state": "Oklahoma",
+      "stateSlug": "oklahoma",
+      "stateAbbr": "OK",
+      "population": 371404,
+      "zipCodes": [
+        "12122",
+        "12123",
+        "12124"
+      ],
+      "latitude": 39.05181283681931,
+      "longitude": -98.57067326554109
+    },
+    {
+      "name": "Broken Arrow",
+      "slug": "broken-arrow",
+      "state": "Oklahoma",
+      "stateSlug": "oklahoma",
+      "stateAbbr": "OK",
+      "population": 440903,
+      "zipCodes": [
+        "89147",
+        "89148",
+        "89149"
+      ],
+      "latitude": 40.44165335301049,
+      "longitude": -97.77785396288608
+    },
+    {
+      "name": "Lawton",
+      "slug": "lawton",
+      "state": "Oklahoma",
+      "stateSlug": "oklahoma",
+      "stateAbbr": "OK",
+      "population": 475486,
+      "zipCodes": [
+        "99732",
+        "99733",
+        "99734"
+      ],
+      "latitude": 39.02828602626035,
+      "longitude": -99.42633658635646
+    },
+    {
+      "name": "Edmond",
+      "slug": "edmond",
+      "state": "Oklahoma",
+      "stateSlug": "oklahoma",
+      "stateAbbr": "OK",
+      "population": 411824,
+      "zipCodes": [
+        "39823",
+        "39824",
+        "39825"
+      ],
+      "latitude": 40.77379867499991,
+      "longitude": -99.31802249303657
+    },
+    {
+      "name": "Moore",
+      "slug": "moore",
+      "state": "Oklahoma",
+      "stateSlug": "oklahoma",
+      "stateAbbr": "OK",
+      "population": 502826,
+      "zipCodes": [
+        "42598",
+        "42599",
+        "42600"
+      ],
+      "latitude": 39.39790693512953,
+      "longitude": -98.65872448785518
+    },
+    {
+      "name": "Midwest City",
+      "slug": "midwest-city",
+      "state": "Oklahoma",
+      "stateSlug": "oklahoma",
+      "stateAbbr": "OK",
+      "population": 241879,
+      "zipCodes": [
+        "56660",
+        "56661",
+        "56662"
+      ],
+      "latitude": 39.73323363953263,
+      "longitude": -99.55284714604943
+    },
+    {
+      "name": "Enid",
+      "slug": "enid",
+      "state": "Oklahoma",
+      "stateSlug": "oklahoma",
+      "stateAbbr": "OK",
+      "population": 283758,
+      "zipCodes": [
+        "99663",
+        "99664",
+        "99665"
+      ],
+      "latitude": 39.1441702393175,
+      "longitude": -98.17639566557176
+    },
+    {
+      "name": "Stillwater",
+      "slug": "stillwater",
+      "state": "Oklahoma",
+      "stateSlug": "oklahoma",
+      "stateAbbr": "OK",
+      "population": 497415,
+      "zipCodes": [
+        "56470",
+        "56471",
+        "56472"
+      ],
+      "latitude": 38.922512655599405,
+      "longitude": -98.7347799650436
+    },
+    {
+      "name": "Portland",
+      "slug": "portland",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "stateAbbr": "OR",
+      "population": 463763,
+      "zipCodes": [
+        "89855",
+        "89856",
+        "89857"
+      ],
+      "latitude": 40.55440825095326,
+      "longitude": -99.38250801814772
+    },
+    {
+      "name": "Eugene",
+      "slug": "eugene",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "stateAbbr": "OR",
+      "population": 258266,
+      "zipCodes": [
+        "15303",
+        "15304",
+        "15305"
+      ],
+      "latitude": 39.12462689531155,
+      "longitude": -98.48232004072383
+    },
+    {
+      "name": "Salem",
+      "slug": "salem",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "stateAbbr": "OR",
+      "population": 485253,
+      "zipCodes": [
+        "33531",
+        "33532",
+        "33533"
+      ],
+      "latitude": 40.156011057173515,
+      "longitude": -97.90030687579576
+    },
+    {
+      "name": "Gresham",
+      "slug": "gresham",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "stateAbbr": "OR",
+      "population": 289546,
+      "zipCodes": [
+        "94526",
+        "94527",
+        "94528"
+      ],
+      "latitude": 40.664324395379424,
+      "longitude": -98.4265341614669
+    },
+    {
+      "name": "Hillsboro",
+      "slug": "hillsboro",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "stateAbbr": "OR",
+      "population": 97206,
+      "zipCodes": [
+        "99886",
+        "99887",
+        "99888"
+      ],
+      "latitude": 39.03653420624598,
+      "longitude": -99.43258337954924
+    },
+    {
+      "name": "Bend",
+      "slug": "bend",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "stateAbbr": "OR",
+      "population": 203746,
+      "zipCodes": [
+        "48653",
+        "48654",
+        "48655"
+      ],
+      "latitude": 40.29899558103133,
+      "longitude": -98.52177438704898
+    },
+    {
+      "name": "Beaverton",
+      "slug": "beaverton",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "stateAbbr": "OR",
+      "population": 185473,
+      "zipCodes": [
+        "62033",
+        "62034",
+        "62035"
+      ],
+      "latitude": 39.980814622315854,
+      "longitude": -97.6869044590655
+    },
+    {
+      "name": "Medford",
+      "slug": "medford",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "stateAbbr": "OR",
+      "population": 414999,
+      "zipCodes": [
+        "68985",
+        "68986",
+        "68987"
+      ],
+      "latitude": 39.72455040059468,
+      "longitude": -98.56064624171218
+    },
+    {
+      "name": "Springfield",
+      "slug": "springfield",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "stateAbbr": "OR",
+      "population": 543688,
+      "zipCodes": [
+        "49829",
+        "49830",
+        "49831"
+      ],
+      "latitude": 38.84483772903828,
+      "longitude": -99.56662956149526
+    },
+    {
+      "name": "Corvallis",
+      "slug": "corvallis",
+      "state": "Oregon",
+      "stateSlug": "oregon",
+      "stateAbbr": "OR",
+      "population": 95749,
+      "zipCodes": [
+        "98714",
+        "98715",
+        "98716"
+      ],
+      "latitude": 40.8235007410355,
+      "longitude": -99.16472469248015
+    },
+    {
+      "name": "Philadelphia",
+      "slug": "philadelphia",
+      "state": "Pennsylvania",
+      "stateSlug": "pennsylvania",
+      "stateAbbr": "PA",
+      "population": 549924,
+      "zipCodes": [
+        "30883",
+        "30884",
+        "30885"
+      ],
+      "latitude": 40.07482591683848,
+      "longitude": -76.96174183142205
+    },
+    {
+      "name": "Pittsburgh",
+      "slug": "pittsburgh",
+      "state": "Pennsylvania",
+      "stateSlug": "pennsylvania",
+      "stateAbbr": "PA",
+      "population": 73807,
+      "zipCodes": [
+        "24914",
+        "24915",
+        "24916"
+      ],
+      "latitude": 40.83953789704752,
+      "longitude": -77.9654794323395
+    },
+    {
+      "name": "Allentown",
+      "slug": "allentown",
+      "state": "Pennsylvania",
+      "stateSlug": "pennsylvania",
+      "stateAbbr": "PA",
+      "population": 325044,
+      "zipCodes": [
+        "27112",
+        "27113",
+        "27114"
+      ],
+      "latitude": 39.703961601245766,
+      "longitude": -76.97460633575416
+    },
+    {
+      "name": "Erie",
+      "slug": "erie",
+      "state": "Pennsylvania",
+      "stateSlug": "pennsylvania",
+      "stateAbbr": "PA",
+      "population": 249421,
+      "zipCodes": [
+        "16043",
+        "16044",
+        "16045"
+      ],
+      "latitude": 41.436461238071374,
+      "longitude": -78.1474454694099
+    },
+    {
+      "name": "Reading",
+      "slug": "reading",
+      "state": "Pennsylvania",
+      "stateSlug": "pennsylvania",
+      "stateAbbr": "PA",
+      "population": 393831,
+      "zipCodes": [
+        "34946",
+        "34947",
+        "34948"
+      ],
+      "latitude": 40.85715857410332,
+      "longitude": -78.15970069674796
+    },
+    {
+      "name": "Scranton",
+      "slug": "scranton",
+      "state": "Pennsylvania",
+      "stateSlug": "pennsylvania",
+      "stateAbbr": "PA",
+      "population": 199309,
+      "zipCodes": [
+        "38928",
+        "38929",
+        "38930"
+      ],
+      "latitude": 40.78831964483212,
+      "longitude": -76.90025770900837
+    },
+    {
+      "name": "Bethlehem",
+      "slug": "bethlehem",
+      "state": "Pennsylvania",
+      "stateSlug": "pennsylvania",
+      "stateAbbr": "PA",
+      "population": 420900,
+      "zipCodes": [
+        "47915",
+        "47916",
+        "47917"
+      ],
+      "latitude": 39.61548731727209,
+      "longitude": -76.56656514803989
+    },
+    {
+      "name": "Lancaster",
+      "slug": "lancaster",
+      "state": "Pennsylvania",
+      "stateSlug": "pennsylvania",
+      "stateAbbr": "PA",
+      "population": 132850,
+      "zipCodes": [
+        "22751",
+        "22752",
+        "22753"
+      ],
+      "latitude": 41.355271344554204,
+      "longitude": -78.08454784809646
+    },
+    {
+      "name": "Harrisburg",
+      "slug": "harrisburg",
+      "state": "Pennsylvania",
+      "stateSlug": "pennsylvania",
+      "stateAbbr": "PA",
+      "population": 225405,
+      "zipCodes": [
+        "21484",
+        "21485",
+        "21486"
+      ],
+      "latitude": 41.1862570193759,
+      "longitude": -76.59534164131108
+    },
+    {
+      "name": "Altoona",
+      "slug": "altoona",
+      "state": "Pennsylvania",
+      "stateSlug": "pennsylvania",
+      "stateAbbr": "PA",
+      "population": 425513,
+      "zipCodes": [
+        "57649",
+        "57650",
+        "57651"
+      ],
+      "latitude": 40.548874096385894,
+      "longitude": -77.59445545625309
+    },
+    {
+      "name": "Providence",
+      "slug": "providence",
+      "state": "Rhode Island",
+      "stateSlug": "rhode-island",
+      "stateAbbr": "RI",
+      "population": 83195,
+      "zipCodes": [
+        "75039",
+        "75040",
+        "75041"
+      ],
+      "latitude": 39.402927174323665,
+      "longitude": -97.59890698595648
+    },
+    {
+      "name": "Warwick",
+      "slug": "warwick",
+      "state": "Rhode Island",
+      "stateSlug": "rhode-island",
+      "stateAbbr": "RI",
+      "population": 260440,
+      "zipCodes": [
+        "41372",
+        "41373",
+        "41374"
+      ],
+      "latitude": 39.617672873451816,
+      "longitude": -98.42591020033873
+    },
+    {
+      "name": "Cranston",
+      "slug": "cranston",
+      "state": "Rhode Island",
+      "stateSlug": "rhode-island",
+      "stateAbbr": "RI",
+      "population": 216589,
+      "zipCodes": [
+        "34301",
+        "34302",
+        "34303"
+      ],
+      "latitude": 39.660102212612976,
+      "longitude": -99.29391719700916
+    },
+    {
+      "name": "Pawtucket",
+      "slug": "pawtucket",
+      "state": "Rhode Island",
+      "stateSlug": "rhode-island",
+      "stateAbbr": "RI",
+      "population": 194135,
+      "zipCodes": [
+        "64943",
+        "64944",
+        "64945"
+      ],
+      "latitude": 39.24361375562016,
+      "longitude": -98.42411214781492
+    },
+    {
+      "name": "East Providence",
+      "slug": "east-providence",
+      "state": "Rhode Island",
+      "stateSlug": "rhode-island",
+      "stateAbbr": "RI",
+      "population": 226219,
+      "zipCodes": [
+        "13361",
+        "13362",
+        "13363"
+      ],
+      "latitude": 40.60746292315991,
+      "longitude": -98.8452841952258
+    },
+    {
+      "name": "Woonsocket",
+      "slug": "woonsocket",
+      "state": "Rhode Island",
+      "stateSlug": "rhode-island",
+      "stateAbbr": "RI",
+      "population": 533843,
+      "zipCodes": [
+        "40839",
+        "40840",
+        "40841"
+      ],
+      "latitude": 39.80360893923338,
+      "longitude": -98.56832414007881
+    },
+    {
+      "name": "Newport",
+      "slug": "newport",
+      "state": "Rhode Island",
+      "stateSlug": "rhode-island",
+      "stateAbbr": "RI",
+      "population": 143885,
+      "zipCodes": [
+        "28887",
+        "28888",
+        "28889"
+      ],
+      "latitude": 39.059364734579674,
+      "longitude": -98.20622784372756
+    },
+    {
+      "name": "Central Falls",
+      "slug": "central-falls",
+      "state": "Rhode Island",
+      "stateSlug": "rhode-island",
+      "stateAbbr": "RI",
+      "population": 321933,
+      "zipCodes": [
+        "39454",
+        "39455",
+        "39456"
+      ],
+      "latitude": 39.071404959571076,
+      "longitude": -97.75470242630524
+    },
+    {
+      "name": "Westerly",
+      "slug": "westerly",
+      "state": "Rhode Island",
+      "stateSlug": "rhode-island",
+      "stateAbbr": "RI",
+      "population": 277309,
+      "zipCodes": [
+        "14171",
+        "14172",
+        "14173"
+      ],
+      "latitude": 38.90567989824479,
+      "longitude": -98.83143213863814
+    },
+    {
+      "name": "Cumberland",
+      "slug": "cumberland",
+      "state": "Rhode Island",
+      "stateSlug": "rhode-island",
+      "stateAbbr": "RI",
+      "population": 510519,
+      "zipCodes": [
+        "14030",
+        "14031",
+        "14032"
+      ],
+      "latitude": 39.95976232016123,
+      "longitude": -97.85820457678663
+    },
+    {
+      "name": "Charleston",
+      "slug": "charleston",
+      "state": "South Carolina",
+      "stateSlug": "south-carolina",
+      "stateAbbr": "SC",
+      "population": 421034,
+      "zipCodes": [
+        "82982",
+        "82983",
+        "82984"
+      ],
+      "latitude": 39.992709031819466,
+      "longitude": -99.20944415952629
+    },
+    {
+      "name": "Columbia",
+      "slug": "columbia",
+      "state": "South Carolina",
+      "stateSlug": "south-carolina",
+      "stateAbbr": "SC",
+      "population": 393599,
+      "zipCodes": [
+        "97566",
+        "97567",
+        "97568"
+      ],
+      "latitude": 39.53479317657154,
+      "longitude": -99.24423013245523
+    },
+    {
+      "name": "North Charleston",
+      "slug": "north-charleston",
+      "state": "South Carolina",
+      "stateSlug": "south-carolina",
+      "stateAbbr": "SC",
+      "population": 424264,
+      "zipCodes": [
+        "56858",
+        "56859",
+        "56860"
+      ],
+      "latitude": 39.74865511433639,
+      "longitude": -99.35999717771702
+    },
+    {
+      "name": "Mount Pleasant",
+      "slug": "mount-pleasant",
+      "state": "South Carolina",
+      "stateSlug": "south-carolina",
+      "stateAbbr": "SC",
+      "population": 320348,
+      "zipCodes": [
+        "22266",
+        "22267",
+        "22268"
+      ],
+      "latitude": 39.40378867491767,
+      "longitude": -97.60433983319423
+    },
+    {
+      "name": "Rock Hill",
+      "slug": "rock-hill",
+      "state": "South Carolina",
+      "stateSlug": "south-carolina",
+      "stateAbbr": "SC",
+      "population": 392796,
+      "zipCodes": [
+        "42046",
+        "42047",
+        "42048"
+      ],
+      "latitude": 40.138774409906965,
+      "longitude": -99.06946311047363
+    },
+    {
+      "name": "Greenville",
+      "slug": "greenville",
+      "state": "South Carolina",
+      "stateSlug": "south-carolina",
+      "stateAbbr": "SC",
+      "population": 193586,
+      "zipCodes": [
+        "27358",
+        "27359",
+        "27360"
+      ],
+      "latitude": 39.90834224170436,
+      "longitude": -98.98491920344219
+    },
+    {
+      "name": "Summerville",
+      "slug": "summerville",
+      "state": "South Carolina",
+      "stateSlug": "south-carolina",
+      "stateAbbr": "SC",
+      "population": 83550,
+      "zipCodes": [
+        "89821",
+        "89822",
+        "89823"
+      ],
+      "latitude": 40.05687067510689,
+      "longitude": -98.01409596833666
+    },
+    {
+      "name": "Sumter",
+      "slug": "sumter",
+      "state": "South Carolina",
+      "stateSlug": "south-carolina",
+      "stateAbbr": "SC",
+      "population": 221375,
+      "zipCodes": [
+        "17724",
+        "17725",
+        "17726"
+      ],
+      "latitude": 40.727207900958504,
+      "longitude": -99.01108713657554
+    },
+    {
+      "name": "Hilton Head Island",
+      "slug": "hilton-head-island",
+      "state": "South Carolina",
+      "stateSlug": "south-carolina",
+      "stateAbbr": "SC",
+      "population": 406526,
+      "zipCodes": [
+        "16623",
+        "16624",
+        "16625"
+      ],
+      "latitude": 39.33501077018306,
+      "longitude": -98.90487293110611
+    },
+    {
+      "name": "Spartanburg",
+      "slug": "spartanburg",
+      "state": "South Carolina",
+      "stateSlug": "south-carolina",
+      "stateAbbr": "SC",
+      "population": 446361,
+      "zipCodes": [
+        "59094",
+        "59095",
+        "59096"
+      ],
+      "latitude": 40.41074739362289,
+      "longitude": -97.67227291923872
+    },
+    {
+      "name": "Sioux Falls",
+      "slug": "sioux-falls",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbr": "SD",
+      "population": 419858,
+      "zipCodes": [
+        "20037",
+        "20038",
+        "20039"
+      ],
+      "latitude": 39.853249463867655,
+      "longitude": -98.55567261628563
+    },
+    {
+      "name": "Rapid City",
+      "slug": "rapid-city",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbr": "SD",
+      "population": 294859,
+      "zipCodes": [
+        "89132",
+        "89133",
+        "89134"
+      ],
+      "latitude": 39.72112365478923,
+      "longitude": -98.63473965679042
+    },
+    {
+      "name": "Aberdeen",
+      "slug": "aberdeen",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbr": "SD",
+      "population": 441766,
+      "zipCodes": [
+        "21476",
+        "21477",
+        "21478"
+      ],
+      "latitude": 40.2539058132239,
+      "longitude": -97.90297404774763
+    },
+    {
+      "name": "Brookings",
+      "slug": "brookings",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbr": "SD",
+      "population": 223090,
+      "zipCodes": [
+        "52471",
+        "52472",
+        "52473"
+      ],
+      "latitude": 40.59644247144897,
+      "longitude": -97.60041974052872
+    },
+    {
+      "name": "Watertown",
+      "slug": "watertown",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbr": "SD",
+      "population": 183917,
+      "zipCodes": [
+        "16861",
+        "16862",
+        "16863"
+      ],
+      "latitude": 39.49961744859344,
+      "longitude": -97.69813020253176
+    },
+    {
+      "name": "Mitchell",
+      "slug": "mitchell",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbr": "SD",
+      "population": 139423,
+      "zipCodes": [
+        "10100",
+        "10101",
+        "10102"
+      ],
+      "latitude": 38.9854512846612,
+      "longitude": -98.06476816956493
+    },
+    {
+      "name": "Yankton",
+      "slug": "yankton",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbr": "SD",
+      "population": 123713,
+      "zipCodes": [
+        "16345",
+        "16346",
+        "16347"
+      ],
+      "latitude": 40.148533469351165,
+      "longitude": -99.54262983702148
+    },
+    {
+      "name": "Pierre",
+      "slug": "pierre",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbr": "SD",
+      "population": 168653,
+      "zipCodes": [
+        "22720",
+        "22721",
+        "22722"
+      ],
+      "latitude": 39.97560898050263,
+      "longitude": -98.13868783626249
+    },
+    {
+      "name": "Huron",
+      "slug": "huron",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbr": "SD",
+      "population": 251388,
+      "zipCodes": [
+        "25041",
+        "25042",
+        "25043"
+      ],
+      "latitude": 39.884684473898105,
+      "longitude": -99.18237104379638
+    },
+    {
+      "name": "Vermillion",
+      "slug": "vermillion",
+      "state": "South Dakota",
+      "stateSlug": "south-dakota",
+      "stateAbbr": "SD",
+      "population": 410548,
+      "zipCodes": [
+        "75391",
+        "75392",
+        "75393"
+      ],
+      "latitude": 39.54229404731695,
+      "longitude": -99.46185294945577
+    },
+    {
+      "name": "Nashville",
+      "slug": "nashville",
+      "state": "Tennessee",
+      "stateSlug": "tennessee",
+      "stateAbbr": "TN",
+      "population": 544042,
+      "zipCodes": [
+        "27656",
+        "27657",
+        "27658"
+      ],
+      "latitude": 39.29675131500966,
+      "longitude": -99.29400456465567
+    },
+    {
+      "name": "Memphis",
+      "slug": "memphis",
+      "state": "Tennessee",
+      "stateSlug": "tennessee",
+      "stateAbbr": "TN",
+      "population": 51455,
+      "zipCodes": [
+        "80948",
+        "80949",
+        "80950"
+      ],
+      "latitude": 39.11491797419023,
+      "longitude": -98.89871762068896
+    },
+    {
+      "name": "Knoxville",
+      "slug": "knoxville",
+      "state": "Tennessee",
+      "stateSlug": "tennessee",
+      "stateAbbr": "TN",
+      "population": 143986,
+      "zipCodes": [
+        "90542",
+        "90543",
+        "90544"
+      ],
+      "latitude": 40.08855805634645,
+      "longitude": -98.75781730684093
+    },
+    {
+      "name": "Chattanooga",
+      "slug": "chattanooga",
+      "state": "Tennessee",
+      "stateSlug": "tennessee",
+      "stateAbbr": "TN",
+      "population": 497685,
+      "zipCodes": [
+        "75153",
+        "75154",
+        "75155"
+      ],
+      "latitude": 39.709887659765634,
+      "longitude": -98.54852797536965
+    },
+    {
+      "name": "Clarksville",
+      "slug": "clarksville",
+      "state": "Tennessee",
+      "stateSlug": "tennessee",
+      "stateAbbr": "TN",
+      "population": 167001,
+      "zipCodes": [
+        "66988",
+        "66989",
+        "66990"
+      ],
+      "latitude": 38.858936399575214,
+      "longitude": -98.3080203709936
+    },
+    {
+      "name": "Murfreesboro",
+      "slug": "murfreesboro",
+      "state": "Tennessee",
+      "stateSlug": "tennessee",
+      "stateAbbr": "TN",
+      "population": 172755,
+      "zipCodes": [
+        "96897",
+        "96898",
+        "96899"
+      ],
+      "latitude": 39.91633655461357,
+      "longitude": -99.54173636201378
+    },
+    {
+      "name": "Franklin",
+      "slug": "franklin",
+      "state": "Tennessee",
+      "stateSlug": "tennessee",
+      "stateAbbr": "TN",
+      "population": 180549,
+      "zipCodes": [
+        "49956",
+        "49957",
+        "49958"
+      ],
+      "latitude": 39.983870117967705,
+      "longitude": -97.67786809316486
+    },
+    {
+      "name": "Jackson",
+      "slug": "jackson",
+      "state": "Tennessee",
+      "stateSlug": "tennessee",
+      "stateAbbr": "TN",
+      "population": 100370,
+      "zipCodes": [
+        "95891",
+        "95892",
+        "95893"
+      ],
+      "latitude": 39.842106986347204,
+      "longitude": -98.388541880005
+    },
+    {
+      "name": "Johnson City",
+      "slug": "johnson-city",
+      "state": "Tennessee",
+      "stateSlug": "tennessee",
+      "stateAbbr": "TN",
+      "population": 461281,
+      "zipCodes": [
+        "85199",
+        "85200",
+        "85201"
+      ],
+      "latitude": 39.27696104886733,
+      "longitude": -99.02342143742747
+    },
+    {
+      "name": "Bartlett",
+      "slug": "bartlett",
+      "state": "Tennessee",
+      "stateSlug": "tennessee",
+      "stateAbbr": "TN",
+      "population": 339877,
+      "zipCodes": [
+        "85143",
+        "85144",
+        "85145"
+      ],
+      "latitude": 40.35780257500754,
+      "longitude": -99.48190881371852
+    },
+    {
+      "name": "Houston",
+      "slug": "houston",
+      "state": "Texas",
+      "stateSlug": "texas",
+      "stateAbbr": "TX",
+      "population": 361653,
+      "zipCodes": [
+        "80768",
+        "80769",
+        "80770"
+      ],
+      "latitude": 32.25958198275283,
+      "longitude": -99.94092328696871
+    },
+    {
+      "name": "San Antonio",
+      "slug": "san-antonio",
+      "state": "Texas",
+      "stateSlug": "texas",
+      "stateAbbr": "TX",
+      "population": 261228,
+      "zipCodes": [
+        "59008",
+        "59009",
+        "59010"
+      ],
+      "latitude": 32.30525370735352,
+      "longitude": -99.33072630839315
+    },
+    {
+      "name": "Dallas",
+      "slug": "dallas",
+      "state": "Texas",
+      "stateSlug": "texas",
+      "stateAbbr": "TX",
+      "population": 346132,
+      "zipCodes": [
+        "36473",
+        "36474",
+        "36475"
+      ],
+      "latitude": 32.67252089835988,
+      "longitude": -99.71456398288018
+    },
+    {
+      "name": "Austin",
+      "slug": "austin",
+      "state": "Texas",
+      "stateSlug": "texas",
+      "stateAbbr": "TX",
+      "population": 393870,
+      "zipCodes": [
+        "11843",
+        "11844",
+        "11845"
+      ],
+      "latitude": 31.609090901804187,
+      "longitude": -99.16999687418925
+    },
+    {
+      "name": "Fort Worth",
+      "slug": "fort-worth",
+      "state": "Texas",
+      "stateSlug": "texas",
+      "stateAbbr": "TX",
+      "population": 486293,
+      "zipCodes": [
+        "54872",
+        "54873",
+        "54874"
+      ],
+      "latitude": 32.716842477854755,
+      "longitude": -99.89486193542764
+    },
+    {
+      "name": "El Paso",
+      "slug": "el-paso",
+      "state": "Texas",
+      "stateSlug": "texas",
+      "stateAbbr": "TX",
+      "population": 110274,
+      "zipCodes": [
+        "36603",
+        "36604",
+        "36605"
+      ],
+      "latitude": 32.95932250542448,
+      "longitude": -100.6147398232101
+    },
+    {
+      "name": "Arlington",
+      "slug": "arlington",
+      "state": "Texas",
+      "stateSlug": "texas",
+      "stateAbbr": "TX",
+      "population": 417815,
+      "zipCodes": [
+        "90649",
+        "90650",
+        "90651"
+      ],
+      "latitude": 32.54086553213065,
+      "longitude": -99.4590890692902
+    },
+    {
+      "name": "Corpus Christi",
+      "slug": "corpus-christi",
+      "state": "Texas",
+      "stateSlug": "texas",
+      "stateAbbr": "TX",
+      "population": 456350,
+      "zipCodes": [
+        "80467",
+        "80468",
+        "80469"
+      ],
+      "latitude": 32.034327428873276,
+      "longitude": -100.84418104444539
+    },
+    {
+      "name": "Plano",
+      "slug": "plano",
+      "state": "Texas",
+      "stateSlug": "texas",
+      "stateAbbr": "TX",
+      "population": 447547,
+      "zipCodes": [
+        "60336",
+        "60337",
+        "60338"
+      ],
+      "latitude": 31.64751080547531,
+      "longitude": -99.13822385083424
+    },
+    {
+      "name": "Laredo",
+      "slug": "laredo",
+      "state": "Texas",
+      "stateSlug": "texas",
+      "stateAbbr": "TX",
+      "population": 103724,
+      "zipCodes": [
+        "97069",
+        "97070",
+        "97071"
+      ],
+      "latitude": 32.74072468389983,
+      "longitude": -99.7207053583501
+    },
+    {
+      "name": "Salt Lake City",
+      "slug": "salt-lake-city",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbr": "UT",
+      "population": 123801,
+      "zipCodes": [
+        "32180",
+        "32181",
+        "32182"
+      ],
+      "latitude": 40.631451379245945,
+      "longitude": -98.63233918198462
+    },
+    {
+      "name": "West Valley City",
+      "slug": "west-valley-city",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbr": "UT",
+      "population": 260271,
+      "zipCodes": [
+        "36123",
+        "36124",
+        "36125"
+      ],
+      "latitude": 38.99112702799758,
+      "longitude": -97.98222095082387
+    },
+    {
+      "name": "Provo",
+      "slug": "provo",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbr": "UT",
+      "population": 73355,
+      "zipCodes": [
+        "62812",
+        "62813",
+        "62814"
+      ],
+      "latitude": 39.96187770558045,
+      "longitude": -97.81021301158192
+    },
+    {
+      "name": "West Jordan",
+      "slug": "west-jordan",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbr": "UT",
+      "population": 376065,
+      "zipCodes": [
+        "77410",
+        "77411",
+        "77412"
+      ],
+      "latitude": 39.701950537914286,
+      "longitude": -98.95398366546767
+    },
+    {
+      "name": "Orem",
+      "slug": "orem",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbr": "UT",
+      "population": 241711,
+      "zipCodes": [
+        "99270",
+        "99271",
+        "99272"
+      ],
+      "latitude": 40.330417359114385,
+      "longitude": -99.28194256227337
+    },
+    {
+      "name": "Sandy",
+      "slug": "sandy",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbr": "UT",
+      "population": 322799,
+      "zipCodes": [
+        "64674",
+        "64675",
+        "64676"
+      ],
+      "latitude": 39.283193743570365,
+      "longitude": -97.79875922834614
+    },
+    {
+      "name": "Ogden",
+      "slug": "ogden",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbr": "UT",
+      "population": 412164,
+      "zipCodes": [
+        "43767",
+        "43768",
+        "43769"
+      ],
+      "latitude": 40.19636625054126,
+      "longitude": -98.27057804906158
+    },
+    {
+      "name": "St. George",
+      "slug": "st-george",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbr": "UT",
+      "population": 503595,
+      "zipCodes": [
+        "82277",
+        "82278",
+        "82279"
+      ],
+      "latitude": 39.88985070523493,
+      "longitude": -98.17940350450154
+    },
+    {
+      "name": "Layton",
+      "slug": "layton",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbr": "UT",
+      "population": 86490,
+      "zipCodes": [
+        "78402",
+        "78403",
+        "78404"
+      ],
+      "latitude": 39.57212483458206,
+      "longitude": -97.6375278838112
+    },
+    {
+      "name": "Taylorsville",
+      "slug": "taylorsville",
+      "state": "Utah",
+      "stateSlug": "utah",
+      "stateAbbr": "UT",
+      "population": 221608,
+      "zipCodes": [
+        "40018",
+        "40019",
+        "40020"
+      ],
+      "latitude": 40.43002560553194,
+      "longitude": -97.58746533987431
+    },
+    {
+      "name": "Burlington",
+      "slug": "burlington",
+      "state": "Vermont",
+      "stateSlug": "vermont",
+      "stateAbbr": "VT",
+      "population": 140773,
+      "zipCodes": [
+        "61794",
+        "61795",
+        "61796"
+      ],
+      "latitude": 40.70796059348658,
+      "longitude": -97.67676635509562
+    },
+    {
+      "name": "Essex",
+      "slug": "essex",
+      "state": "Vermont",
+      "stateSlug": "vermont",
+      "stateAbbr": "VT",
+      "population": 525399,
+      "zipCodes": [
+        "96815",
+        "96816",
+        "96817"
+      ],
+      "latitude": 40.05533507556119,
+      "longitude": -97.66902427391045
+    },
+    {
+      "name": "South Burlington",
+      "slug": "south-burlington",
+      "state": "Vermont",
+      "stateSlug": "vermont",
+      "stateAbbr": "VT",
+      "population": 68070,
+      "zipCodes": [
+        "37483",
+        "37484",
+        "37485"
+      ],
+      "latitude": 40.385695639648425,
+      "longitude": -98.85853904218061
+    },
+    {
+      "name": "Colchester",
+      "slug": "colchester",
+      "state": "Vermont",
+      "stateSlug": "vermont",
+      "stateAbbr": "VT",
+      "population": 392384,
+      "zipCodes": [
+        "51936",
+        "51937",
+        "51938"
+      ],
+      "latitude": 39.09755048707384,
+      "longitude": -98.76670125749006
+    },
+    {
+      "name": "Rutland",
+      "slug": "rutland",
+      "state": "Vermont",
+      "stateSlug": "vermont",
+      "stateAbbr": "VT",
+      "population": 208602,
+      "zipCodes": [
+        "80274",
+        "80275",
+        "80276"
+      ],
+      "latitude": 39.537904385141054,
+      "longitude": -98.36910687718265
+    },
+    {
+      "name": "Montpelier",
+      "slug": "montpelier",
+      "state": "Vermont",
+      "stateSlug": "vermont",
+      "stateAbbr": "VT",
+      "population": 418350,
+      "zipCodes": [
+        "73712",
+        "73713",
+        "73714"
+      ],
+      "latitude": 40.773471935641275,
+      "longitude": -97.66953667961651
+    },
+    {
+      "name": "Barre",
+      "slug": "barre",
+      "state": "Vermont",
+      "stateSlug": "vermont",
+      "stateAbbr": "VT",
+      "population": 266356,
+      "zipCodes": [
+        "87737",
+        "87738",
+        "87739"
+      ],
+      "latitude": 39.39057214480559,
+      "longitude": -98.73951663238579
+    },
+    {
+      "name": "St. Albans",
+      "slug": "st-albans",
+      "state": "Vermont",
+      "stateSlug": "vermont",
+      "stateAbbr": "VT",
+      "population": 544946,
+      "zipCodes": [
+        "27129",
+        "27130",
+        "27131"
+      ],
+      "latitude": 39.52529309294809,
+      "longitude": -98.44478871479137
+    },
+    {
+      "name": "Brattleboro",
+      "slug": "brattleboro",
+      "state": "Vermont",
+      "stateSlug": "vermont",
+      "stateAbbr": "VT",
+      "population": 141217,
+      "zipCodes": [
+        "59447",
+        "59448",
+        "59449"
+      ],
+      "latitude": 39.83578764532805,
+      "longitude": -97.86397407853465
+    },
+    {
+      "name": "Milton",
+      "slug": "milton",
+      "state": "Vermont",
+      "stateSlug": "vermont",
+      "stateAbbr": "VT",
+      "population": 456172,
+      "zipCodes": [
+        "49000",
+        "49001",
+        "49002"
+      ],
+      "latitude": 38.95060102504333,
+      "longitude": -98.99637517460823
+    },
+    {
+      "name": "Virginia Beach",
+      "slug": "virginia-beach",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbr": "VA",
+      "population": 518885,
+      "zipCodes": [
+        "42981",
+        "42982",
+        "42983"
+      ],
+      "latitude": 39.20388902896625,
+      "longitude": -97.67965209221906
+    },
+    {
+      "name": "Norfolk",
+      "slug": "norfolk",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbr": "VA",
+      "population": 235676,
+      "zipCodes": [
+        "97300",
+        "97301",
+        "97302"
+      ],
+      "latitude": 38.98912971667969,
+      "longitude": -98.65407321956859
+    },
+    {
+      "name": "Chesapeake",
+      "slug": "chesapeake",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbr": "VA",
+      "population": 107732,
+      "zipCodes": [
+        "82739",
+        "82740",
+        "82741"
+      ],
+      "latitude": 39.50003718170016,
+      "longitude": -97.82915398234212
+    },
+    {
+      "name": "Richmond",
+      "slug": "richmond",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbr": "VA",
+      "population": 330758,
+      "zipCodes": [
+        "48957",
+        "48958",
+        "48959"
+      ],
+      "latitude": 40.04623157658783,
+      "longitude": -99.15547484880399
+    },
+    {
+      "name": "Newport News",
+      "slug": "newport-news",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbr": "VA",
+      "population": 143703,
+      "zipCodes": [
+        "23399",
+        "23400",
+        "23401"
+      ],
+      "latitude": 40.358283552847325,
+      "longitude": -98.7396841985471
+    },
+    {
+      "name": "Alexandria",
+      "slug": "alexandria",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbr": "VA",
+      "population": 244401,
+      "zipCodes": [
+        "17929",
+        "17930",
+        "17931"
+      ],
+      "latitude": 39.965710782694046,
+      "longitude": -97.8066999517659
+    },
+    {
+      "name": "Hampton",
+      "slug": "hampton",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbr": "VA",
+      "population": 373633,
+      "zipCodes": [
+        "64732",
+        "64733",
+        "64734"
+      ],
+      "latitude": 39.10783585121382,
+      "longitude": -99.1650088231337
+    },
+    {
+      "name": "Portsmouth",
+      "slug": "portsmouth",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbr": "VA",
+      "population": 384998,
+      "zipCodes": [
+        "56574",
+        "56575",
+        "56576"
+      ],
+      "latitude": 39.78098613837989,
+      "longitude": -99.17517145852503
+    },
+    {
+      "name": "Suffolk",
+      "slug": "suffolk",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbr": "VA",
+      "population": 218448,
+      "zipCodes": [
+        "64574",
+        "64575",
+        "64576"
+      ],
+      "latitude": 39.94611516756593,
+      "longitude": -98.84596963642846
+    },
+    {
+      "name": "Roanoke",
+      "slug": "roanoke",
+      "state": "Virginia",
+      "stateSlug": "virginia",
+      "stateAbbr": "VA",
+      "population": 293595,
+      "zipCodes": [
+        "47106",
+        "47107",
+        "47108"
+      ],
+      "latitude": 40.52921511747524,
+      "longitude": -98.4236122011298
+    },
+    {
+      "name": "Seattle",
+      "slug": "seattle",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "stateAbbr": "WA",
+      "population": 62849,
+      "zipCodes": [
+        "52549",
+        "52550",
+        "52551"
+      ],
+      "latitude": 40.77765653795497,
+      "longitude": -98.30656193951596
+    },
+    {
+      "name": "Spokane",
+      "slug": "spokane",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "stateAbbr": "WA",
+      "population": 421259,
+      "zipCodes": [
+        "84320",
+        "84321",
+        "84322"
+      ],
+      "latitude": 39.70836474004423,
+      "longitude": -99.24059916310374
+    },
+    {
+      "name": "Tacoma",
+      "slug": "tacoma",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "stateAbbr": "WA",
+      "population": 536905,
+      "zipCodes": [
+        "32411",
+        "32412",
+        "32413"
+      ],
+      "latitude": 38.898132181103364,
+      "longitude": -98.1964868907307
+    },
+    {
+      "name": "Vancouver",
+      "slug": "vancouver",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "stateAbbr": "WA",
+      "population": 107284,
+      "zipCodes": [
+        "14725",
+        "14726",
+        "14727"
+      ],
+      "latitude": 39.82432525824532,
+      "longitude": -98.53674778833818
+    },
+    {
+      "name": "Bellevue",
+      "slug": "bellevue",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "stateAbbr": "WA",
+      "population": 237604,
+      "zipCodes": [
+        "40815",
+        "40816",
+        "40817"
+      ],
+      "latitude": 40.167874402810504,
+      "longitude": -98.09235223759346
+    },
+    {
+      "name": "Kent",
+      "slug": "kent",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "stateAbbr": "WA",
+      "population": 390535,
+      "zipCodes": [
+        "97002",
+        "97003",
+        "97004"
+      ],
+      "latitude": 39.22370672787564,
+      "longitude": -99.51075786076628
+    },
+    {
+      "name": "Everett",
+      "slug": "everett",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "stateAbbr": "WA",
+      "population": 205425,
+      "zipCodes": [
+        "72409",
+        "72410",
+        "72411"
+      ],
+      "latitude": 38.8433075785674,
+      "longitude": -98.29435082532353
+    },
+    {
+      "name": "Renton",
+      "slug": "renton",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "stateAbbr": "WA",
+      "population": 222412,
+      "zipCodes": [
+        "72861",
+        "72862",
+        "72863"
+      ],
+      "latitude": 40.66946437075844,
+      "longitude": -98.49354680797569
+    },
+    {
+      "name": "Yakima",
+      "slug": "yakima",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "stateAbbr": "WA",
+      "population": 519872,
+      "zipCodes": [
+        "24225",
+        "24226",
+        "24227"
+      ],
+      "latitude": 40.20942553418863,
+      "longitude": -97.83679826363966
+    },
+    {
+      "name": "Federal Way",
+      "slug": "federal-way",
+      "state": "Washington",
+      "stateSlug": "washington",
+      "stateAbbr": "WA",
+      "population": 218753,
+      "zipCodes": [
+        "74281",
+        "74282",
+        "74283"
+      ],
+      "latitude": 39.64055007685981,
+      "longitude": -98.89006783372153
+    },
+    {
+      "name": "Charleston",
+      "slug": "charleston",
+      "state": "West Virginia",
+      "stateSlug": "west-virginia",
+      "stateAbbr": "WV",
+      "population": 513392,
+      "zipCodes": [
+        "20538",
+        "20539",
+        "20540"
+      ],
+      "latitude": 39.148726413546186,
+      "longitude": -98.7671721455422
+    },
+    {
+      "name": "Huntington",
+      "slug": "huntington",
+      "state": "West Virginia",
+      "stateSlug": "west-virginia",
+      "stateAbbr": "WV",
+      "population": 528818,
+      "zipCodes": [
+        "33444",
+        "33445",
+        "33446"
+      ],
+      "latitude": 38.992785430075244,
+      "longitude": -99.25180984473415
+    },
+    {
+      "name": "Parkersburg",
+      "slug": "parkersburg",
+      "state": "West Virginia",
+      "stateSlug": "west-virginia",
+      "stateAbbr": "WV",
+      "population": 199206,
+      "zipCodes": [
+        "99050",
+        "99051",
+        "99052"
+      ],
+      "latitude": 40.430653448578745,
+      "longitude": -98.33662273956409
+    },
+    {
+      "name": "Morgantown",
+      "slug": "morgantown",
+      "state": "West Virginia",
+      "stateSlug": "west-virginia",
+      "stateAbbr": "WV",
+      "population": 335341,
+      "zipCodes": [
+        "58823",
+        "58824",
+        "58825"
+      ],
+      "latitude": 40.71536976234747,
+      "longitude": -98.0703206929277
+    },
+    {
+      "name": "Wheeling",
+      "slug": "wheeling",
+      "state": "West Virginia",
+      "stateSlug": "west-virginia",
+      "stateAbbr": "WV",
+      "population": 483409,
+      "zipCodes": [
+        "23502",
+        "23503",
+        "23504"
+      ],
+      "latitude": 39.74765406384795,
+      "longitude": -99.25105174401581
+    },
+    {
+      "name": "Martinsburg",
+      "slug": "martinsburg",
+      "state": "West Virginia",
+      "stateSlug": "west-virginia",
+      "stateAbbr": "WV",
+      "population": 200883,
+      "zipCodes": [
+        "75211",
+        "75212",
+        "75213"
+      ],
+      "latitude": 40.02015838383111,
+      "longitude": -99.43223392847979
+    },
+    {
+      "name": "Fairmont",
+      "slug": "fairmont",
+      "state": "West Virginia",
+      "stateSlug": "west-virginia",
+      "stateAbbr": "WV",
+      "population": 403293,
+      "zipCodes": [
+        "94411",
+        "94412",
+        "94413"
+      ],
+      "latitude": 40.59176828557488,
+      "longitude": -99.33031317952809
+    },
+    {
+      "name": "Beckley",
+      "slug": "beckley",
+      "state": "West Virginia",
+      "stateSlug": "west-virginia",
+      "stateAbbr": "WV",
+      "population": 286402,
+      "zipCodes": [
+        "79135",
+        "79136",
+        "79137"
+      ],
+      "latitude": 38.96205433338838,
+      "longitude": -97.6255376486897
+    },
+    {
+      "name": "Clarksburg",
+      "slug": "clarksburg",
+      "state": "West Virginia",
+      "stateSlug": "west-virginia",
+      "stateAbbr": "WV",
+      "population": 448850,
+      "zipCodes": [
+        "97659",
+        "97660",
+        "97661"
+      ],
+      "latitude": 39.68535538104527,
+      "longitude": -99.50577438858194
+    },
+    {
+      "name": "South Charleston",
+      "slug": "south-charleston",
+      "state": "West Virginia",
+      "stateSlug": "west-virginia",
+      "stateAbbr": "WV",
+      "population": 335991,
+      "zipCodes": [
+        "46359",
+        "46360",
+        "46361"
+      ],
+      "latitude": 39.79185302464671,
+      "longitude": -98.27124476949109
+    },
+    {
+      "name": "Milwaukee",
+      "slug": "milwaukee",
+      "state": "Wisconsin",
+      "stateSlug": "wisconsin",
+      "stateAbbr": "WI",
+      "population": 219910,
+      "zipCodes": [
+        "95891",
+        "95892",
+        "95893"
+      ],
+      "latitude": 39.06209045702559,
+      "longitude": -98.63914863312205
+    },
+    {
+      "name": "Madison",
+      "slug": "madison",
+      "state": "Wisconsin",
+      "stateSlug": "wisconsin",
+      "stateAbbr": "WI",
+      "population": 97975,
+      "zipCodes": [
+        "68737",
+        "68738",
+        "68739"
+      ],
+      "latitude": 39.120247491409124,
+      "longitude": -99.17278248630484
+    },
+    {
+      "name": "Green Bay",
+      "slug": "green-bay",
+      "state": "Wisconsin",
+      "stateSlug": "wisconsin",
+      "stateAbbr": "WI",
+      "population": 210336,
+      "zipCodes": [
+        "66122",
+        "66123",
+        "66124"
+      ],
+      "latitude": 39.4549798821329,
+      "longitude": -97.64603332675658
+    },
+    {
+      "name": "Kenosha",
+      "slug": "kenosha",
+      "state": "Wisconsin",
+      "stateSlug": "wisconsin",
+      "stateAbbr": "WI",
+      "population": 457603,
+      "zipCodes": [
+        "19873",
+        "19874",
+        "19875"
+      ],
+      "latitude": 40.339492572166485,
+      "longitude": -98.41288718524386
+    },
+    {
+      "name": "Racine",
+      "slug": "racine",
+      "state": "Wisconsin",
+      "stateSlug": "wisconsin",
+      "stateAbbr": "WI",
+      "population": 463775,
+      "zipCodes": [
+        "56525",
+        "56526",
+        "56527"
+      ],
+      "latitude": 39.92478209902308,
+      "longitude": -98.04457565285652
+    },
+    {
+      "name": "Appleton",
+      "slug": "appleton",
+      "state": "Wisconsin",
+      "stateSlug": "wisconsin",
+      "stateAbbr": "WI",
+      "population": 420543,
+      "zipCodes": [
+        "45366",
+        "45367",
+        "45368"
+      ],
+      "latitude": 39.29628692310271,
+      "longitude": -98.86019761056511
+    },
+    {
+      "name": "Waukesha",
+      "slug": "waukesha",
+      "state": "Wisconsin",
+      "stateSlug": "wisconsin",
+      "stateAbbr": "WI",
+      "population": 267215,
+      "zipCodes": [
+        "65159",
+        "65160",
+        "65161"
+      ],
+      "latitude": 39.576152450785656,
+      "longitude": -98.14743938910162
+    },
+    {
+      "name": "Oshkosh",
+      "slug": "oshkosh",
+      "state": "Wisconsin",
+      "stateSlug": "wisconsin",
+      "stateAbbr": "WI",
+      "population": 143604,
+      "zipCodes": [
+        "88217",
+        "88218",
+        "88219"
+      ],
+      "latitude": 40.08767660306239,
+      "longitude": -98.4166654367028
+    },
+    {
+      "name": "Eau Claire",
+      "slug": "eau-claire",
+      "state": "Wisconsin",
+      "stateSlug": "wisconsin",
+      "stateAbbr": "WI",
+      "population": 288296,
+      "zipCodes": [
+        "10709",
+        "10710",
+        "10711"
+      ],
+      "latitude": 39.05773590282139,
+      "longitude": -97.83129288081965
+    },
+    {
+      "name": "Janesville",
+      "slug": "janesville",
+      "state": "Wisconsin",
+      "stateSlug": "wisconsin",
+      "stateAbbr": "WI",
+      "population": 331896,
+      "zipCodes": [
+        "34250",
+        "34251",
+        "34252"
+      ],
+      "latitude": 39.44442873416886,
+      "longitude": -97.62883674124598
+    },
+    {
+      "name": "Cheyenne",
+      "slug": "cheyenne",
+      "state": "Wyoming",
+      "stateSlug": "wyoming",
+      "stateAbbr": "WY",
+      "population": 313661,
+      "zipCodes": [
+        "41981",
+        "41982",
+        "41983"
+      ],
+      "latitude": 39.65926760413777,
+      "longitude": -97.93514542108724
+    },
+    {
+      "name": "Casper",
+      "slug": "casper",
+      "state": "Wyoming",
+      "stateSlug": "wyoming",
+      "stateAbbr": "WY",
+      "population": 170765,
+      "zipCodes": [
+        "28410",
+        "28411",
+        "28412"
+      ],
+      "latitude": 39.59549564032798,
+      "longitude": -99.48746132101628
+    },
+    {
+      "name": "Laramie",
+      "slug": "laramie",
+      "state": "Wyoming",
+      "stateSlug": "wyoming",
+      "stateAbbr": "WY",
+      "population": 143298,
+      "zipCodes": [
+        "92080",
+        "92081",
+        "92082"
+      ],
+      "latitude": 39.689900018812544,
+      "longitude": -97.66718685272502
+    },
+    {
+      "name": "Gillette",
+      "slug": "gillette",
+      "state": "Wyoming",
+      "stateSlug": "wyoming",
+      "stateAbbr": "WY",
+      "population": 466860,
+      "zipCodes": [
+        "95464",
+        "95465",
+        "95466"
+      ],
+      "latitude": 39.68693653882889,
+      "longitude": -98.89940627611482
+    },
+    {
+      "name": "Rock Springs",
+      "slug": "rock-springs",
+      "state": "Wyoming",
+      "stateSlug": "wyoming",
+      "stateAbbr": "WY",
+      "population": 256547,
+      "zipCodes": [
+        "25640",
+        "25641",
+        "25642"
+      ],
+      "latitude": 40.61848682551082,
+      "longitude": -99.2878651540679
+    },
+    {
+      "name": "Sheridan",
+      "slug": "sheridan",
+      "state": "Wyoming",
+      "stateSlug": "wyoming",
+      "stateAbbr": "WY",
+      "population": 155500,
+      "zipCodes": [
+        "87293",
+        "87294",
+        "87295"
+      ],
+      "latitude": 39.495624320265826,
+      "longitude": -97.84585202299827
+    },
+    {
+      "name": "Green River",
+      "slug": "green-river",
+      "state": "Wyoming",
+      "stateSlug": "wyoming",
+      "stateAbbr": "WY",
+      "population": 105779,
+      "zipCodes": [
+        "45863",
+        "45864",
+        "45865"
+      ],
+      "latitude": 38.88303418482136,
+      "longitude": -97.91855442934506
+    },
+    {
+      "name": "Evanston",
+      "slug": "evanston",
+      "state": "Wyoming",
+      "stateSlug": "wyoming",
+      "stateAbbr": "WY",
+      "population": 480524,
+      "zipCodes": [
+        "38267",
+        "38268",
+        "38269"
+      ],
+      "latitude": 40.19568725522747,
+      "longitude": -99.06090083682379
+    },
+    {
+      "name": "Riverton",
+      "slug": "riverton",
+      "state": "Wyoming",
+      "stateSlug": "wyoming",
+      "stateAbbr": "WY",
+      "population": 456314,
+      "zipCodes": [
+        "35588",
+        "35589",
+        "35590"
+      ],
+      "latitude": 39.90530443809676,
+      "longitude": -98.34595677877138
+    },
+    {
+      "name": "Jackson",
+      "slug": "jackson",
+      "state": "Wyoming",
+      "stateSlug": "wyoming",
+      "stateAbbr": "WY",
+      "population": 449688,
+      "zipCodes": [
+        "71894",
+        "71895",
+        "71896"
+      ],
+      "latitude": 40.67605101044995,
+      "longitude": -98.54567838729407
+    }
+  ]
+}
