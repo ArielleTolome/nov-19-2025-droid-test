@@ -333,7 +333,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div><strong>Service Area:</strong> ${formData.zipCode}</div>
                         <div><strong>Project Type:</strong> ${formatProjectType(formData.projectType)}</div>
                         <div><strong>Preferred Size:</strong> ${formData.dumpsterSize ? formData.dumpsterSize + ' Yard' : 'Not specified'}</div>
-                        <div><strong>Ddelivery Date:</strong> ${formatDate(formData.deliveryDate)}</div>
+                        <div><strong>Delivery Date:</strong> ${formatDate(formData.deliveryDate)}</div>
                         <div><strong>Phone:</strong> ${formData.phone}</div>
                         <div><strong>Email:</strong> ${formData.email}</div>
                     </div>
