@@ -444,7 +444,7 @@ export default function ContactPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {officeLocations.map((location, index) => (
-              <Card key={index} hover className="h-full">
+              <Card key={index} className="h-full transition-all duration-200 hover:shadow-lg hover:border-blue-200">
                 <div className="mb-4">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
                     {location.name}

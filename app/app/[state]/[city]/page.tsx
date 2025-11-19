@@ -402,7 +402,7 @@ export default async function CityPage({ params }: CityPageProps) {
         {nearbyCities.length > 0 && (
           <section className="py-16 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <NearbyCities cities={nearbyCities} currentCity={city.name} />
+              <NearbyCities cities={nearbyCities} />
             </div>
           </section>
         )}

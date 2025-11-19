@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
 import { Container } from '../ui/Container';
@@ -88,12 +90,12 @@ export const ServiceGrid: React.FC<ServiceGridProps> = ({
             const icon = service.icon || (service.iconName && defaultIcons[service.iconName]);
 
             return (
-              <Card
+              <div
                 key={index}
-                hover={!!service.href}
+                className={service.href ? 'cursor-pointer transition-all duration-200' : ''}
                 onClick={service.href ? () => { if (service.href) window.location.href = service.href; } : undefined}
-                className="h-full flex flex-col"
               >
+                <Card className="h-full flex flex-col hover:shadow-lg hover:border-blue-200">
                 {/* Icon */}
                 {icon && (
                   <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-500 rounded-xl flex items-center justify-center text-white mb-4 shadow-md">
@@ -135,6 +137,7 @@ export const ServiceGrid: React.FC<ServiceGridProps> = ({
                   </Link>
                 )}
               </Card>
+              </div>
             );
           })}
         </div>

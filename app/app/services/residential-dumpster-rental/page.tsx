@@ -7,7 +7,7 @@ import { CallToAction } from '@/components/sections/CallToAction';
 import { Container } from '@/components/ui/Container';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
-import { QuoteForm } from '@/components/forms/QuoteForm';
+import QuoteForm from '@/components/forms/QuoteForm';
 import Link from 'next/link';
 
 export const metadata: Metadata = {

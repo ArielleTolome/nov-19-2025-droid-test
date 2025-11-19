@@ -684,6 +684,7 @@ export function generateLocationData() {
     slug: string;
     stateAbbr: string;
     stateName: string;
+    stateSlug: string;
     population: number;
     zipCodes: string[];
     latitude: number;
